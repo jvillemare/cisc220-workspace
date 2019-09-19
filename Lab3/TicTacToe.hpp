@@ -32,6 +32,4 @@ public:
 	~TicTacToe(); // destructor
 };
 
-
-
 #endif /* TICTACTOE_HPP_ */
