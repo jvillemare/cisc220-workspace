@@ -32,11 +32,11 @@ public:
 	void printRatings();
 	void printBookInfo();
 
-	bool operator>(const Book b1, const Book b2);
-	bool operator>=(const Book b1, const Book b2);
+	bool operator>(const Book b);
+	bool operator>=(const Book b);
 
-	bool operator<(const Book b1, const Book b2);
-	bool operator<=(const Book b1, const Book b2);
+	bool operator<(const Book b);
+	bool operator<=(const Book b);
 
 	~Book(); // destructor
 };

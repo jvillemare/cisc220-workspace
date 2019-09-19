@@ -101,7 +101,7 @@ void Book::printBookInfo() {
 
 }
 
-bool Book::operator>(const Book b1, const Book b2) {
+bool Book::operator>(const Book b) {
 	/*
 	 * TODO: ...
 	 *
@@ -110,11 +110,11 @@ bool Book::operator>(const Book b1, const Book b2) {
 	 * @returns		...
 	 */
 
-	return b1.yearPublished > b2.yearPublished;
+	return this->yearPublished > b.yearPublished;
 
 }
 
-bool Book::operator>=(const Book b1, const Book b2) {
+bool Book::operator>=(const Book b) {
 	/*
 	 * TODO: ...
 	 *
@@ -123,11 +123,11 @@ bool Book::operator>=(const Book b1, const Book b2) {
 	 * @returns		...
 	 */
 
-	return b1.yearPublished >= b2.yearPublished;
+	return this->yearPublished >= b.yearPublished;
 
 }
 
-bool Book::operator<(const Book b1, const Book b2) {
+bool Book::operator<(const Book b) {
 	/*
 	 * TODO: ...
 	 *
@@ -136,11 +136,11 @@ bool Book::operator<(const Book b1, const Book b2) {
 	 * @returns		...
 	 */
 
-	return b1.yearPublished < b2.yearPublished;
+	return this->yearPublished < b.yearPublished;
 
 }
 
-bool Book::operator<=(const Book b1, const Book b2) {
+bool Book::operator<=(const Book b) {
 	/*
 	 * TODO: ...
 	 *
@@ -149,7 +149,7 @@ bool Book::operator<=(const Book b1, const Book b2) {
 	 * @returns		...
 	 */
 
-	return b1.yearPublished <= b2.yearPublished;
+	return this->yearPublished <= b.yearPublished;
 
 }
 
