@@ -18,17 +18,50 @@
 #include <time.h>
 using namespace std;
 
+#include "Book.hpp"
 #include "SLL.hpp"
 
 // for formatting purposes
 void stars();
+void findBestBook(Book *books, int arraySize);
 
 int main() {
 
 	// Part A: Class/pointers (35 pts)
+	// Question 1: Create an array of 5 book objects (on the stack)...
+	stars();
+	cout << "Lab 4B: Part A: Question 1:" << endl;
 
+	int ratingsBad[10] = {4, 1, 5, 3, 2, 1, 2, 2, 4, 5};
+	int ratingsGood[10] = {9, 8, 10, 9, 4, 8, 6, 4, 9, 10};
 
+	Book books[4] = {
+		Book("Andrew", "Jackson", "If I Won", 1865, ratingsBad),
+		Book("Dr.", "Seuss", "Cat in a Hat", 1972, ratingsBad),
+		Book("Abraham", "Lincoln", "My Love of Theater", 1864, ratingsBad),
+		Book("Debra", "Yarrington", "Data Structures and You", 2019,
+					ratingsGood)
+	};
+
+	// TODO: Why does this crash the program?
+	//findBestBook(books, 4);
+
+	// Question 2: Create one book object on the heap and print out that...
+	stars();
+	cout << "Lab 4B: Part A: Question 2:" << endl;
+
+	Book *heapBook = new Book("Don't Know", "I", "Running Out of Titles",
+			2019, ratingsBad);
+
+	heapBook->printBookInfo();
+
+	// Question 3: Create an array of 2 book objects on the heap, and...
+	stars();
+	cout << "Lab 4B: Part A: Question 3:" << endl;
+
+	// =========================================================================
 	// Part B: Linked Lists (Assumed 45 pts, it's not specified)
+	stars();
 
 	/*
 	int r[10] = {9,8,4,5,11,10,3,6,8,2};
@@ -87,5 +120,27 @@ void stars() {
 	}
 
 	cout << endl;
+
+}
+
+// Part 1, Question 1
+void findBestBook(Book *books, int arraySize) {
+
+	int ratings[] = {-1, -1, -1, -1, -1, -1, -1, -1, -1, -1};
+
+	Book bestBook = Book("", "", "", 0, ratings);
+
+	arraySize--;
+
+	while(arraySize) {
+		if(books[arraySize].averageRating() > bestBook.averageRating())
+			bestBook = books[arraySize];
+
+		arraySize--;
+	}
+
+	cout << "Found the Best Book of them all!" << endl;
+
+	bestBook.printBookInfo();
 
 }

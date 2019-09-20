@@ -40,9 +40,9 @@ public:
 	 * field to the string.
 	 */
 
-	~SNode();
-
 	void printNode();
+
+	~SNode();
 
 };
 

@@ -33,10 +33,6 @@ public:
 	void printBookInfo();
 
 	bool operator>(const Book b);
-	bool operator>=(const Book b);
-
-	bool operator<(const Book b);
-	bool operator<=(const Book b);
 
 	~Book(); // destructor
 };

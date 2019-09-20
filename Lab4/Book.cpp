@@ -10,11 +10,14 @@
 Book::Book(string authorFirstName, string authorLastName, string bookName,
 		int yearPublished) {
 	/*
-	 * TODO: ...
+	 * Default Constructor where ratings are initialized to 0.
 	 *
-	 * @param	string	playerX		...
+	 * @param	string	authorFirstName		The first name of the author.
+	 * @param	string	authorLastName		The last name of the author.
+	 * @param	string	bookName			The name of the author's book.
+	 * @param	int		yearPublished		The year the book was published.
 	 *
-	 * @returns		...
+	 * @returns		nothing.
 	 */
 
 	this->authorFirstName = authorFirstName;
@@ -32,11 +35,17 @@ Book::Book(string authorFirstName, string authorLastName, string bookName,
 Book::Book(string authorFirstName, string authorLastName, string bookName,
 				int yearPublished, int ratings[10]) {
 	/*
-	 * TODO: ...
+	 * Second Constructor that accepts all aforementioned parameters, as well
+	 * as a pointer to an integer array of 10 ratings.
 	 *
-	 * @param	string	playerX		...
+	 * @param	string	authorFirstName		The first name of the author.
+	 * @param	string	authorLastName		The last name of the author.
+	 * @param	string	bookName			The name of the author's book.
+	 * @param	int		yearPublished		The year the book was published.
+	 * @param	int[]	ratings				10 intger ratings of the book,
+	 * 										from [0, 10].
 	 *
-	 * @returns		...
+	 * @returns		nothing.
 	 */
 
 	this->authorFirstName = authorFirstName;
@@ -50,11 +59,9 @@ Book::Book(string authorFirstName, string authorLastName, string bookName,
 
 double Book::averageRating() {
 	/*
-	 * TODO: ...
+	 * Calculate the average rating of this Book.
 	 *
-	 * @param	string	playerX		...
-	 *
-	 * @returns		...
+	 * @returns		average of all ratings.
 	 */
 
 	double sum = 0.0;
@@ -68,11 +75,9 @@ double Book::averageRating() {
 
 void Book::printRatings() {
 	/*
-	 * TODO: ...
+	 * Run the averageRating() function and print out formatted ratings.
 	 *
-	 * @param	string	playerX		...
-	 *
-	 * @returns		...
+	 * @returns		nothing.
 	 */
 
 	double avgRating = averageRating();
@@ -80,17 +85,16 @@ void Book::printRatings() {
 	if(avgRating == 0.0)
 		cout << "(no ratings yet)" << endl;
 	else
-		cout << "Rating: " << avgRating << endl;
+		cout << "Rating:......" << avgRating << endl;
 
 }
 
 void Book::printBookInfo() {
 	/*
-	 * TODO: ...
+	 * Prints all the information about the Book, including the title,
+	 * author, year published, and ratings.
 	 *
-	 * @param	string	playerX		...
-	 *
-	 * @returns		...
+	 * @returns		nothing.
 	 */
 
 	cout << "Title:......." << bookName << endl <<
@@ -101,55 +105,17 @@ void Book::printBookInfo() {
 
 }
 
-bool Book::operator>(const Book b) {
+bool Book::operator>(Book b) {
 	/*
-	 * TODO: ...
+	 * Overrides > comparison operator.
 	 *
-	 * @param	string	playerX		...
+	 * @param	Book	b		Second-book being compared against.
 	 *
-	 * @returns		...
+	 * @returns		TRUE if this Book has a higher average rating than b,
+	 * 				FALSE if not.
 	 */
 
-	return this->yearPublished > b.yearPublished;
-
-}
-
-bool Book::operator>=(const Book b) {
-	/*
-	 * TODO: ...
-	 *
-	 * @param	string	playerX		...
-	 *
-	 * @returns		...
-	 */
-
-	return this->yearPublished >= b.yearPublished;
-
-}
-
-bool Book::operator<(const Book b) {
-	/*
-	 * TODO: ...
-	 *
-	 * @param	string	playerX		...
-	 *
-	 * @returns		...
-	 */
-
-	return this->yearPublished < b.yearPublished;
-
-}
-
-bool Book::operator<=(const Book b) {
-	/*
-	 * TODO: ...
-	 *
-	 * @param	string	playerX		...
-	 *
-	 * @returns		...
-	 */
-
-	return this->yearPublished <= b.yearPublished;
+	return this->averageRating() > b.averageRating();
 
 }
 
