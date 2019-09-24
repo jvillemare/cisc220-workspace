@@ -23,7 +23,7 @@ using namespace std;
 
 // for formatting purposes
 void stars();
-void findBestBook(Book *books, int arraySize);
+void findBestBook(Book books[], int arraySize);
 
 int main() {
 
@@ -43,8 +43,7 @@ int main() {
 					ratingsGood)
 	};
 
-	// TODO: Why does this crash the program?
-	//findBestBook(books, 4);
+	findBestBook(&books[0], 4);
 
 	// Question 2: Create one book object on the heap and print out that...
 	stars();
@@ -108,8 +107,6 @@ int main() {
 
 	delete list;
 
-	cout << "Everything is in working order." << endl;
-
 	return 0;
 
 }
@@ -134,23 +131,17 @@ void stars() {
 }
 
 // Part 1, Question 1
-void findBestBook(Book *books, int arraySize) {
+void findBestBook(Book books[], int arraySize) {
 
-	int ratings[] = {-1, -1, -1, -1, -1, -1, -1, -1, -1, -1};
+	int bestBook = 0;
 
-	Book bestBook = Book("", "", "", 0, ratings);
-
-	arraySize--;
-
-	while(arraySize) {
-		if(books[arraySize].averageRating() > bestBook.averageRating())
-			bestBook = books[arraySize];
-
-		arraySize--;
+	for(int i = 0; i < arraySize; i++) {
+		if(books[i].averageRating() > books[bestBook].averageRating())
+			bestBook = i;
 	}
 
 	cout << "Found the Best Book of them all!" << endl;
 
-	bestBook.printBookInfo();
+	books[bestBook].printBookInfo();
 
 }

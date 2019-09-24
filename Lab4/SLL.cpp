@@ -27,20 +27,27 @@ void SLL::printSLL() {
 	 * @returns		nothing.
 	 */
 
-	SNode *currentAddress = first;
+	if(first == last) {
+		first->printNode();
+		cout << endl;
+	} else {
+		SNode *currentAddress = first;
 
-	while(currentAddress->next != NULL) {
-		currentAddress->printNode();
-		currentAddress = currentAddress->next;
+		while(currentAddress != NULL) {
+			//if(currentAddress->rating != 0)
+				currentAddress->printNode();
+			currentAddress = currentAddress->next;
+		}
+
+		cout << endl;
 	}
-
-	cout << endl;
 
 }
 
 void SLL::insertInOrder(int r, string c) {
 	/*
-	 * TODO: ...
+	 * Inserts a new node with a rating r in the proper order where the
+	 * previous node's r is < passed r and < next node's r.
 	 *
 	 * @param	int		r		Rating to initialize node with.
 	 * @param	string	c		Comment to initialize node with.
@@ -48,12 +55,9 @@ void SLL::insertInOrder(int r, string c) {
 	 * @returns		nothing.
 	 */
 
-	if(first == NULL && last == NULL && size == 0) {
+	if(first == NULL) { // if SLL empty
 		addFirst(r, c);
-		return;
-	}
-
-	if(r < first->rating) {
+	} else if(r < first->rating) {
 		addAtFront(r, c);
 	} else if(r > last->rating) {
 		push(r, c);
@@ -62,13 +66,14 @@ void SLL::insertInOrder(int r, string c) {
 
 		while(currentAddress->next != NULL) {
 
-			if(currentAddress->rating > r &&
-					currentAddress->next->rating < r) {
+			if(r < currentAddress->next->rating) {
 
 				SNode *newNode = new SNode(r, c);
 				newNode->next = currentAddress->next;
 				currentAddress->next = newNode;
-				break;
+				size++;
+
+				return;
 
 			}
 
@@ -89,8 +94,9 @@ void SLL::push(int r, string c) {
 	 * @returns		nothing.
 	 */
 
-	last->next = new SNode(r, c);
-	last = last->next;
+	SNode *newNode = new SNode(r, c);
+	last->next = newNode;
+	last = newNode;
 	size++;
 
 }
@@ -106,15 +112,14 @@ void SLL::addAtFront(int r, string c) {
 	 * @returns		nothing.
 	 */
 
-	if(first == NULL && last == NULL && size == 0) {
+	if(first == NULL) {
 		addFirst(r, c);
-		return;
+	} else {
+		SNode *newNode = new SNode(r, c);
+		newNode->next = first;
+		first = newNode;
+		size++;
 	}
-
-	SNode *newNode = new SNode(r, c);
-	newNode->next = first;
-	first = newNode;
-	size++;
 
 }
 
@@ -129,8 +134,8 @@ void SLL::addFirst(int r, string c) {
 	 */
 
 	first = new SNode(r, c);
-	size++;
 	last = first;
+	size++;
 
 }
 
@@ -141,18 +146,21 @@ int SLL::pop() {
 	 * @returns		The rating from the last SNode in the SLL.
 	 */
 
+	cout << last->rating << endl << "deleting " << last->rating << ", "
+			<< last->comments << endl;
+
 	int rating = last->rating;
 
 	delete last;
 
 	SNode *currentAddress = first;
 
-	while(currentAddress->next != NULL &&
-			currentAddress->next->next != NULL) {
+	while(currentAddress->next->next != NULL) {
 		currentAddress = currentAddress->next;
 	}
 
 	last = currentAddress;
+	last->next = NULL;
 
 	size--;
 
@@ -171,7 +179,7 @@ double SLL::getAve() {
 
 	SNode *currentAddress = first;
 
-	while(currentAddress->next != NULL) {
+	while(currentAddress != NULL) {
 		count += currentAddress->rating;
 		currentAddress = currentAddress->next;
 	}
@@ -187,12 +195,26 @@ SLL::~SLL() {
 	 * @returns		nothing.
 	 */
 
-	// TODO: Delete node objects
-	SNode *currentAddress = first;
+	SNode *previousNode = first;
+
+	if(previousNode->next == NULL) {
+		delete previousNode;
+		return;
+	}
+
+	SNode *currentAddress = previousNode->next;
 
 	while(currentAddress->next != NULL) {
-		currentAddress->printNode();
+
+		cout << "deleting " << previousNode->rating << ", "
+				<< previousNode->comments << endl;
+
+		delete previousNode;
+		previousNode = currentAddress;
 		currentAddress = currentAddress->next;
+
 	}
+
+	cout << "deleted each node in l1" << endl;
 
 }
