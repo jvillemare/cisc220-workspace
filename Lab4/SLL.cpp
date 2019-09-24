@@ -22,11 +22,9 @@ SLL::SLL() {
 
 void SLL::printSLL() {
 	/*
-	 * TODO: ...
+	 * Prints all the nodes in the linked list.
 	 *
-	 * @param	string	playerX		...
-	 *
-	 * @returns		...
+	 * @returns		nothing.
 	 */
 
 	SNode *currentAddress = first;
@@ -36,26 +34,59 @@ void SLL::printSLL() {
 		currentAddress = currentAddress->next;
 	}
 
+	cout << endl;
+
 }
 
 void SLL::insertInOrder(int r, string c) {
 	/*
 	 * TODO: ...
 	 *
-	 * @param	string	playerX		...
+	 * @param	int		r		Rating to initialize node with.
+	 * @param	string	c		Comment to initialize node with.
 	 *
-	 * @returns		...
+	 * @returns		nothing.
 	 */
+
+	if(first == NULL && last == NULL && size == 0) {
+		addFirst(r, c);
+		return;
+	}
+
+	if(r < first->rating) {
+		addAtFront(r, c);
+	} else if(r > last->rating) {
+		push(r, c);
+	} else {
+		SNode *currentAddress = first;
+
+		while(currentAddress->next != NULL) {
+
+			if(currentAddress->rating > r &&
+					currentAddress->next->rating < r) {
+
+				SNode *newNode = new SNode(r, c);
+				newNode->next = currentAddress->next;
+				currentAddress->next = newNode;
+				break;
+
+			}
+
+			currentAddress = currentAddress->next;
+
+		}
+	}
 
 }
 
 void SLL::push(int r, string c) {
 	/*
-	 * TODO: ...
+	 * Add a node to end of this SLL.
 	 *
-	 * @param	string	playerX		...
+	 * @param	int		r		Rating to initialize node with.
+	 * @param	string	c		Comment to initialize node with.
 	 *
-	 * @returns		...
+	 * @returns		nothing.
 	 */
 
 	last->next = new SNode(r, c);
@@ -66,22 +97,35 @@ void SLL::push(int r, string c) {
 
 void SLL::addAtFront(int r, string c) {
 	/*
-	 * TODO: ...
+	 * Add a node to the front of a linked list. If there's no first
+	 * node, then addFirst(...) is called.
 	 *
-	 * @param	string	playerX		...
+	 * @param	int		r		Rating to initialize node with.
+	 * @param	string	c		Comment to initialize node with.
 	 *
-	 * @returns		...
+	 * @returns		nothing.
 	 */
+
+	if(first == NULL && last == NULL && size == 0) {
+		addFirst(r, c);
+		return;
+	}
+
+	SNode *newNode = new SNode(r, c);
+	newNode->next = first;
+	first = newNode;
+	size++;
 
 }
 
 void SLL::addFirst(int r, string c) {
 	/*
-	 * TODO: ...
+	 * Adds an node to the first of the linked list.
 	 *
-	 * @param	string	playerX		...
+	 * @param	int		r		Rating to initialize node with.
+	 * @param	string	c		Comment to initialize node with.
 	 *
-	 * @returns		...
+	 * @returns		nothing.
 	 */
 
 	first = new SNode(r, c);
@@ -92,23 +136,47 @@ void SLL::addFirst(int r, string c) {
 
 int SLL::pop() {
 	/*
-	 * TODO: ...
+	 * Removes last node from the linked list and returns its rating.
 	 *
-	 * @param	string	playerX		...
-	 *
-	 * @returns		...
+	 * @returns		The rating from the last SNode in the SLL.
 	 */
+
+	int rating = last->rating;
+
+	delete last;
+
+	SNode *currentAddress = first;
+
+	while(currentAddress->next != NULL &&
+			currentAddress->next->next != NULL) {
+		currentAddress = currentAddress->next;
+	}
+
+	last = currentAddress;
+
+	size--;
+
+	return rating;
 
 }
 
 double SLL::getAve() {
 	/*
-	 * TODO: ...
+	 * Get average of all the comments in the singly linked list.
 	 *
-	 * @param	string	playerX		...
-	 *
-	 * @returns		...
+	 * @returns		average of integer score.
 	 */
+
+	double count = 0.0;
+
+	SNode *currentAddress = first;
+
+	while(currentAddress->next != NULL) {
+		count += currentAddress->rating;
+		currentAddress = currentAddress->next;
+	}
+
+	return count / size;
 
 }
 

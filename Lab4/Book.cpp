@@ -7,6 +7,22 @@
 
 #include "Book.hpp"
 
+Book::Book() {
+	/*
+	 * Empty Constructor.
+	 *
+	 * @returns		nothing.
+	 */
+
+	this->authorFirstName = "";
+	this->authorLastName = "";
+	this->bookName = "";
+	this->yearPublished = 0;
+
+	this->ratings = new int[10];
+
+}
+
 Book::Book(string authorFirstName, string authorLastName, string bookName,
 		int yearPublished) {
 	/*

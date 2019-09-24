@@ -59,11 +59,22 @@ int main() {
 	stars();
 	cout << "Lab 4B: Part A: Question 3:" << endl;
 
+	Book *heapBookArray[2];
+
+	heapBookArray[0] = new Book("Me", "Myself",
+			"Lesson's Learnt", 2019, ratingsBad);
+	heapBookArray[1] = new Book("Me", "Myself",
+			"Summer Days", 2018, ratingsBad);
+
+	for(int i = 0; i < 2; i++) {
+		heapBookArray[i]->printBookInfo();
+		cout << endl;
+	}
+
 	// =========================================================================
 	// Part B: Linked Lists (Assumed 45 pts, it's not specified)
 	stars();
 
-	/*
 	int r[10] = {9,8,4,5,11,10,3,6,8,2};
 
 	string s[10] = {
@@ -82,7 +93,7 @@ int main() {
 	SLL *list = new SLL();
 
 	for (int i = 0; i < 10; i++) {
-		list->insertInOrder(r[i],s[i]);
+		list->insertInOrder(r[i], s[i]);
 		list->printSLL();
 	}
 
@@ -96,7 +107,6 @@ int main() {
 	list->printSLL();
 
 	delete list;
-	*/
 
 	cout << "Everything is in working order." << endl;
 

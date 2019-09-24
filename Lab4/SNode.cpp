@@ -67,8 +67,9 @@ SNode::~SNode() {
 	 * @returns		nothing.
 	 */
 
-	if(next != NULL)
-		cout << "Deleting may cause a memory leak." << endl;
+	// Note: Yarrington said we could comment this out.
+	//if(next != NULL)
+		//cout << "Deleting may cause a memory leak." << endl;
 
 }
 
