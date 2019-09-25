@@ -132,6 +132,14 @@ void stars() {
 
 // Part 1, Question 1
 void findBestBook(Book books[], int arraySize) {
+	/*
+	 * Finds the highest rated book in an array of books.
+	 *
+	 * @param	Book	books[]		array of books with proper ratings.
+	 * @param	int		arraySize	the length of of array of books.
+	 *
+	 * @returns		nothing.
+	 */
 
 	int bestBook = 0;
 

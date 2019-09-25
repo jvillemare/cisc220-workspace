@@ -23,7 +23,6 @@ class Book {
 	int *ratings;
 
 public:
-	Book();
 	Book(string authorFirstName, string authorLastName, string bookName,
 			int yearPublished);
 	Book(string authorFirstName, string authorLastName, string bookName,
