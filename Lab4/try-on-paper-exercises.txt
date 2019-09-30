@@ -1,0 +1,41 @@
+1) Try on Paper, Page 7
+	SNode *n = new SNode(9);
+	node4->next = n;
+	n->next = node4->next;
+
+	This would not work because, besides node4 not being initialized, it would be somewhat cyclical and never end, because node4 would point to n, then n would point to itself.
+
+2) Try on Paper, Page 7
+	2.a) Define the terms (on page 1):
+		- ADT: Abstract Data Type
+		- List: Ordered list of unique/non-unique elements.
+		- Push: Add an element to the end of a linked list.
+		- Pop: Remove an element from the end of a linked list and return it.
+		- Stack: First-in, first-out data structure that's implemented in computer memory to track function calls and general program execution.
+		- Arrays: Any method of counting a collection of elements.
+		- Time Analysis: Using logic and Math to estimate the worst-case scenario regarding the time a function will take to execute.
+		- Linked List: Ordered list of unique/non-unique elements, typically on the heap, where each element is stored inside some Object, and that Object has a pointer to the next Object which may contain elements and may contain another next pointer.
+		- friend: 
+		- Kluge:
+	2.b) Try on Paper:
+		a->k->b->o->t->a->h->l->v->a->
+		k->b->o->t->a->h->l->v->a->
+		k->o(tmp)->t->a->h->l->v->a->
+		k->o->a(tmp)->h->l->v->a->
+		k->o->a->l(tmp)->v->a->
+		k->o->a->l->a(tmp)->
+		k->o->a->l->a(last & tmp)->NULL
+		k->o->a->l->a->
+		koala
+	2.c) With the method pop()... Why?
+		You have to loop through the entire linked list because you need to find out the second to last element in that linked list so that you know what the new last element will be after you delete and return the current last element.
+	2.d) When inserting into a list... k?
+		Because you have to go k-1 to update its next pointer with the new element that your placing at the kth position.
+	2.e) Based on the class... difficult?
+		You don't have pointers to the previous node in the linked list, and so you would need to loop through and collect all those pointers in order to reverse the linked list or traverse in reverse the linked list.
+
+3) Try on Paper, Page 8
+	3.a) Why is it only O(1)... array?
+		Since you have the pointer and the data type of an array you can just: Pointer to First Element + (Data Type Byte Length * k). In order to access the kth element.
+	3.b) Why is it O(n) to... list?
+		You must traverse the entire linked list or array to determine if x is present in either, as it could be present at any kth position.
