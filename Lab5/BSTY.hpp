@@ -34,10 +34,4 @@ public:
 	NodeT *findMin(NodeT *n);
 };
 
-
-
-
-
-
-
 #endif /* BSTY_HPP_ */

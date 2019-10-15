@@ -19,7 +19,39 @@ BSTY::BSTY() {
 // Note2: after you've inserted a new node, you should call the 
 // adjustHeights method that will update the heights of all the 
 // ancestors of the node that was just inserted.
-bool BSTY:: insertit(string x ) {
+bool BSTY::insertit(string x) {
+
+	if(root == NULL) {
+		root = new NodeT(x);
+	} else {
+		NodeT *n = root;
+
+		while(n != NULL) {
+			if(x < n->data) { // go left
+				if(n->left == NULL) {
+					n->left = new NodeT(x);
+					n->left->parent = n;
+
+					adjustHeights(n->left);
+					return true;
+				} else {
+					n = n->left;
+				}
+			} else if(x > n->data) { // go right
+				if(n->right == NULL) {
+					n->right = new NodeT(x);
+					n->right->parent = n;
+
+					adjustHeights(n->right);
+					return true;
+				} else {
+					n = n->right;
+				}
+			} else {
+				return false; // x is already in the tree
+			}
+		}
+	}
 	
 }
 
@@ -36,7 +68,14 @@ bool BSTY:: insertit(string x ) {
 // the loop has worked its way up to the root, or until the currently being checked
 // ancestor is not changed.  
 void BSTY::adjustHeights(NodeT *n) {
+	int trackingHeight = n->height;
 
+	while(n->parent != NULL) {
+		n = n->parent;
+
+		trackingHeight++;
+		n->height = trackingHeight;
+	}
 }
 
 void BSTY::printTreeIO() {
@@ -116,6 +155,24 @@ void BSTY::myPrint(NodeT *n) {
 // NOTE: If the node can't be found, this method prints out that x can't be found.
 // if it is found, the printNode method is called for the node.  
 NodeT *BSTY::find(string x) {
+
+	NodeT *n = root;
+
+	if(n == NULL) {
+		return NULL;
+	} else {
+		while(n != NULL) {
+			if(x < n->data) {
+				n = n->left;
+			} else if(x > n->data) {
+				n = n->right;
+			} else {
+				return n;
+			}
+		}
+	}
+
+	return NULL;
 
 }
 
