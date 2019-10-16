@@ -68,13 +68,10 @@ bool BSTY::insertit(string x) {
 // the loop has worked its way up to the root, or until the currently being checked
 // ancestor is not changed.  
 void BSTY::adjustHeights(NodeT *n) {
-	int trackingHeight = n->height;
 
 	while(n->parent != NULL) {
 		n = n->parent;
 
-		trackingHeight++;
-		n->height = trackingHeight;
 	}
 }
 
