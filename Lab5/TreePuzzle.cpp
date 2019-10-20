@@ -12,7 +12,7 @@ treePuzzle::treePuzzle(int x, string sarr[],int k) {
 	if (k == 0) {
 		runMine1(true);
 	}
-	cout << endl<<"*******************************"<<endl<<"PREORDER " << endl;
+	cout << endl <<"*******************************"<<endl<<"PREORDER " << endl;
 	tree->printTreePre();
 	cout << "*******************************"<<endl<<"INORDER " << endl;
 	tree->printTreeIO();

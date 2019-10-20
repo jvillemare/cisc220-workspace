@@ -76,7 +76,7 @@ void BSTY::adjustHeights(NodeT *n) {
 }
 
 void BSTY::printTreeIO() {
-	if (root == NULL ) {
+	if (root == NULL) {
 		cout << "Empty Tree" << endl;
 	}
 	else {
@@ -88,6 +88,7 @@ void BSTY::printTreeIO() {
 // Use the slides, but make sure you can understand how the tree is 
 // traversed in order
 void BSTY::printTreeIO(NodeT *n) {
+
 }
 
 void BSTY::printTreePre() {
