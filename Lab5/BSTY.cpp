@@ -1,4 +1,5 @@
 #include "BSTY.hpp"
+#include <algorithm>
 #include <iostream>
 #include <string>
 #include <stdlib.h>
@@ -69,10 +70,20 @@ bool BSTY::insertit(string x) {
 // ancestor is not changed.  
 void BSTY::adjustHeights(NodeT *n) {
 
-	while(n->parent != NULL) {
-		n = n->parent;
+	int height = n->height;
 
+	while(n->parent != NULL) {
+		int left = 0, right = 0;
+
+		if(n->left != NULL)
+			left = n->left->height;
+		if(n->right != NULL)
+			right = n->right->height;
+
+		n->height = max(left, right) + 1;
+		n = n->parent;
 	}
+
 }
 
 void BSTY::printTreeIO() {
@@ -89,6 +100,15 @@ void BSTY::printTreeIO() {
 // traversed in order
 void BSTY::printTreeIO(NodeT *n) {
 
+	if(n == NULL)
+		return;
+
+	printTreeIO(n->left);
+
+	cout << "|" << n->data << ", " << n->height << "|" << endl;
+
+	printTreeIO(n->right);
+
 }
 
 void BSTY::printTreePre() {
@@ -104,6 +124,15 @@ void BSTY::printTreePre() {
 // child.  Use the slides, but make sure you understand how a tree is traversed in
 // pre-order
 void BSTY::printTreePre(NodeT *n) {
+
+	if(n == NULL)
+		return;
+
+	cout << "|" << n->data << ", " << n->height << "|" << endl;
+
+	printTreePre(n->left);
+
+	printTreePre(n->right);
 
 }
 
@@ -122,7 +151,17 @@ void BSTY::printTreePost() {
 // post-order
 void BSTY::printTreePost(NodeT *n) {
 
+	if(n == NULL)
+		return;
+
+	printTreePost(n->left);
+
+	printTreePost(n->right);
+
+	cout << "|" << n->data << ", " << n->height << "|" << endl;
+
 }
+
 void BSTY::myPrint() {
 	if (root == NULL ) {
 		cout << "Empty Tree" << endl;
@@ -170,6 +209,7 @@ NodeT *BSTY::find(string x) {
 		}
 	}
 
+	cout << x << " not found" << endl;
 	return NULL;
 
 }

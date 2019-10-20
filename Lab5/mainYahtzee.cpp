@@ -7,12 +7,21 @@ using namespace std;
 
 int main() {
 
-	string sarr[10] = {"run","tuxedo","ocelot","vast","bark","punctilios","hello","is","sibylic","go"};
+	string sarr[10] = {"run", "tuxedo", "ocelot", "vast", "bark", "punctilios",
+			"hello", "is", "sibylic", "go"};
 	treePuzzle(10, sarr, 0);
 
 	// FOR EXTRA CREDIT
-	//string sarr2[13] = {"xray","jack","superthriller","fa","noon","muddle","kindergartener","zoogeographical","window","dandelion","youthsploitation","byte","apple"};
-	//treePuzzle(13,sarr2 ,1);
+	cout << endl << "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!" << endl;
+	cout << "EXTRA CREDIT";
+	cout << endl << "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!" << endl;
+
+	string sarr2[13] = {"xray", "jack", "superthriller", "fa", "noon", "muddle",
+		"kindergartener", "zoogeographical", "window", "dandelion",
+		"youthsploitation", "byte", "apple"};
+
+	treePuzzle(13, sarr2, 1);
+
+	return 0;
 
 }
-
