@@ -193,6 +193,7 @@ void BSTY::myPrint(NodeT *n) {
 // if it is found, the printNode method is called for the node.  
 NodeT *BSTY::find(string x) {
 
+	int comparisons = 0;
 	NodeT *n = root;
 
 	if(n == NULL) {
@@ -206,6 +207,7 @@ NodeT *BSTY::find(string x) {
 			} else {
 				return n;
 			}
+			comparisons++;
 		}
 	}
 
@@ -221,29 +223,29 @@ NodeT *BSTY::find(string x) {
 /* UNDERSTANDING HOW THEY WORK!!                                                     */
 /*************************************************************************************/
 /* When removing a node from a binary search tree, the resulting tree MUST BE a binary
-/* search tree.  
-/*
-/* When removing a node, there are 3 conditions:
-/* 1: when the node being removed has no children, in which case the node is deleted,
-/* the node's parent is set to NULL, and the node's parent's height is adjusted (if
-/* necessary) and heights on up are adjusted.
-/* 2: when the node being removed has one child, in which case the node's parent points
-/* to the node's child, and the node's child points to the node's parent, and the node
-/* is deleted (and the height of the parent on up as necessary is adjusted)
-/* 3: when the node has 2 children, in which case the left-most child of the node's 
-/* right child replaces the node.  
-/* A couple of notes about this one: you are replacing a node with a node that is lower
-/* down in the tree.  That means that you are, in essence, removing the node from that
-/* lower position and moving it up to the old node's location.  Thus the replacing node
-/* must be removed using 1 or 2 above (why not 3?).  The heights must be adjusted after 
-/* the replacing node is removed from its old location but before it is inserted into its 
-/* new location.  Equally, the replacing node's height must be adjusted to be the larger of
-/* its two children's heights before you adjust heights above that.  
-/*****************************************************************************************/
-/* remove(): takes as input a string, uses the find method to find the node in the tree that
-/* holds that string, and then calls replace1, replace2, or replace3 depending on what type
-/* of replacing should be done.  It adjusts the heights, deletes teh node, and returns 
-/* true if the removal was successful.
+ * search tree.
+ *
+ * When removing a node, there are 3 conditions:
+ * 1: when the node being removed has no children, in which case the node is deleted,
+ * the node's parent is set to NULL, and the node's parent's height is adjusted (if
+ * necessary) and heights on up are adjusted.
+ * 2: when the node being removed has one child, in which case the node's parent points
+ * to the node's child, and the node's child points to the node's parent, and the node
+ * is deleted (and the height of the parent on up as necessary is adjusted)
+ * 3: when the node has 2 children, in which case the left-most child of the node's
+ * right child replaces the node.
+ * A couple of notes about this one: you are replacing a node with a node that is lower
+ * down in the tree.  That means that you are, in essence, removing the node from that
+ * lower position and moving it up to the old node's location.  Thus the replacing node
+ * must be removed using 1 or 2 above (why not 3?).  The heights must be adjusted after
+ * the replacing node is removed from its old location but before it is inserted into its
+ * new location.  Equally, the replacing node's height must be adjusted to be the larger of
+ * its two children's heights before you adjust heights above that.
+ *****************************************************************************************
+ * remove(): takes as input a string, uses the find method to find the node in the tree that
+ * holds that string, and then calls replace1, replace2, or replace3 depending on what type
+ * of replacing should be done.  It adjusts the heights, deletes teh node, and returns
+ * true if the removal was successful.
 */
 bool BSTY::remove(string s) {
 
