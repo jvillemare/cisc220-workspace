@@ -93,7 +93,7 @@ bool Game::checkWLetters(string s) {
 	return true;
 }
 void Game:: checkWordsForScore() {
-	LL *tmp = wordlist.first;
+	SNodeL *tmp = wordlist.first;
 	while (tmp != NULL) {
 		if (checkWLetters(tmp->word) ) {
 			cout << tmp->word << " is okay " << endl;

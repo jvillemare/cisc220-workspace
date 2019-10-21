@@ -28,6 +28,7 @@ void LL::getScore() {
 	 * @returns		nothing.
 	 */
 
+
 }
 
 void LL::printList() {
