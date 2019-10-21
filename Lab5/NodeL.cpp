@@ -7,9 +7,9 @@
 
 // (4 pts) Write the accompanying SNode.cpp
 
-#include "SNode.hpp"
+#include "NodeL.hpp"
 
-SNode::SNode() {
+NodeL::NodeL() {
 	/*
 	 * Default no-arg Constructor.
 	 *
@@ -20,16 +20,16 @@ SNode::SNode() {
 
 	next = NULL;
 
-	string c;
+	string w;
 
 	cout << "SNode Requires a Comment (String): ";
-	cin >> c;
+	cin >> w;
 
-	comments = c;
+	word = w;
 
 }
 
-SNode::SNode(string c) {
+NodeL::NodeL(string w) {
 	/*
 	 * Constructor initializing rating and comments to input parameters.
 	 *
@@ -40,22 +40,22 @@ SNode::SNode(string c) {
 	 */
 
 	next = NULL;
-	comments = c;
+	word = w;
 
 }
 
-void SNode::printNode() {
+void NodeL::printNode() {
 	/*
 	 * Prints the contents of this node.
 	 *
 	 * @returns		nothing.
 	 */
 
-	cout << "Word: " << comments << endl;
+	cout << "Word: " << word << endl;
 
 }
 
-SNode::~SNode() {
+NodeL::~NodeL() {
 	/*
 	 * Destructor.
 	 *

@@ -46,11 +46,11 @@ void Game::getWords() {
 	string s;
 	cin >> s;
 	while (s != "-1") {
-		wordlist->push(s);
+		wordlist.push(s);
 		cin >> s;
 		cout << endl;
 	}
-	wordlist->printLL();
+	wordlist.printList();
 }
 
 char * Game::getLetters(int x) {
@@ -93,7 +93,7 @@ bool Game::checkWLetters(string s) {
 	return true;
 }
 void Game:: checkWordsForScore() {
-	SNodeL *tmp = wordlist.first;
+	LL *tmp = wordlist.first;
 	while (tmp != NULL) {
 		if (checkWLetters(tmp->word) ) {
 			cout << tmp->word << " is okay " << endl;

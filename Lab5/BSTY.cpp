@@ -22,6 +22,8 @@ BSTY::BSTY() {
 // ancestors of the node that was just inserted.
 bool BSTY::insertit(string x) {
 
+	cout << "inserting " << x << endl;
+
 	if(root == NULL) {
 		root = new NodeT(x);
 	} else {

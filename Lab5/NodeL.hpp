@@ -5,26 +5,26 @@
  *      Author: jvillemarette
  */
 
-#ifndef SNODE_HPP_
-#define SNODE_HPP_
+#ifndef NODEL_HPP_
+#define NODEL_HPP_
 
 #include <iostream>
 using namespace std;
 
-class SNode {
-	friend class SLL;
-	string comments;
+class NodeL {
+	friend class LL;
+	string word;
 	/*
 	 * instead of int data, now the data is both the rating
 	 * and the accompanying comments – think of when you rate
 	 * a book or a song, and then are asked to share comments
 	 * about the book. Both are the data in this node.
 	 */
-	SNode *next;
+	NodeL *next;
 
 public:
 
-	SNode();
+	NodeL();
 	/*
 	 * this constructor takes no input. It and asks the user to input a
 	 * rating, then reads the rating into the rating field, and
@@ -32,7 +32,7 @@ public:
 	 * comments into the comments field.
 	 */
 
-	SNode(string c);
+	NodeL(string w);
 	/*
 	 * this constructor takes as input an integer and a string, and
 	 * initializes the rating field to the integer, and the comment
@@ -41,8 +41,8 @@ public:
 
 	void printNode();
 
-	~SNode();
+	~NodeL();
 
 };
 
-#endif /* SNODE_HPP_ */
+#endif /* NODEL_HPP_ */
