@@ -14,6 +14,7 @@
 using namespace std;
 
 class LL {
+	friend class Game;
 
 	NodeL *first;
 	NodeL *last;
@@ -43,7 +44,7 @@ public:
 	 * an empty list I called this from insertInOrder
 	 */
 
-	void getScore(); /* This is the new method – each word already has a score.
+	void getScore(); /* This is the new method ï¿½ each word already has a score.
 	This method just traverses the linked list from the first to the last node
 	and keeps a running total of the wscore of each node. Then the score field
 	is set to that total. */

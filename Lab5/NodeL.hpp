@@ -13,6 +13,7 @@ using namespace std;
 
 class NodeL {
 	friend class LL;
+	friend class Game;
 	string word;
 	/*
 	 * instead of int data, now the data is both the rating

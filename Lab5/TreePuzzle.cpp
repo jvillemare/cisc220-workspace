@@ -58,7 +58,7 @@ void treePuzzle::readFile2(string fname, int size) {
 		def = def.substr(2);
 
 		// TODO: Uncomment ME!
-		//tree->insertit(word, def);
+		tree->insertit(word);
 
 		//cout << def << endl;
 	}
