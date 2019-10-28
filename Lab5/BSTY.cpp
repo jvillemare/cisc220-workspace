@@ -9,6 +9,74 @@ BSTY::BSTY() {
 	root = NULL;
 }
 
+// =============================== PART BETA ===============================
+
+/**
+ * Performs a single right rotation.
+ *
+ * @param	*NodeT		rotate the subtree rooted with n.
+ *
+ * @returns 	New root.
+ */
+NodeT* BSTY::rotateRight(NodeT *n) {
+
+	NodeT *x = n->left;
+	NodeT *t2 = x->right;
+
+	x->right = n;
+	n->left = t2;
+
+	n->height = max(n->left->height, n->right->height) + 1;
+	x->height = max(x->left->height, x->right->height) + 1;
+
+	return x;
+
+}
+
+/**
+ * Performs a single left rotation.
+ *
+ * @param	*NodeT		rotate the subtree rooted with n.
+ *
+ * @returns 	New root.
+ */
+NodeT* BSTY::rotateLeft(NodeT *n) {
+
+	NodeT *y = n->right;
+	NodeT *t2 = y->left;
+
+	y->left = n;
+	n->right = t2;
+
+	n->height = max(n->left->height, n->right->height) + 1;
+	y->height = max(y->left->height, y->right->height) + 1;
+
+	return y;
+
+}
+
+/**
+ * Finds the balance of node n, and returns that balance.
+ *
+ * @param	*NodeT	n to determine balance of
+ *
+ * @returns the balance of node n, and returns that balance.
+ */
+int BSTY::findBalance(NodeT *n) {
+
+	if(n->left == NULL && n->right == NULL)
+		return 0;
+	else if(n->left != NULL && n->right == NULL)
+		return n->left->height;
+	else if(n->left == NULL && n->right != NULL)
+		return n->right->height;
+	else
+		return n->left->height - n->right->height;
+
+}
+
+// ============================== PART ALPHA ==============================
+
 // You write:  insert a new node with data x (a string) into the 
 // binary search tree
 // This method should return true if a new node is inserted and 
@@ -72,6 +140,38 @@ bool BSTY::insertit(string x) {
 // ancestor is not changed.  
 void BSTY::adjustHeights(NodeT *n) {
 
+	// check balances
+	int balance = findBalance(n);
+
+	// 4 cases
+
+	// left-left Case
+	if (balance > 1 && n->data < n->left->data) {
+		cout << n->data << " must rotate left-left (" << balance << ")";
+		rotateRight(n);
+	}
+
+	// right-right Case
+	if (balance < -1 && n->data > n->right->data) {
+		cout << n->data << " must rotate right-right (" << balance << ")";
+		rotateLeft(n);
+	}
+
+	// left-right Case
+	if (balance > 1 && n->data > n->left->data) {
+		cout << n->data << " must rotate left-right (" << balance << ")";
+		n->left = rotateLeft(n->left);
+		rotateRight(n);
+	}
+
+	// right-left Case
+	if (balance < -1 && n->data < n->right->data) {
+		cout << n->data << " must rotate right-left (" << balance << ")";
+		n->right = rotateRight(n->right);
+		rotateLeft(n);
+	}
+
+	// update heights, accordingly
 	if(root == NULL)
 		return;
 
@@ -253,6 +353,8 @@ NodeT *BSTY::find(string x) {
  * true if the removal was successful.
  */
 bool BSTY::remove(string s) {
+
+	cout << s << endl;
 
 	if(root == NULL)
 		return false;
