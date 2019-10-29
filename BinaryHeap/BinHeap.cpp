@@ -1,8 +1,16 @@
 /*
  * BinHeap.cpp
  *
+ * James Villemarette
+ * (No Partner)
+ *
+ * TA: Lauren Olson
+ *
  *  Created on: Oct 29, 2019
  *      Author: jvillemarette
+ *
+ * This file contains functions for lab BinHeap. The functions aren’t necessarily
+ * related in any way other than that they are required for lab 4.
  */
 
 #include "BinHeap.hpp"
@@ -27,27 +35,28 @@ BinHeap::~BinHeap() {
 
 void BinHeap::printHeap() {
 	cout << endl;
-	for (int i = 0; i < arrlen; i++) {
+	for(int i = 0; i < arrlen; i++) {
 		cout << i << ", ";
 	}
 	cout << endl;
-	for (int i = 0; i < heaplen; i++) {
+	for(int i = 0; i < heaplen; i++) {
 		cout << heap[i] << ", ";
 	}
 	cout << endl;
 }
 
 int BinHeap::findMax(int x, int y) {
-	if ((x < heaplen) && (y < heaplen)) {
+	if((x < heaplen) && (y < heaplen)) {
 		if (heap[x] > heap[y]) {
 			return (x);
 		} else {
 			return (y);
 		}
-	} else if (x < heaplen) {
+	} else if(x < heaplen) {
 		return x;
-	} else
+	} else {
 		return -1;
+	}
 }
 
 void BinHeap::insertHeap(string s) {

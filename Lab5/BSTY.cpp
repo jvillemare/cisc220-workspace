@@ -21,15 +21,46 @@ BSTY::BSTY() {
 NodeT* BSTY::rotateRight(NodeT *n) {
 
 	NodeT *x = n->left;
-	NodeT *t2 = x->right;
+	NodeT *temp = x->right;
 
 	x->right = n;
-	//n->parent = x; ?
-	n->left = t2;
+	x->parent = n->parent;
+	n->parent = x;
+	n->left = temp;
 	//t2->parent = n; ?
 
-	n->height = max(n->left->height, n->right->height) + 1;
-	x->height = max(x->left->height, x->right->height) + 1;
+	if (x->parent != NULL) {
+		x->parent->left = x;
+	}
+
+	if (temp != NULL) {
+		temp->parent = n;
+	}
+
+	// adjust n's height
+	if (n->left == NULL && n->right == NULL) {
+		n->height = 1;
+	} else if (n->left != NULL && n->right == NULL) {
+		n->height = n->left->height + 1;
+	} else if (n->left == NULL && n->right != NULL) {
+		n->height = 0 - n->right->height;
+	} else {
+		n->height = max(n->left->height, n->right->height) + 1;
+	}
+
+	// adjust x's height
+	if (x->left == NULL && x->right == NULL) {
+		x->height = 1;
+	} else if (x->left != NULL && x->right == NULL) {
+		x->height = x->left->height + 1;
+	} else if (x->left == NULL && x->right != NULL) {
+		x->height = 0 - x->right->height;
+	} else {
+		x->height = max(x->left->height, x->right->height) + 1;
+	}
+
+	//n->height = max(n->left->height, n->right->height) + 1;
+	//x->height = max(x->left->height, x->right->height) + 1;
 
 	return x;
 
@@ -44,17 +75,48 @@ NodeT* BSTY::rotateRight(NodeT *n) {
  */
 NodeT* BSTY::rotateLeft(NodeT *n) {
 
-	NodeT *y = n->right;
-	NodeT *t2 = y->left;
+	NodeT *x = n->right;
+	NodeT *temp = x->left;
 
-	y->left = n;
-	//n->parent = y; ?
-	n->right = t2;
+	x->left = n;
+	x->parent = n->parent;
+	n->parent = x;
+	n->right = temp;
 
-	n->height = max(n->left->height, n->right->height) + 1;
-	y->height = max(y->left->height, y->right->height) + 1;
+	if(x->parent != NULL) {
+		x->parent->right = x;
+	}
 
-	return y;
+	if(temp != NULL) {
+		temp->parent = n;
+	}
+
+	// adjust n's height
+	if(n->left == NULL && n->right == NULL) {
+		n->height = 1;
+	} else if(n->left != NULL && n->right == NULL) {
+		n->height = n->left->height + 1;
+	} else if(n->left == NULL && n->right != NULL) {
+		n->height = 0 - n->right->height;
+	} else {
+		n->height = max(n->left->height, n->right->height) + 1;
+	}
+
+	// adjust x's height
+	if (x->left == NULL && x->right == NULL) {
+		x->height = 1;
+	} else if (x->left != NULL && x->right == NULL) {
+		x->height = x->left->height + 1;
+	} else if (x->left == NULL && x->right != NULL) {
+		x->height = 0 - x->right->height;
+	} else {
+		x->height = max(x->left->height, x->right->height) + 1;
+	}
+
+	//n->height = max(n->left->height, n->right->height) + 1;
+	//x->height = max(x->left->height, x->right->height) + 1;
+
+	return x;
 
 }
 
@@ -147,7 +209,7 @@ void BSTY::adjustHeights(NodeT *n) {
 	if (root == NULL)
 		return;
 
-	int height = n->height - 1; int balance; NodeT *last;
+	int height = n->height - 1; int balance;
 
 	while (n != NULL) {
 		int left = height, right = height;
@@ -159,48 +221,47 @@ void BSTY::adjustHeights(NodeT *n) {
 
 		n->height = max(left, right) + 1;
 		balance = findBalance(n);
-		last = n;
+
+		// check balance; 4 cases
+
+		cout << "print1" << endl;
+
+		// left-left Case
+		if (balance > 1 && n->data < n->left->data) {
+			cout << n->data << " must rotate left-left (" << balance << ")";
+			rotateRight (n);
+		}
+
+		cout << "print2" << endl;
+
+		// right-right Case
+		if (balance < -1 && n->data > n->right->data) {
+			cout << n->data << " must rotate right-right (" << balance
+					<< ")";
+			rotateLeft (n);
+		}
+
+		cout << "print3" << endl;
+
+		// left-right Case
+		if (balance > 1 && n->data > n->left->data) {
+			cout << n->data << " must rotate left-right (" << balance << ")";
+			n->left = rotateLeft(n->left);
+			rotateRight (n);
+		}
+
+		cout << "print4" << endl;
+
+		// right-left Case
+		if (balance < -1 && n->data < n->right->data) {
+			cout << n->data << " must rotate right-left (" << balance << ")";
+			n->right = rotateRight(n->right);
+			rotateLeft (n);
+		}
+
+		cout << "print5" << endl;
+
 		n = n->parent;
-	}
-
-	cout << "print0" << endl;
-
-	// check balance
-
-	// 4 cases
-
-	cout << "print1" << endl;
-
-	// left-left Case
-	if (balance > 1 && last->data < last->left->data) {
-		cout << last->data << " must rotate left-left (" << balance << ")";
-		rotateRight(last);
-	}
-
-	cout << "print2" << endl;
-
-	// right-right Case
-	if (balance < -1 && last->data > last->right->data) {
-		cout << last->data << " must rotate right-right (" << balance << ")";
-		rotateLeft(last);
-	}
-
-	cout << "print3" << endl;
-
-	// left-right Case
-	if (balance > 1 && last->data > last->left->data) {
-		cout << last->data << " must rotate left-right (" << balance << ")";
-		last->left = rotateLeft(last->left);
-		rotateRight(last);
-	}
-
-	cout << "print4" << endl;
-
-	// right-left Case
-	if (balance < -1 && last->data < last->right->data) {
-		cout << last->data << " must rotate right-left (" << balance << ")";
-		last->right = rotateRight(last->right);
-		rotateLeft(last);
 	}
 
 }

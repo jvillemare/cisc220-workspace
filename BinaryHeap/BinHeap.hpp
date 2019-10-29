@@ -1,8 +1,16 @@
 /*
  * BinHeap.hpp
  *
+ * James Villemarette
+ * (No Partner)
+ *
+ * TA: Lauren Olson
+ *
  *  Created on: Oct 29, 2019
  *      Author: jvillemarette
+ *
+ * This file contains functions for lab BinHeap. The functions aren’t necessarily
+ * related in any way other than that they are required for lab 4.
  */
 
 #ifndef BINHEAP_HPP_
