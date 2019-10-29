@@ -13,10 +13,12 @@ int main() {
 	 * =========================================================================
 	 */
 
-	/*
+
 	string sarr[10] = {"run", "tuxedo", "ocelot", "vast", "bark", "punctilios",
 			"hello", "is", "sibylic", "go"};
 	treePuzzle(10, sarr, 0);
+
+	/*
 
 	// FOR EXTRA CREDIT
 	cout << endl << "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!" << endl;
@@ -38,6 +40,7 @@ int main() {
 
 	//PART 2
 
+	/*
 	cout << endl << "A LOT OF LEFT ROTATIONS " << endl;
 	string sarr3[10] = { "a", "b", "c", "d", "e", "f", "g", "h", "i", "j" };
 	treePuzzle(10, sarr3, 3);
@@ -53,6 +56,7 @@ int main() {
 	cout << endl << endl << "A LOT OF LEFT-RIGHT ROTATIONS " << endl;
 	string sarr6[10] = { "a", "p", "d", "g", "f", "e", "k", "j", "v", "b" };
 	treePuzzle(10, sarr6, 3);
+	*/
 
 	/*
 	 //FOR EXTRA CREDIT

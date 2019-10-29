@@ -24,7 +24,9 @@ NodeT* BSTY::rotateRight(NodeT *n) {
 	NodeT *t2 = x->right;
 
 	x->right = n;
+	//n->parent = x; ?
 	n->left = t2;
+	//t2->parent = n; ?
 
 	n->height = max(n->left->height, n->right->height) + 1;
 	x->height = max(x->left->height, x->right->height) + 1;
@@ -46,6 +48,7 @@ NodeT* BSTY::rotateLeft(NodeT *n) {
 	NodeT *t2 = y->left;
 
 	y->left = n;
+	//n->parent = y; ?
 	n->right = t2;
 
 	n->height = max(n->left->height, n->right->height) + 1;
@@ -69,7 +72,7 @@ int BSTY::findBalance(NodeT *n) {
 	else if(n->left != NULL && n->right == NULL)
 		return n->left->height;
 	else if(n->left == NULL && n->right != NULL)
-		return n->right->height;
+		return 0 - n->right->height;
 	else
 		return n->left->height - n->right->height;
 
@@ -140,53 +143,64 @@ bool BSTY::insertit(string x) {
 // ancestor is not changed.  
 void BSTY::adjustHeights(NodeT *n) {
 
-	// check balances
-	int balance = findBalance(n);
-
-	// 4 cases
-
-	// left-left Case
-	if (balance > 1 && n->data < n->left->data) {
-		cout << n->data << " must rotate left-left (" << balance << ")";
-		rotateRight(n);
-	}
-
-	// right-right Case
-	if (balance < -1 && n->data > n->right->data) {
-		cout << n->data << " must rotate right-right (" << balance << ")";
-		rotateLeft(n);
-	}
-
-	// left-right Case
-	if (balance > 1 && n->data > n->left->data) {
-		cout << n->data << " must rotate left-right (" << balance << ")";
-		n->left = rotateLeft(n->left);
-		rotateRight(n);
-	}
-
-	// right-left Case
-	if (balance < -1 && n->data < n->right->data) {
-		cout << n->data << " must rotate right-left (" << balance << ")";
-		n->right = rotateRight(n->right);
-		rotateLeft(n);
-	}
-
 	// update heights, accordingly
-	if(root == NULL)
+	if (root == NULL)
 		return;
 
-	int height = n->height - 1;
+	int height = n->height - 1; int balance; NodeT *last;
 
-	while(n != NULL) {
+	while (n != NULL) {
 		int left = height, right = height;
 
-		if(n->left != NULL)
+		if (n->left != NULL)
 			left = n->left->height;
-		if(n->right != NULL)
+		if (n->right != NULL)
 			right = n->right->height;
 
 		n->height = max(left, right) + 1;
+		balance = findBalance(n);
+		last = n;
 		n = n->parent;
+	}
+
+	cout << "print0" << endl;
+
+	// check balance
+
+	// 4 cases
+
+	cout << "print1" << endl;
+
+	// left-left Case
+	if (balance > 1 && last->data < last->left->data) {
+		cout << last->data << " must rotate left-left (" << balance << ")";
+		rotateRight(last);
+	}
+
+	cout << "print2" << endl;
+
+	// right-right Case
+	if (balance < -1 && last->data > last->right->data) {
+		cout << last->data << " must rotate right-right (" << balance << ")";
+		rotateLeft(last);
+	}
+
+	cout << "print3" << endl;
+
+	// left-right Case
+	if (balance > 1 && last->data > last->left->data) {
+		cout << last->data << " must rotate left-right (" << balance << ")";
+		last->left = rotateLeft(last->left);
+		rotateRight(last);
+	}
+
+	cout << "print4" << endl;
+
+	// right-left Case
+	if (balance < -1 && last->data < last->right->data) {
+		cout << last->data << " must rotate right-left (" << balance << ")";
+		last->right = rotateRight(last->right);
+		rotateLeft(last);
 	}
 
 }
