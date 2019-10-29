@@ -11,6 +11,17 @@ BSTY::BSTY() {
 
 // =============================== PART BETA ===============================
 
+int BSTY::height(NodeT *n) {
+	if(n == NULL)
+		return -1;
+	return 1 + max(height(n->left), height(n->right));
+}
+
+void BSTY::setBalance(NodeT *n) {
+	n->balance = height(n->right) - height(n->left);
+}
+
+
 /**
  * Performs a single right rotation.
  *
@@ -18,8 +29,31 @@ BSTY::BSTY() {
  *
  * @returns 	New root.
  */
-NodeT* BSTY::rotateRight(NodeT *n) {
+NodeT* BSTY::rotateRight(NodeT *a) {
 
+	NodeT *b = a->left;
+	b->parent = a->parent;
+	a->left = b->right;
+
+	if (a->left != NULL)
+		a->left->parent = a;
+
+	b->right = a;
+	a->parent = b;
+
+	if (b->parent != NULL) {
+		if (b->parent->right == a) {
+			b->parent->right = b;
+		} else {
+			b->parent->left = b;
+		}
+	}
+
+	setBalance(a);
+	setBalance (b);
+	return b;
+
+	/*
 	NodeT *x = n->left;
 	NodeT *temp = x->right;
 
@@ -60,9 +94,9 @@ NodeT* BSTY::rotateRight(NodeT *n) {
 	}
 
 	//n->height = max(n->left->height, n->right->height) + 1;
-	//x->height = max(x->left->height, x->right->height) + 1;
+	//x->height = max(x->left->height, x->right->height) + 1;*/
 
-	return x;
+	//return b;
 
 }
 
@@ -73,8 +107,31 @@ NodeT* BSTY::rotateRight(NodeT *n) {
  *
  * @returns 	New root.
  */
-NodeT* BSTY::rotateLeft(NodeT *n) {
+NodeT* BSTY::rotateLeft(NodeT *a) {
 
+	NodeT *b = a->right;
+	b->parent = a->parent;
+	a->right = b->left;
+
+	if (a->right != NULL)
+		a->right->parent = a;
+
+	b->left = a;
+	a->parent = b;
+
+	if (b->parent != NULL) {
+		if (b->parent->right == a) {
+			b->parent->right = b;
+		} else {
+			b->parent->left = b;
+		}
+	}
+
+	setBalance(a);
+	setBalance (b);
+	return b;
+
+	/*
 	NodeT *x = n->right;
 	NodeT *temp = x->left;
 
@@ -90,7 +147,9 @@ NodeT* BSTY::rotateLeft(NodeT *n) {
 	if(temp != NULL) {
 		temp->parent = n;
 	}
+	*/
 
+	/*
 	// adjust n's height
 	if(n->left == NULL && n->right == NULL) {
 		n->height = 1;
@@ -111,12 +170,12 @@ NodeT* BSTY::rotateLeft(NodeT *n) {
 		x->height = 0 - x->right->height;
 	} else {
 		x->height = max(x->left->height, x->right->height) + 1;
-	}
+	}*/
 
 	//n->height = max(n->left->height, n->right->height) + 1;
 	//x->height = max(x->left->height, x->right->height) + 1;
 
-	return x;
+	//return b;
 
 }
 
@@ -224,42 +283,31 @@ void BSTY::adjustHeights(NodeT *n) {
 
 		// check balance; 4 cases
 
-		cout << "print1" << endl;
-
-		// left-left Case
-		if (balance > 1 && n->data < n->left->data) {
-			cout << n->data << " must rotate left-left (" << balance << ")";
-			rotateRight (n);
+		if(balance == 2) {
+			if(findBalance(n->left) == 1) {
+				// left-left case
+				cout << n->data << " must rotate left-left (" << balance << ")" << endl;
+				n = rotateRight (n);
+			} else if(findBalance(n->left) == -1) {
+				// left-right case
+				cout << n->data << " must rotate left-right (" << balance << ")" << endl;
+				n->left = rotateLeft(n->left);
+				n = rotateRight (n);
+			}
+		} else if(balance == -2) {
+			if(findBalance(n->right) == -1) {
+				// right-right case
+				cout << n->data << " must rotate right-right (" << balance
+						<< ")" << endl;
+				n = rotateLeft (n);
+			} else if(findBalance(n->right) == 1) {
+				// right-left case
+				cout << n->data << " must rotate right-left (" << balance << ")"
+						<< endl;
+				n->right = rotateRight(n->right);
+				n = rotateLeft(n);
+			}
 		}
-
-		cout << "print2" << endl;
-
-		// right-right Case
-		if (balance < -1 && n->data > n->right->data) {
-			cout << n->data << " must rotate right-right (" << balance
-					<< ")";
-			rotateLeft (n);
-		}
-
-		cout << "print3" << endl;
-
-		// left-right Case
-		if (balance > 1 && n->data > n->left->data) {
-			cout << n->data << " must rotate left-right (" << balance << ")";
-			n->left = rotateLeft(n->left);
-			rotateRight (n);
-		}
-
-		cout << "print4" << endl;
-
-		// right-left Case
-		if (balance < -1 && n->data < n->right->data) {
-			cout << n->data << " must rotate right-left (" << balance << ")";
-			n->right = rotateRight(n->right);
-			rotateLeft (n);
-		}
-
-		cout << "print5" << endl;
 
 		n = n->parent;
 	}

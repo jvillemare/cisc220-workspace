@@ -15,8 +15,11 @@ public:
 
 	// =============================== PART BETA ===============================
 
-	NodeT* rotateRight(NodeT *n);
-	NodeT* rotateLeft(NodeT *n);
+	int height(NodeT *n);
+	void setBalance(NodeT *n);
+
+	NodeT* rotateRight(NodeT *a);
+	NodeT* rotateLeft(NodeT *a);
 	int findBalance(NodeT *n);
 
 	// ============================== PART ALPHA ==============================

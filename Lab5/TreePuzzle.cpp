@@ -9,9 +9,11 @@ treePuzzle::treePuzzle(int x, string sarr[],int k) {
 	for (int i = 0; i < x; i++) {
 		tree->insertit(sarr[i]);
 	}
+
 	if (k == 0) {
 		runMine1(true);
 	}
+
 	cout << endl<<"*******************************"<<endl<<"PREORDER " << endl;
 	tree->printTreePre();
 	cout << "*******************************"<<endl<<"INORDER " << endl;
@@ -19,6 +21,7 @@ treePuzzle::treePuzzle(int x, string sarr[],int k) {
 	cout << "*******************************"<<endl<<"POSTORDER " << endl;
 	tree->printTreePost();
 	cout << endl;
+
 
 	if (k == 0) {
 		runMine1(false);
