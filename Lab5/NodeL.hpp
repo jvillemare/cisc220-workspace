@@ -32,14 +32,6 @@ class NodeL {
 
 public:
 
-	NodeL();
-	/*
-	 * this constructor takes no input. It and asks the user to input a
-	 * rating, then reads the rating into the rating field, and
-	 * then asks the user to input their comments, and reads in the
-	 * comments into the comments field.
-	 */
-
 	NodeL(string w);
 	/*
 	 * this constructor takes as input an integer and a string, and

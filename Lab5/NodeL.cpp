@@ -9,28 +9,6 @@
 
 #include "NodeL.hpp"
 
-NodeL::NodeL() {
-	/*
-	 * Default no-arg Constructor.
-	 *
-	 * WARNING: Prompts user to input a rating and a comment.
-	 *
-	 * @returns		nothing.
-	 */
-
-	next = NULL;
-
-	string w;
-
-	cout << "SNode Requires a Comment (String): ";
-	cin >> w;
-
-	word = w;
-
-	wscore = 0; // TODO: What should this be?
-
-}
-
 NodeL::NodeL(string w) {
 	/*
 	 * Constructor initializing rating and comments to input parameters.

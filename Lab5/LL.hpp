@@ -16,12 +16,11 @@ using namespace std;
 class LL {
 	friend class Game;
 
+public:
 	NodeL *first;
 	NodeL *last;
 	int size;
 	int score;
-
-public:
 
 	LL();
 	~LL();

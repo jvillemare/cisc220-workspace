@@ -16,13 +16,13 @@ Game::Game(){
 	totalwords = 0;
 }
 
-Game::Game(string filen){
-	readTreeFromFile(filen);
+Game::Game(string filename){
+	readTreeFromFile(filename);
 
 	numletters = 0;
 	numright = 0;
 	totalwords = 0;
-//	wordlist = new LL();
+	wordlist = new LL();
 }
 
 void Game::startGame() {
@@ -37,20 +37,23 @@ void Game::startGame() {
 	cout << "Start generating words: " << endl;
 	getWords();
 	checkWordsForScore();
-	int score = numright * 3 - (totalwords-numright) * 6;
+	int score = numright * 3 - (totalwords - numright) * 6;
 	cout << "Number of valid words: " << numright << " Invalid words: " << (totalwords - numright) << endl;
 	cout << "Final Score is: "  << score << endl;
 }
 
 void Game::getWords() {
+	cout << "hitme1" << endl;
 	string s;
 	cin >> s;
 	while (s != "-1") {
-		wordlist.push(s);
+		cout << "hitme2" << endl;
+		wordlist->push(s);
+		cout << "hitme3" << endl;
 		cin >> s;
 		cout << endl;
 	}
-	wordlist.printList();
+	wordlist->printList();
 }
 
 char * Game::getLetters(int x) {
@@ -93,7 +96,7 @@ bool Game::checkWLetters(string s) {
 	return true;
 }
 void Game:: checkWordsForScore() {
-	NodeL *tmp = wordlist.first;
+	NodeL *tmp = wordlist->first;
 	while (tmp != NULL) {
 		if (checkWLetters(tmp->word) ) {
 			cout << tmp->word << " is okay " << endl;

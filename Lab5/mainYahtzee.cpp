@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <fstream>
+#include "Game.hpp"
 #include "TreePuzzle.hpp"
 using namespace std;
 
@@ -64,10 +65,12 @@ int main() {
 	 */
 
 	//Part 3: WordHub
-	/*   srand(time(NULL));
-	 Game *game = new Game();
-	 game->startGame();
-	 */
+
+	/*
+	srand(time(NULL));
+	Game *game = new Game();
+	game->startGame();
+	*/
 
 	return 0;
 

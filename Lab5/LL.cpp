@@ -73,10 +73,20 @@ void LL::push(string c) {
 	 * @returns		nothing.
 	 */
 
-	NodeL *newNode = new NodeL(c);
-	last->next = newNode;
-	last = newNode;
-	size++;
+	cout << "fuckme" << endl;
+	cout << this->first << endl;
+	cout << "fuckme2" << endl;
+
+	if(this->first == NULL) {
+		cout << "somehow it's me" << endl;
+		addFirst(c);
+	} else {
+		cout << "what" << endl;
+		NodeL *newNode = new NodeL(c);
+		last->next = newNode;
+		last = newNode;
+		size++;
+	}
 
 }
 
