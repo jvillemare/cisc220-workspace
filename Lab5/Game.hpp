@@ -16,7 +16,7 @@ public:
 	Game(string infile);
 	void startGame();
 	void readTreeFromFile (string dictfile);
-	char * getLetters(int x);
+	char *getLetters(int x);
 	void getWords();
 	bool checkWLetters(string s);
 	void checkWordsForScore();

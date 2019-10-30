@@ -65,12 +65,9 @@ int main() {
 	 */
 
 	//Part 3: WordHub
-
-	/*
 	srand(time(NULL));
 	Game *game = new Game();
 	game->startGame();
-	*/
 
 	return 0;
 

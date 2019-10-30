@@ -90,7 +90,7 @@ bool Game::checkWLetters(string s) {
 		}
 		tempchar[j] = '1';
 	}
-	if (dict->find(s)== NULL){
+	if (dict->find(s) == NULL){
 		return false;
 	}
 	return true;
@@ -111,7 +111,7 @@ void Game:: checkWordsForScore() {
 	}
 }
 
-void Game::readTreeFromFile (string dictfile) {
+void Game::readTreeFromFile(string dictfile) {
 	dict = new BSTY();
 	ifstream file(dictfile.c_str());
 	string word;

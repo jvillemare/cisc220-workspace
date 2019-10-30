@@ -32,6 +32,11 @@ void BSTY::setBalance(NodeT *n) {
 NodeT* BSTY::rotateRight(NodeT *a) {
 
 	NodeT *b = a->left;
+
+	if(a == root) {
+		root = b;
+	}
+
 	b->parent = a->parent;
 	a->left = b->right;
 
@@ -113,6 +118,11 @@ NodeT* BSTY::rotateRight(NodeT *a) {
 NodeT* BSTY::rotateLeft(NodeT *a) {
 
 	NodeT *b = a->right;
+
+	if(a == root) {
+		root = b;
+	}
+
 	b->parent = a->parent;
 	a->right = b->left;
 
