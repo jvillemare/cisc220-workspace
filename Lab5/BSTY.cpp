@@ -50,7 +50,7 @@ NodeT* BSTY::rotateRight(NodeT *a) {
 	}
 
 	setBalance(a);
-	setBalance (b);
+	setBalance(b);
 	return b;
 
 	/*
@@ -128,7 +128,7 @@ NodeT* BSTY::rotateLeft(NodeT *a) {
 	}
 
 	setBalance(a);
-	setBalance (b);
+	setBalance(b);
 	return b;
 
 	/*
@@ -428,14 +428,17 @@ NodeT *BSTY::find(string x) {
 		return NULL;
 	} else {
 		while(n != NULL) {
+			comparisons++;
+
 			if(x < n->data) {
 				n = n->left;
 			} else if(x > n->data) {
 				n = n->right;
 			} else {
+				cout << comparisons << ": | " << n->data << "(" << n->height
+						<< "):" << endl;
 				return n;
 			}
-			comparisons++;
 		}
 	}
 

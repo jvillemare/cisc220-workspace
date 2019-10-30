@@ -14,13 +14,20 @@ using namespace std;
 class NodeL {
 	friend class LL;
 	friend class Game;
+
 	string word;
-	/*
-	 * instead of int data, now the data is both the rating
-	 * and the accompanying comments – think of when you rate
-	 * a book or a song, and then are asked to share comments
-	 * about the book. Both are the data in this node.
-	 */
+		/*
+		 * instead of int data, now the data is both the rating
+		 * and the accompanying comments – think of when you rate
+		 * a book or a song, and then are asked to share comments
+		 * about the book. Both are the data in this node.
+		 */
+
+	int wscore;
+		/*
+		 * What is this? It's anyone's guess
+		 */
+
 	NodeL *next;
 
 public:

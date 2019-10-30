@@ -28,6 +28,14 @@ void LL::getScore() {
 	 * @returns		nothing.
 	 */
 
+	NodeL *itr = first; int newScore = 0;
+
+	while(itr != NULL) {
+		newScore += itr->wscore;
+		itr = itr->next;
+	}
+
+	this->score = newScore;
 
 }
 

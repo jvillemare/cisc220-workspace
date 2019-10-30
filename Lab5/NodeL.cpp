@@ -27,6 +27,8 @@ NodeL::NodeL() {
 
 	word = w;
 
+	wscore = 0; // TODO: What should this be?
+
 }
 
 NodeL::NodeL(string w) {
@@ -41,6 +43,8 @@ NodeL::NodeL(string w) {
 
 	next = NULL;
 	word = w;
+
+	wscore = 0; // TODO: What should this be?
 
 }
 
