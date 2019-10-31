@@ -56,27 +56,6 @@ NodeT* BSTY::rotateRight(NodeT *a) {
 
 	setBalance(a);
 	setBalance(b);
-	//return b;
-
-	/*
-	NodeT *x = n->left;
-	NodeT *temp = x->right;
-
-	x->right = n;
-	x->parent = n->parent;
-	n->parent = x;
-	n->left = temp;
-	//t2->parent = n; ?
-
-	if (x->parent != NULL) {
-		x->parent->left = x;
-	}
-
-	if (temp != NULL) {
-		temp->parent = n;
-	}
-	*/
-
 
 	// adjust n's height
 	if (a->left == NULL && a->right == NULL) {
@@ -99,10 +78,6 @@ NodeT* BSTY::rotateRight(NodeT *a) {
 	} else {
 		b->height = max(b->left->height, b->right->height) + 1;
 	}
-
-
-	//a->height = max(a->left->height, a->right->height) + 1;
-	//b->height = max(b->left->height, b->right->height) + 1;
 
 	return b;
 
@@ -142,25 +117,6 @@ NodeT* BSTY::rotateLeft(NodeT *a) {
 
 	setBalance(a);
 	setBalance(b);
-	//return b;
-
-	/*
-	NodeT *x = n->right;
-	NodeT *temp = x->left;
-
-	x->left = n;
-	x->parent = n->parent;
-	n->parent = x;
-	n->right = temp;
-
-	if(x->parent != NULL) {
-		x->parent->right = x;
-	}
-
-	if(temp != NULL) {
-		temp->parent = n;
-	}
-	*/
 
 	// adjust n's height
 	if(a->left == NULL && a->right == NULL) {
@@ -183,9 +139,6 @@ NodeT* BSTY::rotateLeft(NodeT *a) {
 	} else {
 		b->height = max(b->left->height, b->right->height) + 1;
 	}
-
-	//a->height = max(a->left->height, a->right->height) + 1;
-	//b->height = max(b->left->height, b->right->height) + 1;
 
 	return b;
 

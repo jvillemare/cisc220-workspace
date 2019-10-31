@@ -9,17 +9,19 @@
 #define LL_HPP_
 
 #include "NodeL.hpp"
-#include <stdlib.h>
-#include <iostream>
+#include "LL.hpp"
 using namespace std;
 
 class LL {
-	friend class Game;
 
 	NodeL *first;
 	NodeL *last;
 	int size;
 	int score;
+
+	friend class Game;
+	friend class NodeL;
+	friend class LL;
 
 public:
 

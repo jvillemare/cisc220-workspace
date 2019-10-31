@@ -14,6 +14,8 @@ Game::Game(){
 	numletters = 0;
 	numright = 0;
 	totalwords = 0;
+	wordlist = new LL();
+
 }
 
 Game::Game(string filename){
@@ -23,6 +25,7 @@ Game::Game(string filename){
 	numright = 0;
 	totalwords = 0;
 	wordlist = new LL();
+
 }
 
 void Game::startGame() {
@@ -43,13 +46,10 @@ void Game::startGame() {
 }
 
 void Game::getWords() {
-	cout << "hitme1" << endl;
 	string s;
 	cin >> s;
 	while (s != "-1") {
-		cout << "hitme2" << endl;
 		wordlist->push(s);
-		cout << "hitme3" << endl;
 		cin >> s;
 		cout << endl;
 	}

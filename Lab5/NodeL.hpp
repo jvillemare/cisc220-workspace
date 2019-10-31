@@ -9,6 +9,10 @@
 #define NODEL_HPP_
 
 #include <iostream>
+#include <stdlib.h>
+#include <time.h>
+#include <fstream>
+#include <string>
 using namespace std;
 
 class NodeL {
@@ -23,16 +27,16 @@ class NodeL {
 		 * about the book. Both are the data in this node.
 		 */
 
+	NodeL *next;
+
 	int wscore;
 		/*
 		 * What is this? It's anyone's guess
 		 */
 
-	NodeL *next;
-
 public:
 
-	NodeL(string w);
+	NodeL(string word);
 	/*
 	 * this constructor takes as input an integer and a string, and
 	 * initializes the rating field to the integer, and the comment
@@ -40,8 +44,6 @@ public:
 	 */
 
 	void printNode();
-
-	~NodeL();
 
 };
 

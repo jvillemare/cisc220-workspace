@@ -9,7 +9,7 @@
 
 #include "NodeL.hpp"
 
-NodeL::NodeL(string w) {
+NodeL::NodeL(string word) {
 	/*
 	 * Constructor initializing rating and comments to input parameters.
 	 *
@@ -19,10 +19,11 @@ NodeL::NodeL(string w) {
 	 * @returns		nothing.
 	 */
 
-	next = NULL;
-	word = w;
+	this->word = word;
+	this->next = NULL;
 
-	wscore = 0; // TODO: What should this be?
+	this->wscore = 0; // TODO: If wanting Extra Credit, make this count each letter's
+	// differently for points whatever.
 
 }
 
@@ -34,19 +35,6 @@ void NodeL::printNode() {
 	 */
 
 	cout << "Word: " << word << endl;
-
-}
-
-NodeL::~NodeL() {
-	/*
-	 * Destructor.
-	 *
-	 * @returns		nothing.
-	 */
-
-	// NOTE: Yarrington said we could comment this out.
-	//if(next != NULL)
-		//cout << "Deleting may cause a memory leak." << endl;
 
 }
 

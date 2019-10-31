@@ -73,13 +73,7 @@ void LL::push(string c) {
 	 * @returns		nothing.
 	 */
 
-	cout << "fuckme" << endl;
-	//cout << first << endl;
-	first = new NodeL(c);
-	cout << "fuckme2" << endl;
-
 	if(first == NULL) {
-		cout << "somehow it's me" << endl;
 		addFirst(c);
 	} else {
 		cout << "what" << endl;
