@@ -28,6 +28,12 @@ int main() {
 	//yep, it's a word!! Google it with the word ghost!
 	cout << "What does the above word mean (google it with the word 'ghost')?"
 			<< endl;
+
+	// <added_by_me>
+	cout << endl <<
+			"My Answer: Some sort of Maya archaeological site." << endl;
+	// </added_by_me>
+
 	cout << "***************************************" << endl;
 	delete h4;
 	/**************************************************/
@@ -40,6 +46,12 @@ int main() {
 	h->deleteHeap();
 	h->printHeap();
 	cout << "What does the above word mean? (this is a good one!)" << endl;
+
+	// <added_by_me>
+	cout << endl <<
+			"My Answer: Fear of Halloween." << endl;
+	// </added_by_me>
+
 	cout << "***************************************" << endl;
 
 	delete h;
@@ -53,6 +65,11 @@ int main() {
 	cout << "\nAfter: (Notice what happened here!!!!!)";
 	h2->printHeap();
 
+	// <added_by_me>
+	cout << endl <<
+		"My Answer: ...?" << endl;
+	// </added_by_me>
+
 	cout << "**********************************" << endl;
 
 	delete h2;
@@ -62,6 +79,11 @@ int main() {
 	cout << "\nAfter: deleteAll()";
 	h3->printHeap();
 	cout << "What does the above word mean?" << endl;
+
+	// <added_by_me>
+	cout << endl <<
+		"My Answer: ...?" << endl;
+	// </added_by_me>
 
 	cout << "**********************************" << endl;
 

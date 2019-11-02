@@ -37,6 +37,9 @@ public: // yeah, everything’s public. No getters or setters. Deal with it.
 	int findMax(int x, int y);
 		/* a method for finding the max of 2 strings in an array */
 
+	void swap(int i1, int i2);
+		/* swap two indices in the heap array */
+
 	void bubbleDown(int i); //7 pts
 		/* this method you’re writing. It takes an index (usually 0) and
 		 * compares the value at that index with the values of the two
@@ -47,7 +50,7 @@ public: // yeah, everything’s public. No getters or setters. Deal with it.
 		 * further or until neither child is greater than the parent (the
 		 * value at the index */
 
-	void bubbleUp(int i); // 7 pts
+	void bubbleUp(int child); // 7 pts
 		/* this method you’re writing – it takes an index (the last index in
 		 * the HEAP (not the array) and compares the value in the index with
 		 * the value of its parent. If it is greater than the value of the

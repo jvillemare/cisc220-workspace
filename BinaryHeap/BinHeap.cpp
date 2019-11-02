@@ -60,30 +60,62 @@ int BinHeap::findMax(int x, int y) {
 }
 
 void BinHeap::insertHeap(string s) {
-	// ...
+	heap[heaplen] = s;
+
+	bubbleUp(heaplen);
+
+	heaplen++;
 }
 
 string BinHeap::deleteHeap() { // returns the string that was deleted
-	// ...
+	string root = heap[0];
+
+	heap[0] = heap[heaplen];
+	bubbleDown(0);
+
+	return root;
 }
 
-void BinHeap::bubbleUp(int i) {
-	// ...
+void BinHeap::swap(int i1, int i2) {
+	string temp = heap[i1];
+	heap[i1] = heap[i2];
+	heap[i2] = temp;
+}
+
+void BinHeap::bubbleUp(int child) {
+	int parent = (child - 1) / 2;
+
+	if(parent >= 0 && heap[child] > heap[parent]) {
+		swap(child, parent);
+		bubbleUp(parent);
+	}
 }
 
 void BinHeap::bubbleDown(int i) {
-	// ...
+	int followMe = findMax( (i*2) + 1, (i*2) + 2 );
+
+	if(heap[i] < heap[followMe] && (i*2) + 2 < heaplen) {
+		swap(i, followMe);
+		bubbleDown(followMe);
+	}
 }
 
 /***************************************************************************/
 /* Part 2 */
 
 string BinHeap::deleteHeap2() {
-	// ...
+	string root = heap[0];
+
+	heap[0] = heap[heaplen];
+	heap[heaplen + 1] = root;
+	bubbleDown(0);
+
+	return root;
 }
 
 void BinHeap::deleteAll() {
-	// ...
+	for(int i = 0, originalHeapLen = heaplen; i < originalHeapLen; i++)
+		deleteHeap2();
 }
 
 /********************************************************************************/
