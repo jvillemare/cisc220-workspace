@@ -67,7 +67,8 @@ int main() {
 
 	// <added_by_me>
 	cout << endl <<
-		"My Answer: ...?" << endl;
+		"My Answer: The alphabet was rearranged, as it's not in the heap, " <<
+		"it's just left in the array."<< endl;
 	// </added_by_me>
 
 	cout << "**********************************" << endl;
@@ -82,7 +83,7 @@ int main() {
 
 	// <added_by_me>
 	cout << endl <<
-		"My Answer: ...?" << endl;
+		"My Answer: Composed of good and evil." << endl;
 	// </added_by_me>
 
 	cout << "**********************************" << endl;
