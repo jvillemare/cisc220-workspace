@@ -70,7 +70,7 @@ void BinHeap::insertHeap(string s) {
 string BinHeap::deleteHeap() { // returns the string that was deleted
 	string root = heap[0];
 
-	heap[0] = heap[heaplen];
+	heap[0] = heap[heaplen]; // - 1?
 	bubbleDown(0);
 
 	return root;
@@ -94,9 +94,11 @@ void BinHeap::bubbleUp(int child) {
 void BinHeap::bubbleDown(int i) {
 	int followMe = findMax( (i*2) + 1, (i*2) + 2 );
 
-	if(heap[i] < heap[followMe] && (i*2) + 2 < heaplen) {
-		swap(i, followMe);
-		bubbleDown(followMe);
+	if((i*2) + 2 < heaplen) {
+		if(heap[i] < heap[followMe]) {
+			swap(i, followMe);
+			bubbleDown(followMe);
+		}
 	}
 }
 
@@ -106,16 +108,21 @@ void BinHeap::bubbleDown(int i) {
 string BinHeap::deleteHeap2() {
 	string root = heap[0];
 
-	heap[0] = heap[heaplen];
-	heap[heaplen + 1] = root;
+	heap[0] = heap[heaplen - 1];
+	heap[heaplen - 1] = root;
+	heaplen--;
 	bubbleDown(0);
 
 	return root;
 }
 
 void BinHeap::deleteAll() {
-	for(int i = 0, originalHeapLen = heaplen; i < originalHeapLen; i++)
+	int originalHeapLen = heaplen;
+
+	for(int i = 0; i < originalHeapLen; i++)
 		deleteHeap2();
+
+	heaplen = originalHeapLen;
 }
 
 /********************************************************************************/
