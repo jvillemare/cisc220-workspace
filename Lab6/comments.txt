@@ -1,0 +1,7 @@
+(11%) In addition, you must turn in a separate file containing the 
+number of original collisions for each of the two hash methods, and the 
+number of post collisions for each of the two collision dealing methods. 
+In this file, also list at least 6 of your favorite resulting phrases 
+created.
+
+	TODO: Do this...

@@ -17,22 +17,36 @@ class hashMap {
 
 	hashNode **map; //a single dimensional dynamically allocated array of pointers to hashNodes
 	/********************************************************************************
-	 /* NOTE HERE: the map is a dynamically allocated array of nodes. Meaning it’s a pointer to an array of
-	 /* pointers to nodes. I did this so that I could move the addresses around without having to recreate
-	 /* nodes each time I rehashed. It looks complicated, but it’s not. We’ve seen this.
-	 /* To make the map, you’ll do something to the effect of:
-	 /* map = new hashNode*[mapSize];
-	 /* and then you can either set map[i] = NULL or map[i] = new hashNode(k,v);
-	 /* Make sure you originally set every address in the map array to NULL, and then when you rehash.
-	 /********************************************************************************/
+	 * NOTE HERE: the map is a dynamically allocated array of nodes. Meaning it’s a pointer to an array of
+	 * pointers to nodes. I did this so that I could move the addresses around without having to recreate
+	 * nodes each time I rehashed. It looks complicated, but it’s not. We’ve seen this.
+	 * To make the map, you’ll do something to the effect of:
+	 * map = new hashNode*[mapSize];
+	 * and then you can either set map[i] = NULL or map[i] = new hashNode(k,v);
+	 * Make sure you originally set every address in the map array to NULL, and then when you rehash.
+	 ********************************************************************************/
 
-	 string first; // for first keyword for printing to a file
-	 int numKeys;
-	 int mapSize;
-	 bool h1; // if true, first hash function used, otherwise second hash function is used
-	 bool c1; //if true, first collision method used, otherwise second collision method is used.
-	 int collisionct1; //count of original collisions (caused by the hashing function used)
-	 int collisionct2; //count of secondary collisions (caused by the collision handling method used)
+	string first; // for first keyword for printing to a file
+
+	int numKeys;
+	int mapSize;
+
+	bool h1;
+		/* if true, first hash function used, otherwise second hash
+		 * function is used */
+
+	bool c1;
+		/* if true, first collision method used, otherwise second collision
+		 * method is used.
+		 */
+
+	int collisionsFromHashing;
+		/* count of original collisions (caused by the hashing function used) */
+
+	int collisionsFromHandling;
+		/* count of secondary collisions (caused by the collision handling
+		 * method used)
+		 */
 
 public:
 
@@ -72,7 +86,7 @@ public:
 	 	  * the keyword  k should be inserted into the map array.
 	 	  */
 
-	 int calcHash(string k);
+	 int calcHash1(string k);
 	 	 // hash function
 
 	 int calcHash2(string k);
@@ -89,12 +103,12 @@ public:
 	void reHash();
 		/* when size of array is at 70%, double array size and rehash keys */
 
-	int collHash1(int h, int i, string k);
+	int collHash1(int from, string k);
 		/* getting index with collision method 1 (note – you may modify the
 	 	 * parameters if you don’t need some/need more)
 	 	 */
 
-	int collHash2(int h, int i, string k);
+	int collHash2(int from, string k);
 	 	/* getting index with collision method 2 (note – you may modify the
 	 	 * parameters if you don’t need some/need more)
 	 	 */

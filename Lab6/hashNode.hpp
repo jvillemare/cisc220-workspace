@@ -47,6 +47,7 @@ public:
 
 	string getRandValue(); /* returns a random string from the values array. If
 		there’s no values in the value array, then it returns an empty string. */
+
 };
 
 #endif /* HASHNODE_HPP_ */
