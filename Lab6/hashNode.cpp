@@ -56,7 +56,7 @@ void hashNode::dblArray() {
 		newValues[i] = values[i];
 
 	values = newValues;
-	valuesSize = valuesSize * 2;
+	valuesSize *= 2;
 }
 
 /* returns a random string from the values array. If
@@ -65,6 +65,6 @@ string hashNode::getRandValue() {
 	if(currSize == 0)
 		return "";
 
-	return values[rand() % valuesSize];
+	return values[rand() % currSize];
 }
 

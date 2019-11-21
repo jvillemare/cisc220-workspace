@@ -48,6 +48,9 @@ class hashMap {
 		 * method used)
 		 */
 
+	int primes[];
+		/* list of prime numbers to grab from for mapSizes */
+
 public:
 
 	 hashMap(bool hash1, bool coll1); /* when creating the map, make sure you
@@ -92,8 +95,8 @@ public:
 	 int calcHash2(string k);
 	 	 // hash function 2
 
-	 void getClosestPrime();
-	 	 /*I used a binary search on an array of prime numbers to find the
+	 int getClosestPrime();
+	 	 /* I used a binary search on an array of prime numbers to find the
 	 	  * closest prime to double the map Size, and then set mapSize to that
 	 	  * new prime. You can include as one of the fields an array of prime
 	 	  * numbers, or you can write a function that calculates the next prime

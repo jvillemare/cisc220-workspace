@@ -14,7 +14,7 @@
  * collision methods you use.
  */
 hashMap::hashMap(bool hash1, bool coll1) {
-	mapSize = 100;
+	mapSize = 101;
 
 	map = new hashNode *[mapSize]; // TODO: This right? Not specified, anywhere.
 
@@ -27,6 +27,7 @@ hashMap::hashMap(bool hash1, bool coll1) {
 	c1 = coll1;
 	collisionsFromHashing = 0;
 	collisionsFromHandling = 0;
+	primes = {101, 211, 431, 863, 1733, 3467};
 }
 
 /* adds a node to the map at the correct index based on the key string, and then
@@ -51,38 +52,44 @@ hashMap::hashMap(bool hash1, bool coll1) {
  * 		second is used
  */
 void hashMap::addKeyValue(string k, string v) {
+	if(numKeys / mapSize >= 0.7)
+		reHash();
 
+	int index = getIndex(k);
 
-
+	if(map[index]->keyword == k)
+		map[index]->addValue(v);
+	else if(map[index] == NULL)
+		map[index] = new hashNode(k, v);
+	else
+		if(c1)
+			map[collHash1(index, k)] = new hashNode(k, v);
+		else
+			map[collHash2(index, k)] = new hashNode(k, v);
 }
 
-/* uses calcHash and reHash to calculate and return the index of where the
- * keyword k should be inserted into the map array.
+/* Yarrington: uses calcHash and reHash to calculate and return the index of
+ * where the keyword k should be inserted into the map array.
  */
 int hashMap::getIndex(string k) {
-	int index;
-
-	if(h1) { // use FIRST hashing function
-		index = calcHash1(k);
-	} else { // use SECOND hashing function
-		index = calcHash2(k);
-	}
-
-	if(index < 0 && c1) {
-		return collHash1(index, k);
-	} else if(index == -1 && !c1) {
-		return collHash2(index, k);
-	} else {
-		return index;
-	}
+	if(h1) // use FIRST hashing function
+		return calcHash1(k);
+	else // use SECOND hashing function
+		return calcHash2(k);
 }
 
-// hash function
+/* hash function
+ *
+ * Methodology:
+ */
 int hashMap::calcHash1(string k) {
 	return 0;
 }
 
-// hash function 2
+/* hash function 2
+ *
+ * Methodology:
+ */
 int hashMap::calcHash2(string k) {
 	return 0;
 }
@@ -91,20 +98,47 @@ int hashMap::calcHash2(string k) {
  * to double the map Size, and then set mapSize to that new prime. You can
  * include as one of the fields an array of prime numbers, or you can write a
  * function that calculates the next prime number. Whichever you prefer.
+ *
+ * We do this because we're using modulus with the array size.
  */
-void hashMap::getClosestPrime() {
+int hashMap::getClosestPrime() {
+	for(int i = 0; i < 5; i++)
+		if(primes[i] > mapSize)
+			return primes[i];
 
+	return 7919;
 }
 
-/* when size of array is at 70%, double array size and rehash keys */
+/* Yarrington: when size of array is at 70%, double array size and rehash keys
+ *
+ * PowerPoint: IDEAL array size:  double the amount of data, and then go up to
+ * 		the nearest prime!
+ *
+ */
 void hashMap::reHash() {
+	int oldMapSize = mapSize;
+	mapSize = getClosestPrime();
+	hashNode **newMap = new hashNode *[mapSize];
 
+	for(int i = 0; i < oldMapSize; i++) {
+		if(map[i] != NULL) {
+			newMap[getIndex(map[i]->keyword)] = map[i];
+		}
+	}
+
+
+
+	// TODO: move in data...
 }
 
 /* Yarrington: Getting index with collision method 1 (note – you may modify the
  * parameters if you don’t need some/need more)
  *
- * Methodology: TODO ...
+ * Methodology: If index (from) is already occupied, move forward one index to
+ * find an open spot, move backwards two indexes to find an open spot, move
+ * forward three indexes to find an open spot, and so on and so forth.
+ *
+ * Essentially, move outwards in both directions from
  *
  * @param	integer		from	where in the hashMap should collHash1 look for a
  * 								new space from.
@@ -145,10 +179,15 @@ int hashMap::findKey(string k) {
 	if(map[index] == NULL)
 		return -1;
 
+
+
 	return index;
 }
 
-/* I wrote this solely to check if everything was working. */
+/* Yarrington: I wrote this solely to check if everything was working.
+ *
+ * ...
+ */
 void hashMap::printMap() {
 
 }
