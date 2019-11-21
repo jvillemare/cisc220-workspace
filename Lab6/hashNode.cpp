@@ -67,4 +67,3 @@ string hashNode::getRandValue() {
 
 	return values[rand() % currSize];
 }
-

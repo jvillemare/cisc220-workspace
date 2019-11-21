@@ -48,9 +48,6 @@ class hashMap {
 		 * method used)
 		 */
 
-	int primes[];
-		/* list of prime numbers to grab from for mapSizes */
-
 public:
 
 	 hashMap(bool hash1, bool coll1); /* when creating the map, make sure you

@@ -48,7 +48,6 @@ int main() {
 	cout << "SECOND hash, SECOND collision:" << endl;
 	makeSeuss m4 = makeSeuss("DrSeuss.txt", "output1.txt", false, false);
 
-
 	return 0;
 
 }

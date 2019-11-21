@@ -6,6 +6,8 @@
  */
 
 #include "hashMap.hpp"
+#include <iostream>
+using namespace std;
 
 /* when creating the map, make sure you
  * initialize the values to NULL so you know whether that index has a key
@@ -27,7 +29,6 @@ hashMap::hashMap(bool hash1, bool coll1) {
 	c1 = coll1;
 	collisionsFromHashing = 0;
 	collisionsFromHandling = 0;
-	primes = {101, 211, 431, 863, 1733, 3467};
 }
 
 /* adds a node to the map at the correct index based on the key string, and then
@@ -57,15 +58,20 @@ void hashMap::addKeyValue(string k, string v) {
 
 	int index = getIndex(k);
 
-	if(map[index]->keyword == k)
+	if(map[index]->keyword == k) {
 		map[index]->addValue(v);
-	else if(map[index] == NULL)
+	} else if(map[index] == NULL) {
 		map[index] = new hashNode(k, v);
-	else
-		if(c1)
+		numKeys++;
+	} else {
+		collisionsFromHashing++;
+		if(c1) // use FIRST collision handling function
 			map[collHash1(index, k)] = new hashNode(k, v);
-		else
+		else // use SECOND collision handling function
 			map[collHash2(index, k)] = new hashNode(k, v);
+
+		numKeys++;
+	}
 }
 
 /* Yarrington: uses calcHash and reHash to calculate and return the index of
@@ -80,18 +86,26 @@ int hashMap::getIndex(string k) {
 
 /* hash function
  *
- * Methodology:
+ * Methodology: Add ASCII values and mod by mapSize.
  */
 int hashMap::calcHash1(string k) {
-	return 0;
+	int sum = 0;
+	for(int i = 0; k[i] != '\0'; i++)
+		sum += k[i];
+	return sum % mapSize;
 }
 
 /* hash function 2
  *
- * Methodology:
+ * Methodology: String length. Average number of characters in a word is 6
+ * letters. (Divide mapSize by 6) and multiply strlen by it so that it spreads
+ * over the mapSize.
  */
 int hashMap::calcHash2(string k) {
-	return 0;
+	int strlen = 0;
+	for(int i = 0; k[i] != '\0'; i++)
+		strlen += 0;
+	return ((mapSize/6) * strlen) % mapSize;
 }
 
 /* I used a binary search on an array of prime numbers to find the closest prime
@@ -102,6 +116,7 @@ int hashMap::calcHash2(string k) {
  * We do this because we're using modulus with the array size.
  */
 int hashMap::getClosestPrime() {
+	int primes[] = {101, 211, 431, 863, 1733, 3467};
 	for(int i = 0; i < 5; i++)
 		if(primes[i] > mapSize)
 			return primes[i];
@@ -126,19 +141,16 @@ void hashMap::reHash() {
 		}
 	}
 
-
-
-	// TODO: move in data...
+	map = newMap;
 }
 
 /* Yarrington: Getting index with collision method 1 (note – you may modify the
  * parameters if you don’t need some/need more)
  *
- * Methodology: If index (from) is already occupied, move forward one index to
- * find an open spot, move backwards two indexes to find an open spot, move
- * forward three indexes to find an open spot, and so on and so forth.
+ * !!!!!!!!!!!!!!!!! LINEAR PROBING !!!!!!!!!!!!!!!!!
  *
- * Essentially, move outwards in both directions from
+ * Methodology: Keep looking for the next spot on the right. If hits the end of
+ * the mapSize, loop over to the beginning of the array looking for a new spot.
  *
  * @param	integer		from	where in the hashMap should collHash1 look for a
  * 								new space from.
@@ -147,15 +159,23 @@ void hashMap::reHash() {
  * @return	new index where k was inserted.
  */
 int hashMap::collHash1(int from, string k) {
-
-	return 0;
-
+	while(map[from] != NULL && map[from]->keyword != k) {
+		from++;
+		collisionsFromHandling++;
+		if(from > mapSize)
+			from = from % mapSize;
+	}
+	return from;
 }
 
 /* Yarrington: Getting index with collision method 2 (note – you may modify the
  * parameters if you don’t need some/need more)
  *
- * Methodology: TODO ...
+ * !!!!!!!!!!!!!!!!! QUADRATIC PROBING !!!!!!!!!!!!!!!!!
+ *
+ * Methodology: If index (from) is already occupied, move forward one index to
+ * find an open spot, move backwards two indexes to find an open spot, move
+ * forward three indexes to find an open spot, and so on and so forth.
  *
  * @param	integer		from	where in the hashMap should collHash1 look for a
  * 								new space from.
@@ -164,9 +184,14 @@ int hashMap::collHash1(int from, string k) {
  * @return	new index where k was inserted.
  */
 int hashMap::collHash2(int from, string k) {
-
-	return 0;
-
+	int quadraticFactor = 1;
+	while(map[from] != NULL && map[from]->keyword != k) {
+		from += quadraticFactor++;
+		collisionsFromHandling++;
+		if(from > mapSize)
+			from = from % mapSize;
+	}
+	return from;
 }
 
 /* finds the key in the array and returns its index. If it's not in the array,
@@ -179,7 +204,23 @@ int hashMap::findKey(string k) {
 	if(map[index] == NULL)
 		return -1;
 
+	if(map[index]->keyword == k)
+		return index;
 
+	if(c1) { // linear probing
+		while(map[index] != NULL && map[index]->keyword != k) {
+			index++;
+			if(index > mapSize)
+				index = index % mapSize;
+		}
+	} else { // quadratic probing
+		int quadraticFactor = 1;
+		while(map[index] != NULL && map[index]->keyword != k) {
+			index += quadraticFactor++;
+			if(index > mapSize)
+				index = index % mapSize;
+		}
+	}
 
 	return index;
 }
@@ -189,5 +230,15 @@ int hashMap::findKey(string k) {
  * ...
  */
 void hashMap::printMap() {
+	for(int i = 0; i < mapSize; i++) {
+		if(map[i] != NULL) {
+			cout << "hashNode (" << map[i]->keyword << ")" << endl;
+			cout << "...values:";
 
+			for(int j = 0; j < map[i]->valuesSize; j++)
+				cout << map[i]->values[j] << " ";
+
+			cout << endl;
+		}
+	}
 }
