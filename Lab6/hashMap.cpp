@@ -227,7 +227,8 @@ int hashMap::collHash2(int from, string k, string v) {
 					map[from]->addValue(v);
 			break;
 		}
-		from += quadraticFactor++;
+		quadraticFactor++;
+		from += quadraticFactor;
 		collisionsFromHandling++;
 		if(from > mapSize)
 			from = from % mapSize;

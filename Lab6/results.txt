@@ -16,7 +16,7 @@ FIRST hashing, SECOND collision
 collisionsFromHashing=5090
 collisionsFromHandling=134629
 
-output3
+output4
 =======
 SECOND hashing, SECOND collision
 collisionsFromHashing=4465
