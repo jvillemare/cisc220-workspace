@@ -82,14 +82,23 @@ void hashMap::addKeyValue(string k, string v) {
 	} else {
 		cout << "problem3c" << endl;
 		collisionsFromHashing++;
-		if(c1) // use FIRST collision handling function
-			map[collHash1(index, k)] = new hashNode(k, v);
-		else // use SECOND collision handling function
-			map[collHash2(index, k)] = new hashNode(k, v);
+		if(c1) { // use FIRST collision handling function
+			int cH1 = collHash1(index, k, v);
+
+			if(map[cH1] == NULL) {
+				map[cH1] = new hashNode(k, v);
+				numKeys++;
+			}
+		} else { // use SECOND collision handling function
+			int cH2 = collHash2(index, k, v);
+
+			if(map[cH2] == NULL) {
+				map[cH2] = new hashNode(k, v);
+				numKeys++;
+			}
+		}
 
 		cout << "problem3a" << endl;
-
-		numKeys++;
 	}
 
 	cout << "problem4" << endl;
@@ -191,9 +200,14 @@ void hashMap::reHash() {
  *
  * @return	new index where k was inserted.
  */
-int hashMap::collHash1(int from, string k) {
+int hashMap::collHash1(int from, string k, string v) {
 	cout << "colHash1" << endl;
-	while(map[from] != NULL && map[from]->keyword != k) {
+	while(map[from] != NULL) {
+		if(map[from]->keyword == k) {
+			if(v != "")
+				map[from]->addValue(v);
+			break;
+		}
 		from++;
 		collisionsFromHandling++;
 		if(from > mapSize)
@@ -217,12 +231,14 @@ int hashMap::collHash1(int from, string k) {
  *
  * @return	new index where k was inserted.
  */
-int hashMap::collHash2(int from, string k) {
+int hashMap::collHash2(int from, string k, string v) {
 	int quadraticFactor = 1;
-	while(true) {
-		if(map[from] == NULL || map[from]->keyword != k)
+	while(map[from] != NULL) {
+		if(map[from]->keyword == k) {
+			if(v != "")
+				map[from]->addValue(v);
 			break;
-
+		}
 		from += quadraticFactor++;
 		collisionsFromHandling++;
 		if(from > mapSize)
@@ -245,12 +261,10 @@ int hashMap::findKey(string k) {
 		return index;
 
 	if(c1) { // linear probing
-		return collHash1(index, k);
+		return collHash1(index, k, "");
 	} else { // quadratic probing
-		return collHash2(index, k);
+		return collHash2(index, k, "");
 	}
-
-	//return index;
 }
 
 /* Yarrington: I wrote this solely to check if everything was working.

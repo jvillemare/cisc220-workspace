@@ -103,12 +103,12 @@ public:
 	void reHash();
 		/* when size of array is at 70%, double array size and rehash keys */
 
-	int collHash1(int from, string k);
+	int collHash1(int from, string k, string v);
 		/* getting index with collision method 1 (note – you may modify the
 	 	 * parameters if you don’t need some/need more)
 	 	 */
 
-	int collHash2(int from, string k);
+	int collHash2(int from, string k, string v);
 	 	/* getting index with collision method 2 (note – you may modify the
 	 	 * parameters if you don’t need some/need more)
 	 	 */
