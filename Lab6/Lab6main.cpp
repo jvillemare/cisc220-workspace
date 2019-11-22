@@ -31,22 +31,36 @@ int main() {
 	// first hash, first collision
 	stars();
 	cout << "FIRST hash, FIRST collision:" << endl;
-	makeSeuss m1 = makeSeuss("DrSeuss.txt", "output1.txt", true, true);
-
-	// first hash, second collision
-	stars();
-	cout << "FIRST hash, SECOND collision:" << endl;
-	makeSeuss m2 = makeSeuss("DrSeuss.txt", "output1.txt", true, false);
+	makeSeuss m1 = makeSeuss(
+			"DrSeuss.txt",
+			"output1_firstHash_firstColl.txt",
+			true, true);
 
 	// second hash, first collision
 	stars();
 	cout << "SECOND hash, FIRST collision:" << endl;
-	makeSeuss m3 = makeSeuss("DrSeuss.txt", "output1.txt", false, true);
+	makeSeuss m2 = makeSeuss(
+			"DrSeuss.txt",
+			"output2_secondHash_firstColl.txt",
+			false, true);
+
+	// first hash, second collision
+	stars();
+	cout << "FIRST hash, SECOND collision:" << endl;
+	makeSeuss m3 = makeSeuss(
+			"DrSeuss.txt",
+			"output3_firstHash_secondColl.txt",
+			false, true);
 
 	// second hash, second collision
 	stars();
 	cout << "SECOND hash, SECOND collision:" << endl;
-	makeSeuss m4 = makeSeuss("DrSeuss.txt", "output1.txt", false, false);
+	makeSeuss m4 = makeSeuss(
+			"DrSeuss.txt",
+			"output4_secondHash_secondColl.txt",
+			false, false);
+
+	cout << ":)" << endl;
 
 	return 0;
 

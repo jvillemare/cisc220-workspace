@@ -53,25 +53,46 @@ hashMap::hashMap(bool hash1, bool coll1) {
  * 		second is used
  */
 void hashMap::addKeyValue(string k, string v) {
-	if(numKeys / mapSize >= 0.7)
+
+	if(numKeys == 0)
+		first = k;
+
+	cout << "problem1" << endl;
+	double nK = numKeys, mS = mapSize;
+	cout << "numKeys=" << nK << " and mapSize=" << mS << " divides to=" << nK/mS << endl;
+
+	if(nK / mS >= 0.7) {
+		cout << "REHASHING!!!!!!!!!!!!!!!!!" << endl;
 		reHash();
+	}
+
+	cout << "problem2" << endl;
 
 	int index = getIndex(k);
 
-	if(map[index]->keyword == k) {
-		map[index]->addValue(v);
-	} else if(map[index] == NULL) {
+	cout << "problem3, index=" << index << endl;
+
+	if(map[index] == NULL) {
+		cout << "problem3a" << endl;
 		map[index] = new hashNode(k, v);
 		numKeys++;
+	} else if(map[index]->keyword == k) {
+		cout << "problem3b" << endl;
+		map[index]->addValue(v);
 	} else {
+		cout << "problem3c" << endl;
 		collisionsFromHashing++;
 		if(c1) // use FIRST collision handling function
 			map[collHash1(index, k)] = new hashNode(k, v);
 		else // use SECOND collision handling function
 			map[collHash2(index, k)] = new hashNode(k, v);
 
+		cout << "problem3a" << endl;
+
 		numKeys++;
 	}
+
+	cout << "problem4" << endl;
 }
 
 /* Yarrington: uses calcHash and reHash to calculate and return the index of
@@ -90,22 +111,31 @@ int hashMap::getIndex(string k) {
  */
 int hashMap::calcHash1(string k) {
 	int sum = 0;
-	for(int i = 0; k[i] != '\0'; i++)
+	for(int i = 0; k[i] != '\0'; i++) {
 		sum += k[i];
+	}
+	if(sum < 0)
+		sum *= -1;
+
 	return sum % mapSize;
 }
 
 /* hash function 2
  *
- * Methodology: String length. Average number of characters in a word is 6
- * letters. (Divide mapSize by 6) and multiply strlen by it so that it spreads
- * over the mapSize.
+ * Methodology: Use the string length to spread it over the hashMap. Precision
+ * it by first three letters.
  */
 int hashMap::calcHash2(string k) {
-	int strlen = 0;
-	for(int i = 0; k[i] != '\0'; i++)
-		strlen += 0;
-	return ((mapSize/6) * strlen) % mapSize;
+	int len = k.length();
+
+	int h = 0;
+	for(int i = len-1; i >0; i--) {
+		h = (19*h + (int)k[i]) % mapSize;
+	}
+	if(h < 0)
+		h *= -1;
+
+	return h;
 }
 
 /* I used a binary search on an array of prime numbers to find the closest prime
@@ -135,6 +165,9 @@ void hashMap::reHash() {
 	mapSize = getClosestPrime();
 	hashNode **newMap = new hashNode *[mapSize];
 
+	for(int i = 0; i < mapSize; i++)
+		newMap[i] = NULL;
+
 	for(int i = 0; i < oldMapSize; i++) {
 		if(map[i] != NULL) {
 			newMap[getIndex(map[i]->keyword)] = map[i];
@@ -159,11 +192,12 @@ void hashMap::reHash() {
  * @return	new index where k was inserted.
  */
 int hashMap::collHash1(int from, string k) {
+	cout << "colHash1" << endl;
 	while(map[from] != NULL && map[from]->keyword != k) {
 		from++;
 		collisionsFromHandling++;
 		if(from > mapSize)
-			from = from % mapSize;
+			from = 0;
 	}
 	return from;
 }
@@ -185,12 +219,16 @@ int hashMap::collHash1(int from, string k) {
  */
 int hashMap::collHash2(int from, string k) {
 	int quadraticFactor = 1;
-	while(map[from] != NULL && map[from]->keyword != k) {
+	while(true) {
+		if(map[from] == NULL || map[from]->keyword != k)
+			break;
+
 		from += quadraticFactor++;
 		collisionsFromHandling++;
 		if(from > mapSize)
 			from = from % mapSize;
 	}
+	cout << "works" << endl;
 	return from;
 }
 
@@ -198,7 +236,6 @@ int hashMap::collHash2(int from, string k) {
  * returns -1.
  */
 int hashMap::findKey(string k) {
-	// TODO: Revisit this... it almost definitely needs work.
 	int index = getIndex(k);
 
 	if(map[index] == NULL)
@@ -208,21 +245,12 @@ int hashMap::findKey(string k) {
 		return index;
 
 	if(c1) { // linear probing
-		while(map[index] != NULL && map[index]->keyword != k) {
-			index++;
-			if(index > mapSize)
-				index = index % mapSize;
-		}
+		return collHash1(index, k);
 	} else { // quadratic probing
-		int quadraticFactor = 1;
-		while(map[index] != NULL && map[index]->keyword != k) {
-			index += quadraticFactor++;
-			if(index > mapSize)
-				index = index % mapSize;
-		}
+		return collHash2(index, k);
 	}
 
-	return index;
+	//return index;
 }
 
 /* Yarrington: I wrote this solely to check if everything was working.
