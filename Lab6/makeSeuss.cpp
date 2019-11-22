@@ -37,6 +37,9 @@ void makeSeuss::readFile() {
 	ht->addKeyValue(key, value);
 	cout << endl;
 	infile.close();
+
+	cout << "printMap(): " << endl;
+	ht->printMap();
 }
 
 void makeSeuss::writeFile() {
@@ -58,4 +61,5 @@ void makeSeuss::writeFile() {
 		ct++;
 	}
 	outfile.close();
+	ht->printCoolStuff();
 }

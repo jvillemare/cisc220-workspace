@@ -1,0 +1,2251 @@
+...values:of /  /  /  /  /  /  /  /  /  / 
+hashNode (kinds)
+...values:of /  /  /  /  /  /  /  /  /  / 
+hashNode (year)
+...values:after /  /  /  /  /  /  /  /  /  / 
+hashNode (hear)
+...values:a /  /  /  /  /  /  /  /  /  / 
+hashNode (soar)
+...values:to /  /  /  /  /  /  /  /  /  / 
+hashNode (tree!)
+...values:I / Not / Not /  /  /  /  /  /  /  / 
+hashNode (star)
+...values:now /  /  /  /  /  /  /  /  /  / 
+hashNode (game?)
+...values:Not /  /  /  /  /  /  /  /  /  / 
+hashNode (forget)
+...values:the /  /  /  /  /  /  /  /  /  / 
+hashNode (speck)
+...values:of /  /  /  /  /  /  /  /  /  / 
+hashNode (Thneed's)
+...values:a /  /  /  /  /  /  /  /  /  / 
+hashNode (frankfurter)
+...values:roasts / parties. /  /  /  /  /  /  /  /  / 
+hashNode (grandfather)
+...values:snail. /  /  /  /  /  /  /  /  /  / 
+hashNode (stack.)
+...values:And / And / Then /  /  /  /  /  /  /  / 
+hashNode (Yertle.)
+...values:I've / "I'm / "You've / "Say, /  /  /  /  /  /  / 
+hashNode (sounds)
+...values:as /  /  /  /  /  /  /  /  /  / 
+hashNode ("Hooray!")
+...values:shouted /  /  /  /  /  /  /  /  /  / 
+hashNode (turtle.)
+...values:I /  /  /  /  /  /  /  /  /  / 
+hashNode (Sharp)
+...values:right /  /  /  /  /  /  /  /  /  / 
+hashNode (clucked,)
+...values:"What /  /  /  /  /  /  /  /  /  / 
+hashNode (mind-maker-upper)
+...values:to /  /  /  /  /  /  /  /  /  / 
+hashNode (hands.)
+...values:but /  /  /  /  /  /  /  /  /  / 
+hashNode (birds)
+...values:as / ever / and /  /  /  /  /  /  /  / 
+hashNode (whizzed)
+...values:with /  /  /  /  /  /  /  /  /  / 
+hashNode (words)
+...values:about /  /  /  /  /  /  /  /  /  / 
+hashNode (over)
+...values:here / and / the / his / the /  /  /  /  /  / 
+hashNode (Over)
+...values:land! / sea! /  /  /  /  /  /  /  /  / 
+hashNode (suprise)
+...values:That /  /  /  /  /  /  /  /  /  / 
+hashNode (mess,')
+...values:said /  /  /  /  /  /  /  /  /  / 
+hashNode (wiggled)
+...values:roads /  /  /  /  /  /  /  /  /  / 
+hashNode (Grinch,Who)
+...values:lived /  /  /  /  /  /  /  /  /  / 
+hashNode (cake!)
+...values:i /  /  /  /  /  /  /  /  /  / 
+hashNode (rake!)
+...values:i /  /  /  /  /  /  /  /  /  / 
+hashNode (trick)
+...values:that /  /  /  /  /  /  /  /  /  / 
+hashNode (quick)
+...values:call. / Santy / as /  /  /  /  /  /  /  / 
+hashNode (So...get)
+...values:on /  /  /  /  /  /  /  /  /  / 
+hashNode (turned)
+...values:around /  /  /  /  /  /  /  /  /  / 
+hashNode (mile!)
+...values:"All /  /  /  /  /  /  /  /  /  / 
+hashNode (Fame!)
+...values:You'll /  /  /  /  /  /  /  /  /  / 
+hashNode (tame!)
+...values:they /  /  /  /  /  /  /  /  /  / 
+hashNode (rule!)
+...values:I'm / For /  /  /  /  /  /  /  /  / 
+hashNode (same!)
+...values:And /  /  /  /  /  /  /  /  /  / 
+hashNode (lose?)
+...values:How /  /  /  /  /  /  /  /  /  / 
+hashNode (mule!)
+...values:I'm / I'm /  /  /  /  /  /  /  /  / 
+hashNode (home!)
+...values:do /  /  /  /  /  /  /  /  /  / 
+hashNode (thanks)
+...values:to /  /  /  /  /  /  /  /  /  / 
+hashNode (machine.)
+...values:And / Then, /  /  /  /  /  /  /  /  / 
+hashNode (Machine.)
+...values:This /  /  /  /  /  /  /  /  /  / 
+hashNode (done!)
+...values:There /  /  /  /  /  /  /  /  /  / 
+hashNode (right...)
+...values:or /  /  /  /  /  /  /  /  /  / 
+hashNode (Trees)
+...values:at / into / are /  /  /  /  /  /  /  / 
+hashNode (raced)
+...values:round /  /  /  /  /  /  /  /  /  / 
+hashNode (three,)
+...values:four, /  /  /  /  /  /  /  /  /  / 
+hashNode (Christmas,")
+...values:he /  /  /  /  /  /  /  /  /  / 
+hashNode (knock)
+...values:at /  /  /  /  /  /  /  /  /  / 
+hashNode (here!)
+...values:Here's /  /  /  /  /  /  /  /  /  / 
+hashNode (Grickle-grass)
+...values:grows / grows? /  /  /  /  /  /  /  /  / 
+hashNode (fire!)
+...values:Then /  /  /  /  /  /  /  /  /  / 
+hashNode (right)
+...values:at / on / to / on / aboard! /  /  /  /  /  / 
+hashNode (might)
+...values:need. / think /  /  /  /  /  /  /  /  / 
+hashNode (tight)
+...values:pinch. /  /  /  /  /  /  /  /  /  / 
+hashNode (light)
+...values:on / on /  /  /  /  /  /  /  /  / 
+hashNode (Sneetches-Had)
+...values:none /  /  /  /  /  /  /  /  /  / 
+hashNode (ought)
+...values:to /  /  /  /  /  /  /  /  /  / 
+hashNode (poor)
+...values:stupid / Bar-ba-loots / Swomee-Swans... / Mack. /  /  /  /  /  /  / 
+hashNode (tries)
+...values:them /  /  /  /  /  /  /  /  /  / 
+hashNode (knees.)
+...values:How /  /  /  /  /  /  /  /  /  / 
+hashNode (Trees.)
+...values:Then... /  /  /  /  /  /  /  /  /  / 
+hashNode ('cross)
+...values:the /  /  /  /  /  /  /  /  /  / 
+hashNode (note!)
+...values:No /  /  /  /  /  /  /  /  /  / 
+hashNode (ship,)
+...values:sank / and /  /  /  /  /  /  /  /  / 
+hashNode (backward)
+...values:glance... /  /  /  /  /  /  /  /  /  / 
+hashNode (miles)
+...values:from /  /  /  /  /  /  /  /  /  / 
+hashNode (Games)
+...values:you /  /  /  /  /  /  /  /  /  / 
+hashNode (games)
+...values:we /  /  /  /  /  /  /  /  /  / 
+hashNode (cried)
+...values:the / with /  /  /  /  /  /  /  /  / 
+hashNode (right.)
+...values:It /  /  /  /  /  /  /  /  /  / 
+hashNode (times)
+...values:you'll / as /  /  /  /  /  /  /  /  / 
+hashNode (speed.)
+...values:And /  /  /  /  /  /  /  /  /  / 
+hashNode (greed.)
+...values:There /  /  /  /  /  /  /  /  /  / 
+hashNode (sneezed)
+...values:and /  /  /  /  /  /  /  /  /  / 
+hashNode (Whatever)
+...values:the /  /  /  /  /  /  /  /  /  / 
+hashNode (stuck)
+...values:only / his /  /  /  /  /  /  /  /  / 
+hashNode (homes)
+...values:where /  /  /  /  /  /  /  /  /  / 
+hashNode (tight.)
+...values:But /  /  /  /  /  /  /  /  /  / 
+hashNode (skies.)
+...values:"What's /  /  /  /  /  /  /  /  /  / 
+hashNode (Who-pudding!)
+...values:He /  /  /  /  /  /  /  /  /  / 
+hashNode (roasts)
+...values:Or /  /  /  /  /  /  /  /  /  / 
+hashNode (Liked)
+...values:Christmas /  /  /  /  /  /  /  /  /  / 
+hashNode (liked)
+...values:least /  /  /  /  /  /  /  /  /  / 
+hashNode (wearing)
+...values:a /  /  /  /  /  /  /  /  /  / 
+hashNode (trembled.)
+...values:They /  /  /  /  /  /  /  /  /  / 
+hashNode (Humming-Fish)
+...values:humming / hummed! /  /  /  /  /  /  /  /  / 
+hashNode (asked)
+...values:YOU? /  /  /  /  /  /  /  /  /  / 
+hashNode (shoes)
+...values:full / were /  /  /  /  /  /  /  /  / 
+hashNode (Staring)
+...values:down /  /  /  /  /  /  /  /  /  / 
+hashNode (Hakken-Kraks)
+...values:howl. /  /  /  /  /  /  /  /  /  / 
+hashNode (piled)
+...values:them /  /  /  /  /  /  /  /  /  / 
+hashNode (four)
+...values:Truffula / times /  /  /  /  /  /  /  /  / 
+hashNode (your)
+...values:mother / mother / mother / mother! / mother / mother / mother / pardon, / place / mouth!" / bellies / troubles. / money / frankfurter / stars / dad. / mother. /  /  /  / 
+hashNode (Your)
+...values:Majesty, /  /  /  /  /  /  /  /  /  / 
+hashNode (being)
+...values:quite /  /  /  /  /  /  /  /  /  / 
+hashNode (thing)
+...values:is / two / one! / one / two!' / That / wouldn't / really / he / he / To /  /  /  /  /  /  /  /  /  / 
+hashNode (Thing)
+...values:One / Two. / Two / One! / One / Two?' / One / Two. /  /  / 
+hashNode (ruled)
+...values:was /  /  /  /  /  /  /  /  /  / 
+hashNode (pipes)
+...values:when /  /  /  /  /  /  /  /  /  / 
+hashNode (chimney.)
+...values:A /  /  /  /  /  /  /  /  /  / 
+hashNode (named)
+...values:Mack. / Mack." / Mack. /  /  /  /  /  /  /  / 
+hashNode (doing)
+...values:no / just /  /  /  /  /  /  /  /  / 
+hashNode (going)
+...values:to /  /  /  /  /  /  /  /  /  / 
+hashNode (bring)
+...values:it /  /  /  /  /  /  /  /  /  / 
+hashNode (using)
+...values:these /  /  /  /  /  /  /  /  /  / 
+hashNode (year...)
+...values:To /  /  /  /  /  /  /  /  /  / 
+hashNode (Removed)
+...values:all /  /  /  /  /  /  /  /  /  / 
+hashNode (cried.)
+...values:And / "Oh, /  /  /  /  /  /  /  /  / 
+hashNode (cares)
+...values:a /  /  /  /  /  /  /  /  /  / 
+hashNode (dares)
+...values:to /  /  /  /  /  /  /  /  /  / 
+hashNode (bees)
+...values:up /  /  /  /  /  /  /  /  /  / 
+hashNode (aboard!)
+...values:So /  /  /  /  /  /  /  /  /  / 
+hashNode (actually)
+...values:did. /  /  /  /  /  /  /  /  /  / 
+hashNode (ones)
+...values:who / who /  /  /  /  /  /  /  /  / 
+hashNode (future)
+...values:is /  /  /  /  /  /  /  /  /  / 
+hashNode (back.")
+...values:the /  /  /  /  /  /  /  /  /  / 
+hashNode (Mack.")
+...values:"You /  /  /  /  /  /  /  /  /  / 
+hashNode (axes)
+...values:that /  /  /  /  /  /  /  /  /  / 
+hashNode (below,)
+...values:in / we /  /  /  /  /  /  /  /  / 
+hashNode (bags)
+...values:And / in /  /  /  /  /  /  /  /  / 
+hashNode (kites)
+...values:in / on /  /  /  /  /  /  /  /  / 
+hashNode (eggs)
+...values:and / and / and / and / and / and / and / and / and / and / and /  /  /  /  /  /  /  /  /  / 
+hashNode (thing.)
+...values:He /  /  /  /  /  /  /  /  /  / 
+hashNode ((His)
+...values:dander /  /  /  /  /  /  /  /  /  / 
+hashNode (sneeze,)
+...values:"I /  /  /  /  /  /  /  /  /  / 
+hashNode (bigger)
+...values:I /  /  /  /  /  /  /  /  /  / 
+hashNode (cousins.)
+...values:And /  /  /  /  /  /  /  /  /  / 
+hashNode (lives)
+...values:here. /  /  /  /  /  /  /  /  /  / 
+hashNode ('long)
+...values:about /  /  /  /  /  /  /  /  /  / 
+hashNode (himself)
+...values:by / and /  /  /  /  /  /  /  /  / 
+hashNode (this)
+...values:is / house! / house!' / trick,' / game / box / house! / wet, / way!' / big / mess / mess,' / stone / plain / one / one / Who / whole / Christmas / coat / hat, / tiny / tree / sound /  /  /  /  /  /  /  /  /  /  /  /  /  /  /  /  / 
+hashNode (turtles!)
+...values:I /  /  /  /  /  /  /  /  /  / 
+hashNode (This)
+...values:throne / wondrous / one / one / is /  /  /  /  /  / 
+hashNode (bottom)
+...values:we, /  /  /  /  /  /  /  /  /  / 
+hashNode (whack!)
+...values:From /  /  /  /  /  /  /  /  /  / 
+hashNode (hated)
+...values:Christmas! /  /  /  /  /  /  /  /  /  / 
+hashNode (crack!)
+...values:Besides, /  /  /  /  /  /  /  /  /  / 
+hashNode (against)
+...values:you. /  /  /  /  /  /  /  /  /  / 
+hashNode (bonked.)
+...values:And /  /  /  /  /  /  /  /  /  / 
+hashNode (invited)
+...values:the /  /  /  /  /  /  /  /  /  / 
+hashNode (instant)
+...values:I'd /  /  /  /  /  /  /  /  /  / 
+hashNode (Invited)
+...values:them /  /  /  /  /  /  /  /  /  / 
+hashNode (looked.)
+...values:I /  /  /  /  /  /  /  /  /  / 
+hashNode (boxes)
+...values:or /  /  /  /  /  /  /  /  /  / 
+hashNode (grinned)
+...values:the / the /  /  /  /  /  /  /  /  / 
+hashNode (beyond.)
+...values:This /  /  /  /  /  /  /  /  /  / 
+hashNode (screaming)
+...values:beaches, /  /  /  /  /  /  /  /  /  / 
+hashNode (searching)
+...values:for /  /  /  /  /  /  /  /  /  / 
+hashNode (NOTHING,)
+...values:that's /  /  /  /  /  /  /  /  /  / 
+hashNode (lived)
+...values:just /  /  /  /  /  /  /  /  /  / 
+hashNode (clear,)
+...values:since /  /  /  /  /  /  /  /  /  / 
+hashNode (Describe)
+...values:him?... /  /  /  /  /  /  /  /  /  / 
+hashNode (tosay)
+...values:the /  /  /  /  /  /  /  /  /  / 
+hashNode (loved)
+...values:living /  /  /  /  /  /  /  /  /  / 
+hashNode (sizes)
+...values:too / that /  /  /  /  /  /  /  /  / 
+hashNode (along.)
+...values:You'll /  /  /  /  /  /  /  /  /  / 
+hashNode (himself,)
+...values:the /  /  /  /  /  /  /  /  /  / 
+hashNode (darked.)
+...values:A /  /  /  /  /  /  /  /  /  / 
+hashNode (arms)
+...values:may /  /  /  /  /  /  /  /  /  / 
+hashNode (wrong.)
+...values:For, / I'm /  /  /  /  /  /  /  /  / 
+hashNode (jerked.)
+...values:And /  /  /  /  /  /  /  /  /  / 
+hashNode (fins)
+...values:and /  /  /  /  /  /  /  /  /  / 
+hashNode (mixed)
+...values:up, / up /  /  /  /  /  /  /  /  / 
+hashNode (fingers)
+...values:Do / nervously /  /  /  /  /  /  /  /  / 
+hashNode (Whos)
+...values:would / Lay / were / down /  /  /  /  /  /  / 
+hashNode (young)
+...values:and /  /  /  /  /  /  /  /  /  / 
+hashNode (grinned,)
+...values:"are /  /  /  /  /  /  /  /  /  / 
+hashNode (longer)
+...values:in /  /  /  /  /  /  /  /  /  / 
+hashNode (frightfully)
+...values:mad. / bad. /  /  /  /  /  /  /  /  / 
+hashNode (stew.)
+...values:Just /  /  /  /  /  /  /  /  /  / 
+hashNode (birds!)
+...values:And /  /  /  /  /  /  /  /  /  / 
+hashNode (hops)
+...values:and /  /  /  /  /  /  /  /  /  / 
+hashNode (can't)
+...values:win / let / sing / stand / tell / teach / find /  /  /  / 
+hashNode (afraid.)
+...values:They /  /  /  /  /  /  /  /  /  / 
+hashNode ("-please)
+...values:pardon /  /  /  /  /  /  /  /  /  / 
+hashNode (enough.)
+...values:That's / And /  /  /  /  /  /  /  /  / 
+hashNode (cars)
+...values:and /  /  /  /  /  /  /  /  /  / 
+hashNode (don't)
+...values:know / hopefully / see / like / know / ask /  /  /  /  / 
+hashNode (won't)
+...values:look / light /  /  /  /  /  /  /  /  / 
+hashNode (isn't)
+...values:so / all. / a /  /  /  /  /  /  /  / 
+hashNode (hissed,)
+...values:And /  /  /  /  /  /  /  /  /  / 
+hashNode (quick!)
+...values:"Why, /  /  /  /  /  /  /  /  /  / 
+hashNode (pass)
+...values:the /  /  /  /  /  /  /  /  /  / 
+hashNode (swimming)
+...values:by /  /  /  /  /  /  /  /  /  / 
+hashNode (mess)
+...values:was / is /  /  /  /  /  /  /  /  / 
+hashNode (Grinch)
+...values:hated / fingers / couldn't / thought / thought, / laughed / looked / simply / said, / even / grabbed / had / and / was / put / popped / thought / carved /  /  / 
+hashNode (more,")
+...values:snapped /  /  /  /  /  /  /  /  /  / 
+hashNode (YOU'LL)
+...values:GO! / MOVE /  /  /  /  /  /  /  /  / 
+hashNode (toss)
+...values:in /  /  /  /  /  /  /  /  /  / 
+hashNode (seat)
+...values:of /  /  /  /  /  /  /  /  /  / 
+hashNode (strange)
+...values:birds / hole /  /  /  /  /  /  /  /  / 
+hashNode (hundred)
+...values:and / per /  /  /  /  /  /  /  /  / 
+hashNode (That)
+...values:was / the / dares / plain / plain / is / Sam-I-am! / Sam-I-am! / is / the / day, / he / the /  /  /  /  /  /  /  / 
+hashNode (that)
+...values:day / you're / hack. / cold, / bump / is / cat / cat / i / is / is / is / is / is / is / i / they / are / they / i / were / went / day? / I / I / I / I'm / I / isn't / I / plain / thing / plain / plain / was / Marvelous / Sam-I-am! / handy / day, / one / one / day, / Sneetches / his / the / his / stop / icebox / Grinch / old / won't / was / no / day! /  /  /  /  /  /  /  /  /  /  /  /  /  /  /  /  /  /  /  /  /  /  /  /  /  /  / 
+hashNode (finished,)
+...values:I /  /  /  /  /  /  /  /  /  / 
+hashNode (lets)
+...values:something /  /  /  /  /  /  /  /  /  / 
+hashNode (what)
+...values:everyone / to / the / you / to / would / will / will / a / a / a / did / to / SHOULD / would / IS / you / I'll / one / one / to / they'll / happened /  /  /  /  /  /  /  /  /  /  /  /  /  /  /  /  /  / 
+hashNode (lots)
+...values:of / of /  /  /  /  /  /  /  /  / 
+hashNode (dots)
+...values:that /  /  /  /  /  /  /  /  /  / 
+hashNode (stack,)
+...values:Came / That /  /  /  /  /  /  /  /  / 
+hashNode (What)
+...values:a / a / a / a / you / a / a / he /  /  / 
+hashNode (grat)
+...values:king /  /  /  /  /  /  /  /  /  / 
+hashNode (coat)
+...values:and /  /  /  /  /  /  /  /  /  / 
+hashNode (Bad!')
+...values:Well, /  /  /  /  /  /  /  /  /  / 
+hashNode (hundred!")
+...values:"Turtles! /  /  /  /  /  /  /  /  /  / 
+hashNode (did!')
+...values:said /  /  /  /  /  /  /  /  /  / 
+hashNode (surprise!)
+...values:Every /  /  /  /  /  /  /  /  /  / 
+hashNode (jumped)
+...values:into /  /  /  /  /  /  /  /  /  / 
+hashNode (tact)
+...values:and /  /  /  /  /  /  /  /  /  / 
+hashNode (Majesty,)
+...values:please?" / please... /  /  /  /  /  /  /  /  / 
+hashNode (won't.)
+...values:I'm / I'm /  /  /  /  /  /  /  /  / 
+hashNode (stockings!")
+...values:he /  /  /  /  /  /  /  /  /  / 
+hashNode (HOW?")
+...values:Then /  /  /  /  /  /  /  /  /  / 
+hashNode (King?)
+...values:I /  /  /  /  /  /  /  /  /  / 
+hashNode ("Let)
+...values:me /  /  /  /  /  /  /  /  /  / 
+hashNode (Trees!)
+...values:The / Mile / All /  /  /  /  /  /  /  / 
+hashNode (trees!)
+...values:I'm /  /  /  /  /  /  /  /  /  / 
+hashNode (house!')
+...values:said / said /  /  /  /  /  /  /  /  / 
+hashNode (meet)
+...values:things /  /  /  /  /  /  /  /  /  / 
+hashNode (zipped)
+...values:up /  /  /  /  /  /  /  /  /  / 
+hashNode (feet)
+...values:And / And / up! /  /  /  /  /  /  /  / 
+hashNode (WHY?")
+...values:But, /  /  /  /  /  /  /  /  /  / 
+hashNode (bopped)
+...values:them /  /  /  /  /  /  /  /  /  / 
+hashNode (popped)
+...values:out, / his /  /  /  /  /  /  /  /  / 
+hashNode (houses)
+...values:Leaving /  /  /  /  /  /  /  /  /  / 
+hashNode (throat.)
+...values:"And / And /  /  /  /  /  /  /  /  / 
+hashNode (days)
+...values:when /  /  /  /  /  /  /  /  /  / 
+hashNode (says)
+...values:the /  /  /  /  /  /  /  /  /  / 
+hashNode (left)
+...values:in / or / at / 'neath / here / them / nothing / in /  /  / 
+hashNode (soft)
+...values:tuft, /  /  /  /  /  /  /  /  /  / 
+hashNode (slow.)
+...values:So / Some /  /  /  /  /  /  /  /  / 
+hashNode (know.)
+...values:You'll / I / They / Go /  /  /  /  /  /  / 
+hashNode (snow.)
+...values:It /  /  /  /  /  /  /  /  /  / 
+hashNode (grow.)
+...values:Everyone / But /  /  /  /  /  /  /  /  / 
+hashNode (without!)
+...values:Then, /  /  /  /  /  /  /  /  /  / 
+hashNode (higher)
+...values:than / than / still! /  /  /  /  /  /  /  / 
+hashNode (fear,)
+...values:little /  /  /  /  /  /  /  /  /  / 
+hashNode (grabbed)
+...values:the /  /  /  /  /  /  /  /  /  / 
+hashNode (slick,)
+...values:He /  /  /  /  /  /  /  /  /  / 
+hashNode (needs!")
+...values:And /  /  /  /  /  /  /  /  /  / 
+hashNode (look!')
+...values:then / and /  /  /  /  /  /  /  /  / 
+hashNode (Fruit)
+...values:to /  /  /  /  /  /  /  /  /  / 
+hashNode (hear!")
+...values:So /  /  /  /  /  /  /  /  /  / 
+hashNode (ordered)
+...values:nine /  /  /  /  /  /  /  /  /  / 
+hashNode (street.)
+...values:And /  /  /  /  /  /  /  /  /  / 
+hashNode (king!)
+...values:I'd / And /  /  /  /  /  /  /  /  / 
+hashNode (sing!)
+...values:And / And /  /  /  /  /  /  /  /  / 
+hashNode (a-bed,)
+...values:All /  /  /  /  /  /  /  /  /  / 
+hashNode (anything)
+...values:under /  /  /  /  /  /  /  /  /  / 
+hashNode (all!')
+...values:and /  /  /  /  /  /  /  /  /  / 
+hashNode (wrappings!)
+...values:The /  /  /  /  /  /  /  /  /  / 
+hashNode (trappings!)
+...values:Three /  /  /  /  /  /  /  /  /  / 
+hashNode (felt)
+...values:a / sad /  /  /  /  /  /  /  /  / 
+hashNode (not-so-good)
+...values:street. /  /  /  /  /  /  /  /  /  / 
+hashNode (Thneed!")
+...values:But /  /  /  /  /  /  /  /  /  / 
+hashNode (strangest)
+...values:of /  /  /  /  /  /  /  /  /  / 
+hashNode (somebody)
+...values:lifted /  /  /  /  /  /  /  /  /  / 
+hashNode (want)
+...values:to / to / 'bout / stars /  /  /  /  /  /  / 
+hashNode (over,)
+...values:"A /  /  /  /  /  /  /  /  /  / 
+hashNode (trees,)
+...values:I / for / The /  /  /  /  /  /  /  / 
+hashNode (went)
+...values:right / BUMP! / after / away / on / out / to / to / up /  / 
+hashNode (bent)
+...values:our /  /  /  /  /  /  /  /  /  / 
+hashNode (cent)
+...values:guaranteed! / Of /  /  /  /  /  /  /  /  / 
+hashNode (around)
+...values:back / for / for / here. / fast, /  /  /  /  /  / 
+hashNode (two!')
+...values:so, /  /  /  /  /  /  /  /  /  / 
+hashNode (sent)
+...values:her /  /  /  /  /  /  /  /  /  / 
+hashNode (Around)
+...values:the /  /  /  /  /  /  /  /  /  / 
+hashNode (ga-Zump!)
+...values:I /  /  /  /  /  /  /  /  /  / 
+hashNode (kept)
+...values:them / fixing / paying / running /  /  /  /  /  /  / 
+hashNode ("I'll)
+...values:fix /  /  /  /  /  /  /  /  /  / 
+hashNode (Bar-ba-loots)
+...values:frisking / who / are /  /  /  /  /  /  /  / 
+hashNode (Eight,)
+...values:nine, /  /  /  /  /  /  /  /  /  / 
+hashNode (tight,)
+...values:He /  /  /  /  /  /  /  /  /  / 
+hashNode (light,)
+...values:And /  /  /  /  /  /  /  /  /  / 
+hashNode (before!)
+...values:And / "Maybe /  /  /  /  /  /  /  /  / 
+hashNode (speed,)
+...values:I /  /  /  /  /  /  /  /  /  / 
+hashNode (O'Shea,)
+...values:You're /  /  /  /  /  /  /  /  /  / 
+hashNode (He'll)
+...values:tell /  /  /  /  /  /  /  /  /  / 
+hashNode (We'll)
+...values:have /  /  /  /  /  /  /  /  /  / 
+hashNode (each!)
+...values:Just /  /  /  /  /  /  /  /  /  / 
+hashNode (part)
+...values:of /  /  /  /  /  /  /  /  /  / 
+hashNode (rich!)
+...values:Get /  /  /  /  /  /  /  /  /  / 
+hashNode (yet!')
+...values:then /  /  /  /  /  /  /  /  /  / 
+hashNode (sort)
+...values:of /  /  /  /  /  /  /  /  /  / 
+hashNode (bit!')
+...values:'now / then /  /  /  /  /  /  /  /  / 
+hashNode (last)
+...values:Truffula / one / of / cent / can / thing /  /  /  /  / 
+hashNode (brainy)
+...values:and /  /  /  /  /  /  /  /  /  / 
+hashNode (lot!')
+...values:said /  /  /  /  /  /  /  /  /  / 
+hashNode (fast)
+...values:as / as / as /  /  /  /  /  /  /  / 
+hashNode (best)
+...values:of / kind / Sneetches / Sneetches / kind / on /  /  /  /  / 
+hashNode (rest)
+...values:of /  /  /  /  /  /  /  /  /  / 
+hashNode (past)
+...values:them / dawn... /  /  /  /  /  /  /  /  / 
+hashNode ("But)
+...values:now," /  /  /  /  /  /  /  /  /  / 
+hashNode (out!')
+...values:'now! / said /  /  /  /  /  /  /  /  / 
+hashNode (nine-turtle)
+...values:stack. /  /  /  /  /  /  /  /  /  / 
+hashNode (tummies!)
+...values:"They /  /  /  /  /  /  /  /  /  / 
+hashNode (gripes.)
+...values:"I /  /  /  /  /  /  /  /  /  / 
+hashNode (cost)
+...values:you /  /  /  /  /  /  /  /  /  / 
+hashNode (fresh)
+...values:morning / butterfly / air. /  /  /  /  /  /  /  / 
+hashNode (most)
+...values:likely / unpleasant, /  /  /  /  /  /  /  /  / 
+hashNode (flash.)
+...values:Why, /  /  /  /  /  /  /  /  /  / 
+hashNode ("PoohPooh)
+...values:to /  /  /  /  /  /  /  /  /  / 
+hashNode (must)
+...values:grow / we / stop /  /  /  /  /  /  /  / 
+hashNode (Just)
+...values:a / sitting / pay /  /  /  /  /  /  /  / 
+hashNode (just)
+...values:Mack, / the / north / right. / what / like / waking / what / the /  / 
+hashNode (Santa)
+...values:could /  /  /  /  /  /  /  /  /  / 
+hashNode ('but)
+...values:i /  /  /  /  /  /  /  /  /  / 
+hashNode (rather)
+...values:tight /  /  /  /  /  /  /  /  /  / 
+hashNode (shut)
+...values:with / up /  /  /  /  /  /  /  /  / 
+hashNode (hated!)
+...values:The /  /  /  /  /  /  /  /  /  / 
+hashNode (stockings)
+...values:all /  /  /  /  /  /  /  /  /  / 
+hashNode (hither)
+...values:and /  /  /  /  /  /  /  /  /  / 
+hashNode ('put)
+...values:me /  /  /  /  /  /  /  /  /  / 
+hashNode (mother)
+...values:will / was / is / is / is / could / is / is / will / came / asked /  /  /  /  /  /  /  /  /  / 
+hashNode (now!')
+...values:said /  /  /  /  /  /  /  /  /  / 
+hashNode (high!)
+...values:Ready /  /  /  /  /  /  /  /  /  / 
+hashNode (starving!")
+...values:groaned /  /  /  /  /  /  /  /  /  / 
+hashNode (cruffulous)
+...values:croak. /  /  /  /  /  /  /  /  /  / 
+hashNode (say!')
+...values:then /  /  /  /  /  /  /  /  /  / 
+hashNode (way!')
+...values:'so /  /  /  /  /  /  /  /  /  / 
+hashNode (snail.)
+...values:Then /  /  /  /  /  /  /  /  /  / 
+hashNode (shoes,)
+...values:He /  /  /  /  /  /  /  /  /  / 
+hashNode (next)
+...values:minute / week /  /  /  /  /  /  /  /  / 
+hashNode (Who-roast)
+...values:beast. /  /  /  /  /  /  /  /  /  / 
+hashNode (wondrous)
+...values:contraption /  /  /  /  /  /  /  /  /  / 
+hashNode (trick!")
+...values:"With /  /  /  /  /  /  /  /  /  / 
+hashNode (fall!')
+...values:'have /  /  /  /  /  /  /  /  /  / 
+hashNode (frightening)
+...values:creek, /  /  /  /  /  /  /  /  /  / 
+hashNode (chugs)
+...values:on, /  /  /  /  /  /  /  /  /  / 
+hashNode (throne,)
+...values:I /  /  /  /  /  /  /  /  /  / 
+hashNode (Grinchy)
+...values:frown, / trick!" / Claus /  /  /  /  /  /  /  / 
+hashNode (under)
+...values:the / the / the / the /  /  /  /  /  /  / 
+hashNode (waiting)
+...values:around / for / for / around / and /  /  /  /  /  / 
+hashNode (order)
+...values:and /  /  /  /  /  /  /  /  /  / 
+hashNode (roared)
+...values:And /  /  /  /  /  /  /  /  /  / 
+hashNode (stared)
+...values:at / down /  /  /  /  /  /  /  /  / 
+hashNode (gummed.)
+...values:So /  /  /  /  /  /  /  /  /  / 
+hashNode (factory.)
+...values:I /  /  /  /  /  /  /  /  /  / 
+hashNode (reindeer)
+...values:are /  /  /  /  /  /  /  /  /  / 
+hashNode (trees!")
+...values:"I'm /  /  /  /  /  /  /  /  /  / 
+hashNode (steer)
+...values:yourself /  /  /  /  /  /  /  /  /  / 
+hashNode (Swomee-Swans...)
+...values:why, /  /  /  /  /  /  /  /  /  / 
+hashNode (four,)
+...values:Five, /  /  /  /  /  /  /  /  /  / 
+hashNode (sour,)
+...values:Grinchy /  /  /  /  /  /  /  /  /  / 
+hashNode (blueberry)
+...values:bush /  /  /  /  /  /  /  /  /  / 
+hashNode (greater)
+...values:I'd /  /  /  /  /  /  /  /  /  / 
+hashNode ("These)
+...values:stockings," /  /  /  /  /  /  /  /  /  / 
+hashNode (friends.)
+...values:Do /  /  /  /  /  /  /  /  /  / 
+hashNode (shake)
+...values:hands / hands /  /  /  /  /  /  /  /  / 
+hashNode (along,)
+...values:and /  /  /  /  /  /  /  /  /  / 
+hashNode (Chappie.)
+...values:I've /  /  /  /  /  /  /  /  /  / 
+hashNode (play.)
+...values:so / he / they /  /  /  /  /  /  /  / 
+hashNode ('take)
+...values:a /  /  /  /  /  /  /  /  /  / 
+hashNode (stay.)
+...values:They'll /  /  /  /  /  /  /  /  /  / 
+hashNode (stranger)
+...values:zipped /  /  /  /  /  /  /  /  /  / 
+hashNode (away.)
+...values:What / He'll / I, / Through / i / yes. / then / Never /  /  / 
+hashNode (wonderful)
+...values:chance / view! / chair! /  /  /  /  /  /  /  / 
+hashNode ('these)
+...values:Things /  /  /  /  /  /  /  /  /  / 
+hashNode (Decided)
+...values:the / he'd /  /  /  /  /  /  /  /  / 
+hashNode (decided)
+...values:that /  /  /  /  /  /  /  /  /  / 
+hashNode (bees,)
+...values:to / The /  /  /  /  /  /  /  /  / 
+hashNode (other)
+...values:uses. / way / Whos' / Whos' /  /  /  /  /  /  / 
+hashNode (ramshackle)
+...values:sleigh /  /  /  /  /  /  /  /  /  / 
+hashNode (waiting,)
+...values:perhaps, /  /  /  /  /  /  /  /  /  / 
+hashNode ("You)
+...values:poor / stay / hush /  /  /  /  /  /  /  / 
+hashNode (lived,)
+...values:eating /  /  /  /  /  /  /  /  /  / 
+hashNode (crazy)
+...values:with /  /  /  /  /  /  /  /  /  / 
+hashNode (bags,)
+...values:one /  /  /  /  /  /  /  /  /  / 
+hashNode (fish!)
+...values:and /  /  /  /  /  /  /  /  /  / 
+hashNode (dish!)
+...values:and /  /  /  /  /  /  /  /  /  / 
+hashNode (sharpish)
+...values:and /  /  /  /  /  /  /  /  /  / 
+hashNode (tags!")
+...values:"It /  /  /  /  /  /  /  /  /  / 
+hashNode (together,)
+...values:with /  /  /  /  /  /  /  /  /  / 
+hashNode (bush!)
+...values:And /  /  /  /  /  /  /  /  /  / 
+hashNode (dreams)
+...values:without /  /  /  /  /  /  /  /  /  / 
+hashNode (bags!")
+...values:And /  /  /  /  /  /  /  /  /  / 
+hashNode ('you)
+...values:did /  /  /  /  /  /  /  /  /  / 
+hashNode (please.)
+...values:But /  /  /  /  /  /  /  /  /  / 
+hashNode (this,)
+...values:oh, /  /  /  /  /  /  /  /  /  / 
+hashNode (ruler)
+...values:of / of / of /  /  /  /  /  /  /  / 
+hashNode (hand-in-hand.)
+...values:And /  /  /  /  /  /  /  /  /  / 
+hashNode (funny!')
+...values:'i /  /  /  /  /  /  /  /  /  / 
+hashNode (teeth)
+...values:sounding /  /  /  /  /  /  /  /  /  / 
+hashNode (Until)
+...values:'long / neither /  /  /  /  /  /  /  /  / 
+hashNode (cough-)
+...values:they /  /  /  /  /  /  /  /  /  / 
+hashNode (remember)
+...values:that /  /  /  /  /  /  /  /  /  / 
+hashNode (splashing)
+...values:around. /  /  /  /  /  /  /  /  /  / 
+hashNode (thing!")
+...values:"Why, /  /  /  /  /  /  /  /  /  / 
+hashNode (getting)
+...values:the /  /  /  /  /  /  /  /  /  / 
+hashNode (Once-ler.)
+...values:Don't / He /  /  /  /  /  /  /  /  / 
+hashNode (sitting)
+...values:there /  /  /  /  /  /  /  /  /  / 
+hashNode (Whoville!)
+...values:The /  /  /  /  /  /  /  /  /  / 
+hashNode (exactly)
+...values:like /  /  /  /  /  /  /  /  /  / 
+hashNode ("With)
+...values:this /  /  /  /  /  /  /  /  /  / 
+hashNode (that?")
+...values:snapped /  /  /  /  /  /  /  /  /  / 
+hashNode (lungs"-)
+...values:he /  /  /  /  /  /  /  /  /  / 
+hashNode (shoulders)
+...values:and /  /  /  /  /  /  /  /  /  / 
+hashNode (Whos,)
+...values:Staring / young / still / still /  /  /  /  /  /  / 
+hashNode (Turtle!)
+...values:Oh, / Oh, /  /  /  /  /  /  /  /  / 
+hashNode ('with)
+...values:a / my /  /  /  /  /  /  /  /  / 
+hashNode (Whos!")
+...values:he /  /  /  /  /  /  /  /  /  / 
+hashNode (water)
+...values:that / was /  /  /  /  /  /  /  /  / 
+hashNode (creek,)
+...values:though /  /  /  /  /  /  /  /  /  / 
+hashNode (after)
+...values:mile / my / another, / year. /  /  /  /  /  /  / 
+hashNode (world's)
+...values:highest /  /  /  /  /  /  /  /  /  / 
+hashNode (carpets.)
+...values:For /  /  /  /  /  /  /  /  /  / 
+hashNode (Christmas...perhaps...means)
+...values:a /  /  /  /  /  /  /  /  /  / 
+hashNode (month...)
+...values:or /  /  /  /  /  /  /  /  /  / 
+hashNode (handy)
+...values:machine /  /  /  /  /  /  /  /  /  / 
+hashNode (spoke)
+...values:with /  /  /  /  /  /  /  /  /  / 
+hashNode (clambered)
+...values:inside. /  /  /  /  /  /  /  /  /  / 
+hashNode (Lorax...)
+...values:and /  /  /  /  /  /  /  /  /  / 
+hashNode (machines)
+...values:they /  /  /  /  /  /  /  /  /  / 
+hashNode (never)
+...values:can / forget / invited / will /  /  /  /  /  /  / 
+hashNode (one's)
+...values:back /  /  /  /  /  /  /  /  /  / 
+hashNode (Never)
+...values:let /  /  /  /  /  /  /  /  /  / 
+hashNode (me!")
+...values:But, /  /  /  /  /  /  /  /  /  / 
+hashNode (do!")
+...values:The / "Their /  /  /  /  /  /  /  /  / 
+hashNode (go!")
+...values:Then /  /  /  /  /  /  /  /  /  / 
+hashNode (tuft?")
+...values:"Look, /  /  /  /  /  /  /  /  /  / 
+hashNode (what,)
+...values:or /  /  /  /  /  /  /  /  /  / 
+hashNode (water.)
+...values:And / She /  /  /  /  /  /  /  /  / 
+hashNode (island)
+...values:of /  /  /  /  /  /  /  /  /  / 
+hashNode (Lorax)
+...values:once / away. / was / got / said, / who / came / said / left / seems / and /  /  /  /  /  /  /  /  /  / 
+hashNode (head.)
+...values:THEN /  /  /  /  /  /  /  /  /  / 
+hashNode (glad.)
+...values:And /  /  /  /  /  /  /  /  /  / 
+hashNode (Star-Bellies)
+...values:knew /  /  /  /  /  /  /  /  /  / 
+hashNode (parties)
+...values:or /  /  /  /  /  /  /  /  /  / 
+hashNode (already)
+...values:know. /  /  /  /  /  /  /  /  /  / 
+hashNode ("Turtles!)
+...values:More /  /  /  /  /  /  /  /  /  / 
+hashNode ('neath)
+...values:the /  /  /  /  /  /  /  /  /  / 
+hashNode ("This)
+...values:is /  /  /  /  /  /  /  /  /  / 
+hashNode (feet,)
+...values:you're /  /  /  /  /  /  /  /  /  / 
+hashNode (forth)
+...values:to /  /  /  /  /  /  /  /  /  / 
+hashNode (north)
+...values:of /  /  /  /  /  /  /  /  /  / 
+hashNode (says,)
+...values:with /  /  /  /  /  /  /  /  /  / 
+hashNode (weren't)
+...values:so /  /  /  /  /  /  /  /  /  / 
+hashNode (Seed.)
+...values:It's /  /  /  /  /  /  /  /  /  / 
+hashNode (need.)
+...values:And / And /  /  /  /  /  /  /  /  / 
+hashNode (boys,)
+...values:Would /  /  /  /  /  /  /  /  /  / 
+hashNode (Lorax.)
+...values:And / I / (His /  /  /  /  /  /  /  / 
+hashNode ('this)
+...values:is /  /  /  /  /  /  /  /  /  / 
+hashNode (tuft,)
+...values:and /  /  /  /  /  /  /  /  /  / 
+hashNode (outside)
+...values:in /  /  /  /  /  /  /  /  /  / 
+hashNode (GRINCH)
+...values:GOT /  /  /  /  /  /  /  /  /  / 
+hashNode (South)
+...values:Stitch." /  /  /  /  /  /  /  /  /  / 
+hashNode (built)
+...values:a / a / a /  /  /  /  /  /  /  / 
+hashNode (who's)
+...values:who. /  /  /  /  /  /  /  /  /  / 
+hashNode (ice-cold)
+...values:in /  /  /  /  /  /  /  /  /  / 
+hashNode (he'd)
+...values:taken /  /  /  /  /  /  /  /  /  / 
+hashNode ("They)
+...values:loved /  /  /  /  /  /  /  /  /  / 
+hashNode (biggered)
+...values:my / my / my / the / my /  /  /  /  /  / 
+hashNode (while)
+...values:splashing / my / I / he / the /  /  /  /  /  / 
+hashNode (so,")
+...values:said /  /  /  /  /  /  /  /  /  / 
+hashNode (smile)
+...values:most /  /  /  /  /  /  /  /  /  / 
+hashNode (leaving)
+...values:a /  /  /  /  /  /  /  /  /  / 
+hashNode (up-up-up)
+...values:with /  /  /  /  /  /  /  /  /  / 
+hashNode (Leaving)
+...values:crumbs /  /  /  /  /  /  /  /  /  / 
+hashNode (Who'd)
+...values:got /  /  /  /  /  /  /  /  /  / 
+hashNode ('they)
+...values:are / like / should /  /  /  /  /  /  /  / 
+hashNode (smacker.)
+...values:We /  /  /  /  /  /  /  /  /  / 
+hashNode ("It's)
+...values:a /  /  /  /  /  /  /  /  /  / 
+hashNode (crumbs)
+...values:Much /  /  /  /  /  /  /  /  /  / 
+hashNode (snuffled.)
+...values:He /  /  /  /  /  /  /  /  /  / 
+hashNode (can’t)
+...values:say. /  /  /  /  /  /  /  /  /  / 
+hashNode (sickening)
+...values:smack /  /  /  /  /  /  /  /  /  / 
+hashNode (all...')
+...values:that /  /  /  /  /  /  /  /  /  / 
+hashNode (icebox)
+...values:as /  /  /  /  /  /  /  /  /  / 
+hashNode (Don’t)
+...values:ask /  /  /  /  /  /  /  /  /  / 
+hashNode (something)
+...values:you'll / pop / fall. / to / went / new. / to / new. / the / He / he /  /  /  /  /  /  /  /  /  / 
+hashNode (sawdusty)
+...values:sneeze, /  /  /  /  /  /  /  /  /  / 
+hashNode (mind.)
+...values:You /  /  /  /  /  /  /  /  /  / 
+hashNode (pond.)
+...values:A / It /  /  /  /  /  /  /  /  / 
+hashNode (forest.)
+...values:Protect /  /  /  /  /  /  /  /  /  / 
+hashNode (machine)
+...values:chugs / roared / Working /  /  /  /  /  /  /  / 
+hashNode (knew)
+...values:just / Whether / every /  /  /  /  /  /  /  / 
+hashNode (Grew)
+...values:three /  /  /  /  /  /  /  /  /  / 
+hashNode (food.)
+...values:And / We /  /  /  /  /  /  /  /  / 
+hashNode (creatures)
+...values:should /  /  /  /  /  /  /  /  /  / 
+hashNode (whole)
+...values:gang / wide / Once-ler / Once-ler / awful / Christmas / thing!" / room, /  /  / 
+hashNode (Whole)
+...values:families /  /  /  /  /  /  /  /  /  / 
+hashNode (highest)
+...values:turtle. /  /  /  /  /  /  /  /  /  / 
+hashNode (likely)
+...values:reason /  /  /  /  /  /  /  /  /  / 
+hashNode (money)
+...values:and / was /  /  /  /  /  /  /  /  / 
+hashNode (play,')
+...values:said /  /  /  /  /  /  /  /  /  / 
+hashNode (fast,)
+...values:and /  /  /  /  /  /  /  /  /  / 
+hashNode (break-necking)
+...values:pace /  /  /  /  /  /  /  /  /  / 
+hashNode (hard.)
+...values:I /  /  /  /  /  /  /  /  /  / 
+hashNode (yellow)
+...values:hat. /  /  /  /  /  /  /  /  /  / 
+hashNode (miff-muffered)
+...values:moof. /  /  /  /  /  /  /  /  /  / 
+hashNode (search)
+...values:of /  /  /  /  /  /  /  /  /  / 
+hashNode (looked!)
+...values:then / and /  /  /  /  /  /  /  /  / 
+hashNode (anywhere.)
+...values:I / I / I / I / I / I /  /  /  /  / 
+hashNode (money.)
+...values:They /  /  /  /  /  /  /  /  /  / 
+hashNode (sneer,)
+...values:"Tomorrow /  /  /  /  /  /  /  /  /  / 
+hashNode (round?)
+...values:Then /  /  /  /  /  /  /  /  /  / 
+hashNode ("How)
+...values:could /  /  /  /  /  /  /  /  /  / 
+hashNode (unhappy.)
+...values:But /  /  /  /  /  /  /  /  /  / 
+hashNode ("Now)
+...values:I'll / listen / that /  /  /  /  /  /  /  / 
+hashNode (radio-phone.)
+...values:I /  /  /  /  /  /  /  /  /  / 
+hashNode (grinch-feet)
+...values:ice-cold /  /  /  /  /  /  /  /  /  / 
+hashNode (lifted)
+...values:the / and / away. / and / himself / his / his /  /  /  / 
+hashNode (worked!)
+...values:When /  /  /  /  /  /  /  /  /  / 
+hashNode (glee.)
+...values:"And /  /  /  /  /  /  /  /  /  / 
+hashNode (tree.)
+...values:I / Then / Not / I / They /  /  /  /  /  / 
+hashNode (show)
+...values:up / you. / them / you / to / you /  /  /  /  / 
+hashNode ('how)
+...values:i / do /  /  /  /  /  /  /  /  / 
+hashNode ("Giddap!")
+...values:And /  /  /  /  /  /  /  /  /  / 
+hashNode (know)
+...values:you'll / if / it / some / some / what / how. / what / what / who's / what / who / just / just /  /  /  /  /  /  / 
+hashNode ('now)
+...values:look / look / look / you /  /  /  /  /  /  / 
+hashNode (flip-flapping,)
+...values:once /  /  /  /  /  /  /  /  /  / 
+hashNode (snow)
+...values:filled /  /  /  /  /  /  /  /  /  / 
+hashNode (grow)
+...values:regardless / bigger.So /  /  /  /  /  /  /  /  / 
+hashNode (Grow)
+...values:a /  /  /  /  /  /  /  /  /  / 
+hashNode (anywhere!)
+...values:You / I /  /  /  /  /  /  /  /  / 
+hashNode (other,)
+...values:it /  /  /  /  /  /  /  /  /  / 
+hashNode (asnooze)
+...values:in / When /  /  /  /  /  /  /  /  / 
+hashNode (smoke-smuggered)
+...values:stars. /  /  /  /  /  /  /  /  /  / 
+hashNode (darkening)
+...values:skies. /  /  /  /  /  /  /  /  /  / 
+hashNode (there?)
+...values:And / I /  /  /  /  /  /  /  /  / 
+hashNode ("SILENCE!")
+...values:the /  /  /  /  /  /  /  /  /  / 
+hashNode (chimney)
+...values:with / and /  /  /  /  /  /  /  /  / 
+hashNode (down!')
+...values:said / said /  /  /  /  /  /  /  /  / 
+hashNode (back!)
+...values:I /  /  /  /  /  /  /  /  /  / 
+hashNode (one,")
+...values:the /  /  /  /  /  /  /  /  /  / 
+hashNode (smoke!)
+...values:My /  /  /  /  /  /  /  /  /  / 
+hashNode (tinsel!)
+...values:The /  /  /  /  /  /  /  /  /  / 
+hashNode (klonked.)
+...values:And /  /  /  /  /  /  /  /  /  / 
+hashNode (shall)
+...values:be / not /  /  /  /  /  /  /  /  / 
+hashNode (small)
+...values:shop. / pile / sound / Who! / for / For / heart /  /  /  / 
+hashNode (Who-pudding,)
+...values:and /  /  /  /  /  /  /  /  /  / 
+hashNode ("Listen)
+...values:here! /  /  /  /  /  /  /  /  /  / 
+hashNode (reason,)
+...values:His /  /  /  /  /  /  /  /  /  / 
+hashNode (so?")
+...values:"It /  /  /  /  /  /  /  /  /  / 
+hashNode (cake.)
+...values:you /  /  /  /  /  /  /  /  /  / 
+hashNode (rake.)
+...values:you /  /  /  /  /  /  /  /  /  / 
+hashNode (NOT!)
+...values:The /  /  /  /  /  /  /  /  /  / 
+hashNode (marvelous)
+...values:me! / me! /  /  /  /  /  /  /  /  / 
+hashNode (Marvelous)
+...values:he, /  /  /  /  /  /  /  /  /  / 
+hashNode (terribly)
+...values:mad. /  /  /  /  /  /  /  /  /  / 
+hashNode (pile.)
+...values:What /  /  /  /  /  /  /  /  /  / 
+hashNode (chimney,)
+...values:himself, /  /  /  /  /  /  /  /  /  / 
+hashNode (IDEA!)
+...values:"I /  /  /  /  /  /  /  /  /  / 
+hashNode (tame.)
+...values:oh, /  /  /  /  /  /  /  /  /  / 
+hashNode (rule.)
+...values:I'm /  /  /  /  /  /  /  /  /  / 
+hashNode (came.)
+...values:They /  /  /  /  /  /  /  /  /  / 
+hashNode (shell)
+...values:of /  /  /  /  /  /  /  /  /  / 
+hashNode (come.)
+...values:she / We /  /  /  /  /  /  /  /  / 
+hashNode (smell)
+...values:of /  /  /  /  /  /  /  /  /  / 
+hashNode (NOW!)
+...values:it /  /  /  /  /  /  /  /  /  / 
+hashNode (small.)
+...values:"I'm / You / Whatever /  /  /  /  /  /  /  / 
+hashNode (done.)
+...values:So, /  /  /  /  /  /  /  /  /  / 
+hashNode (North!)
+...values:I /  /  /  /  /  /  /  /  /  / 
+hashNode (happily)
+...values:bought / lived, /  /  /  /  /  /  /  /  / 
+hashNode (learn.)
+...values:No. /  /  /  /  /  /  /  /  /  / 
+hashNode (behind?)
+...values:Simple /  /  /  /  /  /  /  /  /  / 
+hashNode (heaven!)
+...values:I /  /  /  /  /  /  /  /  /  / 
+hashNode (beaks)
+...values:and /  /  /  /  /  /  /  /  /  / 
+hashNode (Whoville)
+...values:Liked / beneath, / will / they /  /  /  /  /  /  / 
+hashNode (Grinch.)
+...values:He /  /  /  /  /  /  /  /  /  / 
+hashNode (THEN)
+...values:on, / They'd / He /  /  /  /  /  /  /  / 
+hashNode (mistletoe)
+...values:wreath. /  /  /  /  /  /  /  /  /  / 
+hashNode (dark?)
+...values:Here / I /  /  /  /  /  /  /  /  / 
+hashNode (skill)
+...values:and /  /  /  /  /  /  /  /  /  / 
+hashNode (care.)
+...values:Give / When /  /  /  /  /  /  /  /  / 
+hashNode (meant)
+...values:no /  /  /  /  /  /  /  /  /  / 
+hashNode (here.)
+...values:Ask / But / So / "What's / he / oh, /  /  /  /  / 
+hashNode (still)
+...values:see, / lives / green / wet / clean, / the / a-bed, / asnooze /  /  / 
+hashNode (Plant)
+...values:a /  /  /  /  /  /  /  /  /  / 
+hashNode (wire.)
+...values:And /  /  /  /  /  /  /  /  /  / 
+hashNode (Star-off)
+...values:Machine. /  /  /  /  /  /  /  /  /  / 
+hashNode (star-off)
+...values:machine. /  /  /  /  /  /  /  /  /  / 
+hashNode (patted)
+...values:her /  /  /  /  /  /  /  /  /  / 
+hashNode (more.)
+...values:But / Where /  /  /  /  /  /  /  /  / 
+hashNode (South!)
+...values:To /  /  /  /  /  /  /  /  /  / 
+hashNode (sore.)
+...values:Then /  /  /  /  /  /  /  /  /  / 
+hashNode (kicks)
+...values:and /  /  /  /  /  /  /  /  /  / 
+hashNode (Once-ler)
+...values:still / Family / Family / man, /  /  /  /  /  /  / 
+hashNode (nose.)
+...values:"Now /  /  /  /  /  /  /  /  /  / 
+hashNode ("Where)
+...values:will /  /  /  /  /  /  /  /  /  / 
+hashNode (Lerkim,)
+...values:cold /  /  /  /  /  /  /  /  /  / 
+hashNode (peeks)
+...values:out /  /  /  /  /  /  /  /  /  / 
+hashNode (eleven!)
+...values:Eleven! /  /  /  /  /  /  /  /  /  / 
+hashNode (Eleven!)
+...values:This /  /  /  /  /  /  /  /  /  / 
+hashNode (mighty)
+...values:rich! / King /  /  /  /  /  /  /  /  / 
+hashNode (look!)
+...values:i / with /  /  /  /  /  /  /  /  / 
+hashNode (blue.)
+...values:Some /  /  /  /  /  /  /  /  /  / 
+hashNode (flue.)
+...values:Where /  /  /  /  /  /  /  /  /  / 
+hashNode (plane)
+...values:to /  /  /  /  /  /  /  /  /  / 
+hashNode (Sala-ma-Sond,)
+...values:Yertle / Fell /  /  /  /  /  /  /  /  / 
+hashNode (speedy)
+...values:speed, /  /  /  /  /  /  /  /  /  / 
+hashNode (true.)
+...values:But /  /  /  /  /  /  /  /  /  / 
+hashNode (Lorax,)
+...values:"You / "I / "-please / "Now / I'm /  /  /  /  /  / 
+hashNode (there's)
+...values:a / not /  /  /  /  /  /  /  /  / 
+hashNode (There's)
+...values:nothing, /  /  /  /  /  /  /  /  /  / 
+hashNode (dove.)
+...values:He /  /  /  /  /  /  /  /  /  / 
+hashNode (dark!)
+...values:Would / Not /  /  /  /  /  /  /  /  / 
+hashNode (Roller)
+...values:skates! /  /  /  /  /  /  /  /  /  / 
+hashNode (tot,")
+...values:the /  /  /  /  /  /  /  /  /  / 
+hashNode (sea!)
+...values:There's /  /  /  /  /  /  /  /  /  / 
+hashNode (beaches.)
+...values:With / They /  /  /  /  /  /  /  /  / 
+hashNode (faint)
+...values:sigh. /  /  /  /  /  /  /  /  /  / 
+hashNode (Saint)
+...values:Nick!" /  /  /  /  /  /  /  /  /  / 
+hashNode (>From)
+...values:all /  /  /  /  /  /  /  /  /  / 
+hashNode (you,"he)
+...values:says, /  /  /  /  /  /  /  /  /  / 
+hashNode (clouds)
+...values:were /  /  /  /  /  /  /  /  /  / 
+hashNode (now,")
+...values:says /  /  /  /  /  /  /  /  /  / 
+hashNode (throne)
+...values:that / shall / in / higher! / of / and /  /  /  /  / 
+hashNode (Bad!)
+...values:Bad! / Bad!' /  /  /  /  /  /  /  /  / 
+hashNode (sad!)
+...values:Why, /  /  /  /  /  /  /  /  /  / 
+hashNode (presents!)
+...values:The /  /  /  /  /  /  /  /  /  / 
+hashNode (bed!)
+...values:then /  /  /  /  /  /  /  /  /  / 
+hashNode (sleigh)
+...values:And / started /  /  /  /  /  /  /  /  / 
+hashNode (everywhere.)
+...values:Here /  /  /  /  /  /  /  /  /  / 
+hashNode (drumming,)
+...values:"I /  /  /  /  /  /  /  /  /  / 
+hashNode (see!)
+...values:So /  /  /  /  /  /  /  /  /  / 
+hashNode (please.")
+...values:I /  /  /  /  /  /  /  /  /  / 
+hashNode (One!)
+...values:and /  /  /  /  /  /  /  /  /  / 
+hashNode (one!)
+...values:they /  /  /  /  /  /  /  /  /  / 
+hashNode (Plain-Belly)
+...values:Sneetches-Had / sort! / children / Sneetches. / Sneetches / Sneetches /  /  /  /  / 
+hashNode (play)
+...values:lonely / against / ball. / ball, / if /  /  /  /  /  / 
+hashNode (good,')
+...values:said /  /  /  /  /  /  /  /  /  / 
+hashNode (Bray)
+...values:or /  /  /  /  /  /  /  /  /  / 
+hashNode (stay)
+...values:out? / in /  /  /  /  /  /  /  /  / 
+hashNode (away)
+...values:in / under / with /  /  /  /  /  /  /  / 
+hashNode (something!)
+...values:fast!' /  /  /  /  /  /  /  /  /  / 
+hashNode ('way)
+...values:down /  /  /  /  /  /  /  /  /  / 
+hashNode ('round.)
+...values:And /  /  /  /  /  /  /  /  /  / 
+hashNode (around.)
+...values:But, /  /  /  /  /  /  /  /  /  / 
+hashNode (hooks)
+...values:and /  /  /  /  /  /  /  /  /  / 
+hashNode (fifteen)
+...values:cents /  /  /  /  /  /  /  /  /  / 
+hashNode (coming!)
+...values:But / IT /  /  /  /  /  /  /  /  / 
+hashNode (sneakers)
+...values:may /  /  /  /  /  /  /  /  /  / 
+hashNode (places)
+...values:where / you'll / beyond. /  /  /  /  /  /  /  / 
+hashNode (someone)
+...values:like /  /  /  /  /  /  /  /  /  / 
+hashNode (watching)
+...values:you /  /  /  /  /  /  /  /  /  / 
+hashNode (shame!)
+...values:what / what /  /  /  /  /  /  /  /  / 
+hashNode (shine.)
+...values:it /  /  /  /  /  /  /  /  /  / 
+hashNode (Sneetches.)
+...values:They / Off /  /  /  /  /  /  /  /  / 
+hashNode (They)
+...values:may / jumped / were... / trembled. / shook. / obeyed. / are / were / never / left / kept / actually / had / kept / kept / never / run / would /  /  / 
+hashNode (they)
+...values:want / ran / said, / should / have / will / like,' / should / will / will / ran / ran / play! / were / came. / came / climbed / are. / had / would / met / were / treated / clambered / had / yelled / are / all / paraded / opened / let / raced / decided / had / Sad / come / have / say, /  /  / 
+hashNode ("Maybe)
+...values:Christmas," / Christmas...perhaps...means /  /  /  /  /  /  /  /  / 
+hashNode (lurks)
+...values:in /  /  /  /  /  /  /  /  /  / 
+hashNode (moof.)
+...values:And /  /  /  /  /  /  /  /  /  / 
+hashNode (useful.)
+...values:This /  /  /  /  /  /  /  /  /  / 
+hashNode (far-away)
+...values:island /  /  /  /  /  /  /  /  /  / 
+hashNode (Alone)
+...values:will /  /  /  /  /  /  /  /  /  / 
+hashNode (alone)
+...values:on /  /  /  /  /  /  /  /  /  / 
+hashNode (stone)
+...values:for / And, /  /  /  /  /  /  /  /  / 
+hashNode ("Why)
+...values:are /  /  /  /  /  /  /  /  /  / 
+hashNode (clothes)
+...values:out /  /  /  /  /  /  /  /  /  / 
+hashNode (all!)
+...values:No / You're / put / oh, / Every / He /  /  /  /  / 
+hashNode (FEAST!)
+...values:FEAST! / They /  /  /  /  /  /  /  /  / 
+hashNode (ball!)
+...values:but / but /  /  /  /  /  /  /  /  / 
+hashNode (fall!)
+...values:and /  /  /  /  /  /  /  /  /  / 
+hashNode (wall!)
+...values:bump! /  /  /  /  /  /  /  /  /  / 
+hashNode (Sam!)
+...values:Let / If /  /  /  /  /  /  /  /  / 
+hashNode (ham!)
+...values:I / I / Thank /  /  /  /  /  /  /  / 
+hashNode (fingers!)
+...values:One, /  /  /  /  /  /  /  /  /  / 
+hashNode (will!)
+...values:I'll /  /  /  /  /  /  /  /  /  / 
+hashNode (him!)
+...values:the /  /  /  /  /  /  /  /  /  / 
+hashNode ('why)
+...values:do /  /  /  /  /  /  /  /  /  / 
+hashNode (man!)
+...values:and /  /  /  /  /  /  /  /  /  / 
+hashNode (fan!)
+...values:i /  /  /  /  /  /  /  /  /  / 
+hashNode (count)
+...values:to /  /  /  /  /  /  /  /  /  / 
+hashNode (their)
+...values:hair / Uncle / Bar-ba-loot / tufts / Bar-ba-loot / tummies! / gills / future / fins / two / kites / snoots / bellies / tummies / beaks / stars / money / town. / stockings!" / toys! / town. / windows / last / fire! / walls / presents! /  /  /  /  /  /  /  /  /  /  /  /  /  /  / 
+hashNode (money,)
+...values:which /  /  /  /  /  /  /  /  /  / 
+hashNode (hummed!)
+...values:No /  /  /  /  /  /  /  /  /  / 
+hashNode (mother.)
+...values:Say! /  /  /  /  /  /  /  /  /  / 
+hashNode (decide)
+...values:where /  /  /  /  /  /  /  /  /  / 
+hashNode (Star-Belly)
+...values:Sneetches / Sneetches / children / Sneetches / Sneetch? /  /  /  /  /  / 
+hashNode (We're)
+...values:the / exactly / all / still /  /  /  /  /  /  / 
+hashNode (who!)
+...values:Now /  /  /  /  /  /  /  /  /  / 
+hashNode ('no!)
+...values:no! / no! / not /  /  /  /  /  /  /  / 
+hashNode (too!)
+...values:Every /  /  /  /  /  /  /  /  /  / 
+hashNode (Who!)
+...values:Little /  /  /  /  /  /  /  /  /  / 
+hashNode (prices)
+...values:are /  /  /  /  /  /  /  /  /  / 
+hashNode (charge)
+...values:of / of /  /  /  /  /  /  /  /  / 
+hashNode (square.)
+...values:"This /  /  /  /  /  /  /  /  /  / 
+hashNode (only)
+...values:a / could / once, /  /  /  /  /  /  /  / 
+hashNode ("You've)
+...values:no /  /  /  /  /  /  /  /  /  / 
+hashNode (car!)
+...values:You / Sam! / You /  /  /  /  /  /  /  / 
+hashNode (air!)
+...values:Ah, /  /  /  /  /  /  /  /  /  / 
+hashNode (thousand)
+...values:feet /  /  /  /  /  /  /  /  /  / 
+hashNode (knew,)
+...values:all /  /  /  /  /  /  /  /  /  / 
+hashNode (many)
+...values:a / strange / fingers /  /  /  /  /  /  /  / 
+hashNode (Yes!)
+...values:You /  /  /  /  /  /  /  /  /  / 
+hashNode (house?)
+...values:why, / Would /  /  /  /  /  /  /  /  / 
+hashNode (tiny)
+...values:Who /  /  /  /  /  /  /  /  /  / 
+hashNode (mouse?)
+...values:I /  /  /  /  /  /  /  /  /  / 
+hashNode (precisely)
+...values:Removed /  /  /  /  /  /  /  /  /  / 
+hashNode (mouth!")
+...values:howled /  /  /  /  /  /  /  /  /  / 
+hashNode (mat!)
+...values:we /  /  /  /  /  /  /  /  /  / 
+hashNode (hat!)
+...values:and / but / i /  /  /  /  /  /  /  / 
+hashNode (Things.')
+...values:and /  /  /  /  /  /  /  /  /  / 
+hashNode (cat!)
+...values:'have / I'm / But /  /  /  /  /  /  /  / 
+hashNode (sit!)
+...values:sit! / and /  /  /  /  /  /  /  /  / 
+hashNode (hit!)
+...values:oh, /  /  /  /  /  /  /  /  /  / 
+hashNode ("Tomorrow)
+...values:is /  /  /  /  /  /  /  /  /  / 
+hashNode (pot!)
+...values:he /  /  /  /  /  /  /  /  /  / 
+hashNode (not!)
+...values:put /  /  /  /  /  /  /  /  /  / 
+hashNode (thumps)
+...values:and /  /  /  /  /  /  /  /  /  / 
+hashNode (out!)
+...values:put /  /  /  /  /  /  /  /  /  / 
+hashNode (like,')
+...values:said /  /  /  /  /  /  /  /  /  / 
+hashNode (you!)
+...values:Somehow / "You're / Thank / You /  /  /  /  /  /  / 
+hashNode (reindeer,)
+...values:I'll /  /  /  /  /  /  /  /  /  / 
+hashNode (calls)
+...values:the /  /  /  /  /  /  /  /  /  / 
+hashNode (walls)
+...values:he /  /  /  /  /  /  /  /  /  / 
+hashNode (game,')
+...values:said /  /  /  /  /  /  /  /  /  / 
+hashNode (tells)
+...values:how /  /  /  /  /  /  /  /  /  / 
+hashNode (bells)
+...values:ringing. /  /  /  /  /  /  /  /  /  / 
+hashNode (very)
+...values:good / clear, / upset / next / moment, / last / sad, / peculiar / sly / precisely / bad. / nimbly, /  /  /  /  /  /  /  /  / 
+hashNode (gills)
+...values:are /  /  /  /  /  /  /  /  /  / 
+hashNode (starting)
+...values:to /  /  /  /  /  /  /  /  /  / 
+hashNode (ringing.)
+...values:They'd /  /  /  /  /  /  /  /  /  / 
+hashNode (Fine-Something-That-All-People-Need!)
+...values:It's /  /  /  /  /  /  /  /  /  / 
+hashNode (heights.)
+...values:You /  /  /  /  /  /  /  /  /  / 
+hashNode (pulls)
+...values:up /  /  /  /  /  /  /  /  /  / 
+hashNode (Lorax,")
+...values:I / he /  /  /  /  /  /  /  /  / 
+hashNode (head)
+...values:full / straight / of / of / in / wasn't / out /  /  /  / 
+hashNode (now!)
+...values:have /  /  /  /  /  /  /  /  /  / 
+hashNode (right-and-three-quarters?)
+...values:Or, /  /  /  /  /  /  /  /  /  / 
+hashNode (build)
+...values:my /  /  /  /  /  /  /  /  /  / 
+hashNode (cow!)
+...values:And / And /  /  /  /  /  /  /  /  / 
+hashNode (glad)
+...values:and /  /  /  /  /  /  /  /  /  / 
+hashNode (road)
+...values:between / to /  /  /  /  /  /  /  /  / 
+hashNode (NOISE!)
+...values:NOISE! / Then /  /  /  /  /  /  /  /  / 
+hashNode (load)
+...values:to / through /  /  /  /  /  /  /  /  / 
+hashNode (style,)
+...values:said /  /  /  /  /  /  /  /  /  / 
+hashNode (still!)
+...values:I'll /  /  /  /  /  /  /  /  /  / 
+hashNode (busy)
+...values:as / now, /  /  /  /  /  /  /  /  / 
+hashNode (way!)
+...values:At /  /  /  /  /  /  /  /  /  / 
+hashNode (Say!)
+...values:In / I / I / What / Look /  /  /  /  /  / 
+hashNode (them!)
+...values:at / Eat / Here / Try / And /  /  /  /  /  / 
+hashNode (day!)
+...values:And /  /  /  /  /  /  /  /  /  / 
+hashNode (sky!)
+...values:"Hooray!" /  /  /  /  /  /  /  /  /  / 
+hashNode (sounding)
+...values:gray, /  /  /  /  /  /  /  /  /  / 
+hashNode (guy!)
+...values:You /  /  /  /  /  /  /  /  /  / 
+hashNode (staying)
+...values:You'll /  /  /  /  /  /  /  /  /  / 
+hashNode (small,)
+...values:Would / Was /  /  /  /  /  /  /  /  / 
+hashNode (quite?)
+...values:Or /  /  /  /  /  /  /  /  /  / 
+hashNode (Super-Axe-Hacker)
+...values:which /  /  /  /  /  /  /  /  /  / 
+hashNode (ChristmasSing,)
+...values:The /  /  /  /  /  /  /  /  /  / 
+hashNode (child.)
+...values:Then /  /  /  /  /  /  /  /  /  / 
+hashNode (feed)
+...values:it /  /  /  /  /  /  /  /  /  / 
+hashNode (escape)
+...values:all / from /  /  /  /  /  /  /  /  / 
+hashNode (need)
+...values:food. / 'bout / is / is /  /  /  /  /  /  / 
+hashNode (tied)
+...values:a /  /  /  /  /  /  /  /  /  / 
+hashNode (dear.")
+...values:"I'll /  /  /  /  /  /  /  /  /  / 
+hashNode (know,)
+...values:up / they / that /  /  /  /  /  /  /  / 
+hashNode (proved)
+...values:he /  /  /  /  /  /  /  /  /  / 
+hashNode (snow,)
+...values:Stood /  /  /  /  /  /  /  /  /  / 
+hashNode (away...)
+...values:It /  /  /  /  /  /  /  /  /  / 
+hashNode (factory)
+...values:I /  /  /  /  /  /  /  /  /  / 
+hashNode (from?)
+...values:I /  /  /  /  /  /  /  /  /  / 
+hashNode (girls)
+...values:and /  /  /  /  /  /  /  /  /  / 
+hashNode (Christmas)
+...values:a / season! / Eve, / from / bells / from / tree? / is / from /  / 
+hashNode (Thneeds.)
+...values:And / No /  /  /  /  /  /  /  /  / 
+hashNode (Who-hash!)
+...values:Then /  /  /  /  /  /  /  /  /  / 
+hashNode (friends)
+...values:may /  /  /  /  /  /  /  /  /  / 
+hashNode (carved)
+...values:the /  /  /  /  /  /  /  /  /  / 
+hashNode (Chappie)
+...values:kept / packed /  /  /  /  /  /  /  /  / 
+hashNode (said)
+...values:with / the / nothing. / to / the / the / the / the / the / the / the / the / the / our / the / the / the / the / the / the / the / the / the / the / the / the / the / to / the / the / the / to / Yertle, / with / McBean. /  /  /  /  /  / 
+hashNode ('did)
+...values:you /  /  /  /  /  /  /  /  /  / 
+hashNode (slid)
+...values:down /  /  /  /  /  /  /  /  /  / 
+hashNode (daughter,)
+...values:Who'd /  /  /  /  /  /  /  /  /  / 
+hashNode (world)
+...values:watching / will /  /  /  /  /  /  /  /  / 
+hashNode (mountain)
+...values:is /  /  /  /  /  /  /  /  /  / 
+hashNode (meant,)
+...values:well, /  /  /  /  /  /  /  /  /  / 
+hashNode (Besides,)
+...values:we /  /  /  /  /  /  /  /  /  / 
+hashNode (friends,)
+...values:he / you /  /  /  /  /  /  /  /  / 
+hashNode (scored.)
+...values:There /  /  /  /  /  /  /  /  /  / 
+hashNode (seems)
+...values:perfectly / while /  /  /  /  /  /  /  /  / 
+hashNode ("And)
+...values:so," / they're / NOW!" /  /  /  /  /  /  /  / 
+hashNode (wild)
+...values:space, / screaming /  /  /  /  /  /  /  /  / 
+hashNode (sacks,)
+...values:On /  /  /  /  /  /  /  /  /  / 
+hashNode (should)
+...values:you / not / not / not / not / not / not / not. / we / we / have / be. /  /  /  /  /  /  /  /  / 
+hashNode (told)
+...values:him. /  /  /  /  /  /  /  /  /  / 
+hashNode (cold)
+...values:to / water. /  /  /  /  /  /  /  /  / 
+hashNode (hold)
+...values:you / up / up / up / up / the / a /  /  /  / 
+hashNode (would)
+...values:buy / you / she / YOU / not / not / not / not / not / not, / not, / you / not, / not, / not, / not, / you, / not, / not, / eat / eat / sniff / sit / feast / start /  /  /  /  /  /  /  /  /  /  /  /  /  /  /  / 
+hashNode (could)
+...values:do / play,' / see / sit / see / see / not, / not / not, / not, / you, / not, / you, / not / not / you, / not, / play / be / be, / do / the / it /  /  /  /  /  /  /  /  /  /  /  /  /  /  /  /  /  / 
+hashNode (rocks,)
+...values:with /  /  /  /  /  /  /  /  /  / 
+hashNode (Would)
+...values:you / you / you / you / you / you / you? / you, / you, / you, / brag, / wake / stand /  /  /  /  /  /  /  / 
+hashNode (Could)
+...values:you? / you, / you, / a /  /  /  /  /  /  / 
+hashNode (playthings)
+...values:and /  /  /  /  /  /  /  /  /  / 
+hashNode (perched)
+...values:up /  /  /  /  /  /  /  /  /  / 
+hashNode (hand)
+...values:And / And / to /  /  /  /  /  /  /  / 
+hashNode (find)
+...values:food. / us / this / some / a /  /  /  /  /  / 
+hashNode (mind)
+...values:at /  /  /  /  /  /  /  /  /  / 
+hashNode (kind)
+...values:of / of / is / of / of /  /  /  /  /  / 
+hashNode (pond)
+...values:was / came / where / But / were /  /  /  /  /  / 
+hashNode (then?)
+...values:Well...in /  /  /  /  /  /  /  /  /  / 
+hashNode (books!)
+...values:i / and /  /  /  /  /  /  /  /  / 
+hashNode (teach)
+...values:a /  /  /  /  /  /  /  /  /  / 
+hashNode (fear!')
+...values:said / said /  /  /  /  /  /  /  /  / 
+hashNode (dear!')
+...values:said /  /  /  /  /  /  /  /  /  / 
+hashNode (watched)
+...values:them /  /  /  /  /  /  /  /  /  / 
+hashNode (Good)
+...values:luck, / grief! /  /  /  /  /  /  /  /  / 
+hashNode (good)
+...values:fun / games / tricks. / fun, / game,' / game / Things.' / trick /  /  / 
+hashNode (wood)
+...values:box. /  /  /  /  /  /  /  /  /  / 
+hashNode (hitched)
+...values:up /  /  /  /  /  /  /  /  /  / 
+hashNode (That's)
+...values:not / hard. / the / one /  /  /  /  /  /  / 
+hashNode (what's)
+...values:more, /  /  /  /  /  /  /  /  /  / 
+hashNode (that's)
+...values:higher / how /  /  /  /  /  /  /  /  / 
+hashNode (food)
+...values:up / That / for /  /  /  /  /  /  /  / 
+hashNode (banner)
+...values:flip-flapping, /  /  /  /  /  /  /  /  /  / 
+hashNode (spent,)
+...values:The /  /  /  /  /  /  /  /  /  / 
+hashNode (winner)
+...values:of /  /  /  /  /  /  /  /  /  / 
+hashNode (Gluppity-Glupp.)
+...values:Your / Also /  /  /  /  /  /  /  /  / 
+hashNode (behind,)
+...values:because /  /  /  /  /  /  /  /  /  / 
+hashNode (rights,)
+...values:sir, /  /  /  /  /  /  /  /  /  / 
+hashNode (sights,)
+...values:But /  /  /  /  /  /  /  /  /  / 
+hashNode (trimmings!)
+...values:The /  /  /  /  /  /  /  /  /  / 
+hashNode (sigh.)
+...values:"What's /  /  /  /  /  /  /  /  /  / 
+hashNode (VERY!)
+...values:He /  /  /  /  /  /  /  /  /  / 
+hashNode (chair!)
+...values:I'm /  /  /  /  /  /  /  /  /  / 
+hashNode (alone.")
+...values:SLUPP! /  /  /  /  /  /  /  /  /  / 
+hashNode (rain?)
+...values:I /  /  /  /  /  /  /  /  /  / 
+hashNode (word)
+...values:of /  /  /  /  /  /  /  /  /  / 
+hashNode (intend)
+...values:to /  /  /  /  /  /  /  /  /  / 
+hashNode (Alone!)
+...values:Whether /  /  /  /  /  /  /  /  /  / 
+hashNode (Except)
+...values:when / when /  /  /  /  /  /  /  /  / 
+hashNode (packages,)
+...values:boxes /  /  /  /  /  /  /  /  /  / 
+hashNode (buy.")
+...values:"I /  /  /  /  /  /  /  /  /  / 
+hashNode (Fix-it-Up)
+...values:Chappie. / Chappie /  /  /  /  /  /  /  /  / 
+hashNode (wreath.)
+...values:"And /  /  /  /  /  /  /  /  /  / 
+hashNode (then!)
+...values:Oh, /  /  /  /  /  /  /  /  /  / 
+hashNode (bellowed)
+...values:and /  /  /  /  /  /  /  /  /  / 
+hashNode (loud)
+...values:whack! /  /  /  /  /  /  /  /  /  / 
+hashNode (quickly)
+...values:invented / Sylvester /  /  /  /  /  /  /  /  / 
+hashNode (face)
+...values:up / when /  /  /  /  /  /  /  /  / 
+hashNode (nice)
+...values:little /  /  /  /  /  /  /  /  /  / 
+hashNode (once)
+...values:more / stood /  /  /  /  /  /  /  /  / 
+hashNode (made)
+...values:out / us / each / a /  /  /  /  /  /  / 
+hashNode (which)
+...values:whacked / you / everyone / everyone, / kind / one /  /  /  /  / 
+hashNode (Which)
+...values:was /  /  /  /  /  /  /  /  /  / 
+hashNode (ride)
+...values:high! /  /  /  /  /  /  /  /  /  / 
+hashNode (side)
+...values:of /  /  /  /  /  /  /  /  /  / 
+hashNode (presents)
+...values:at /  /  /  /  /  /  /  /  /  / 
+hashNode (rode)
+...values:with /  /  /  /  /  /  /  /  /  / 
+hashNode (Sneetches)
+...values:Had / Would / had / Were / popped / and / on / who / are / without! / got / are / And / forgot /  /  /  /  /  /  / 
+hashNode (tree)
+...values:I'd / at / fall. / that / up! /  /  /  /  /  / 
+hashNode (free)
+...values:As /  /  /  /  /  /  /  /  /  / 
+hashNode (breeze.)
+...values:And, /  /  /  /  /  /  /  /  /  / 
+hashNode (books,)
+...values:and /  /  /  /  /  /  /  /  /  / 
+hashNode (life)
+...values:I'd /  /  /  /  /  /  /  /  /  / 
+hashNode (chin!)
+...values:Do /  /  /  /  /  /  /  /  /  / 
+hashNode (Plain-)
+...values:Belly /  /  /  /  /  /  /  /  /  / 
+hashNode (alarm.)
+...values:I /  /  /  /  /  /  /  /  /  / 
+hashNode (nothing.)
+...values:Just /  /  /  /  /  /  /  /  /  / 
+hashNode (puzzler)
+...values:was /  /  /  /  /  /  /  /  /  / 
+hashNode (nicely.)
+...values:Then, /  /  /  /  /  /  /  /  /  / 
+hashNode (midnights)
+...values:in /  /  /  /  /  /  /  /  /  / 
+hashNode (tiptop)
+...values:to /  /  /  /  /  /  /  /  /  / 
+hashNode ("Say,)
+...values:what /  /  /  /  /  /  /  /  /  / 
+hashNode (Family)
+...values:to / was /  /  /  /  /  /  /  /  / 
+hashNode (do!')
+...values:too /  /  /  /  /  /  /  /  /  / 
+hashNode (repeat,")
+...values:cried /  /  /  /  /  /  /  /  /  / 
+hashNode (Popcorn!)
+...values:And /  /  /  /  /  /  /  /  /  / 
+hashNode (alone,)
+...values:there's /  /  /  /  /  /  /  /  /  / 
+hashNode (reason)
+...values:of /  /  /  /  /  /  /  /  /  / 
+hashNode (fish.)
+...values:'this / 'i / 'do / 'he / and / Black / This /  /  /  / 
+hashNode (started)
+...values:way / to / down, / to / in / to /  /  /  /  / 
+hashNode (Take)
+...values:the /  /  /  /  /  /  /  /  /  / 
+hashNode (make)
+...values:that / them / you, / one /  /  /  /  /  /  / 
+hashNode (gray,)
+...values:"how /  /  /  /  /  /  /  /  /  / 
+hashNode (cake)
+...values:on /  /  /  /  /  /  /  /  /  / 
+hashNode (HADN'T)
+...values:stopped /  /  /  /  /  /  /  /  /  / 
+hashNode (icebox.)
+...values:He /  /  /  /  /  /  /  /  /  / 
+hashNode (take)
+...values:them / off /  /  /  /  /  /  /  /  / 
+hashNode (hike)
+...values:far / right /  /  /  /  /  /  /  /  / 
+hashNode (like)
+...values:you / it. / that?' / this? / it, / to / it / these / to / to / it! / the / it / our / to / that / green / them, / green / them / them / them / green / them, / them / them / them / them / them / them / green / them, / them, / them. / them / them / them / them / them / them / them / green / them, / them, / them, / them / green / them, / them / them / them / them / htem / green / them, / them. / green / them, / green / a / you! / Sneetches / to / another. / Saint / the /  /  /  /  /  /  /  /  /  /  /  /  /  /  / 
+hashNode (wake)
+...values:bright /  /  /  /  /  /  /  /  /  / 
+hashNode (said...)
+...values:then /  /  /  /  /  /  /  /  /  / 
+hashNode (fake)
+...values:Santy /  /  /  /  /  /  /  /  /  / 
+hashNode (stand)
+...values:on / on / here, / it. / in / close / hand-in-hand. /  /  /  / 
+hashNode (pile)
+...values:of / up /  /  /  /  /  /  /  /  / 
+hashNode (hole)
+...values:in / in /  /  /  /  /  /  /  /  / 
+hashNode (came)
+...values:to / the / along, / back! / back / a / down / down, / back / Thing / down / in / swimming / McBean / to / just / with / without / without /  / 
+hashNode (game)
+...values:that / that / fun-in-a-box,' / that /  /  /  /  /  /  / 
+hashNode (rule)
+...values:from /  /  /  /  /  /  /  /  /  / 
+hashNode (Came)
+...values:a /  /  /  /  /  /  /  /  /  / 
+hashNode (name)
+...values:was / is /  /  /  /  /  /  /  /  / 
+hashNode (time)
+...values:back... / at / at / at / was /  /  /  /  /  / 
+hashNode ("Their)
+...values:mouths /  /  /  /  /  /  /  /  /  / 
+hashNode (same)
+...values:thing /  /  /  /  /  /  /  /  /  / 
+hashNode (sounded)
+...values:merry! /  /  /  /  /  /  /  /  /  / 
+hashNode (come)
+...values:down / back." / here / near. / here / with / from? / a / from /  / 
+hashNode (some)
+...values:good / new / milk / fun / more / are / are / are / are / are / Who / have / have / are / are / way / red / bags / old / wire. / 
+hashNode (Some)
+...values:are / are / are / are / have / have / are / are /  /  / 
+hashNode (Lurch)
+...values:with /  /  /  /  /  /  /  /  /  / 
+hashNode (pinch.)
+...values:But, /  /  /  /  /  /  /  /  /  / 
+hashNode (AWFUL)
+...values:IDEA! /  /  /  /  /  /  /  /  /  / 
+hashNode (home)
+...values:to /  /  /  /  /  /  /  /  /  / 
+hashNode (nine)
+...values:turtles /  /  /  /  /  /  /  /  /  / 
+hashNode (sending)
+...values:them / them /  /  /  /  /  /  /  /  / 
+hashNode (speaks)
+...values:and / for /  /  /  /  /  /  /  /  / 
+hashNode (gone)
+...values:away. / with /  /  /  /  /  /  /  /  / 
+hashNode (none)
+...values:upon / upon / to /  /  /  /  /  /  /  / 
+hashNode (another.)
+...values:Don’t /  /  /  /  /  /  /  /  /  / 
+hashNode (finding)
+...values:out /  /  /  /  /  /  /  /  /  / 
+hashNode (dreary.)
+...values:They'll /  /  /  /  /  /  /  /  /  / 
+hashNode (pains)
+...values:in /  /  /  /  /  /  /  /  /  / 
+hashNode (smogulous)
+...values:smoke! /  /  /  /  /  /  /  /  /  / 
+hashNode (touch)
+...values:of /  /  /  /  /  /  /  /  /  / 
+hashNode (hope)
+...values:that /  /  /  /  /  /  /  /  /  / 
+hashNode ("Why,)
+...values:for / my /  /  /  /  /  /  /  /  / 
+hashNode (perch.)
+...values:And /  /  /  /  /  /  /  /  /  / 
+hashNode (old-nuisance)
+...values:Lorax /  /  /  /  /  /  /  /  /  / 
+hashNode (care)
+...values:and /  /  /  /  /  /  /  /  /  / 
+hashNode (rare)
+...values:Who-roast /  /  /  /  /  /  /  /  /  / 
+hashNode (paused.)
+...values:And /  /  /  /  /  /  /  /  /  / 
+hashNode ("are)
+...values:the /  /  /  /  /  /  /  /  /  / 
+hashNode (here)
+...values:fast! / in / and / when / when / when / to / is / and / below, / at / or / or / or / or / or / or / or / or / and / to / to /  /  /  /  /  /  /  /  /  /  /  /  /  /  /  /  /  /  / 
+hashNode (were)
+...values:down. / all / afraid. / really / out / too / dark. / all /  /  / 
+hashNode (Lurch.)
+...values:You'll /  /  /  /  /  /  /  /  /  / 
+hashNode ('why,)
+...values:we /  /  /  /  /  /  /  /  /  / 
+hashNode (Here)
+...values:they / in / are /  /  /  /  /  /  /  / 
+hashNode (more)
+...values:Thneeds. / gripes. / can / trees. / Thneeds. / work / turtles! / turtles. / the / the / than /  /  /  /  /  /  /  /  /  / 
+hashNode (More)
+...values:turtles!" /  /  /  /  /  /  /  /  /  / 
+hashNode (I've)
+...values:sat / worried / pains / heard / heard / come / put /  /  /  / 
+hashNode (Were)
+...values:moping /  /  /  /  /  /  /  /  /  / 
+hashNode (sure)
+...values:when /  /  /  /  /  /  /  /  /  / 
+hashNode (rise)
+...values:Up /  /  /  /  /  /  /  /  /  / 
+hashNode (PLACES)
+...values:YOU'LL /  /  /  /  /  /  /  /  /  / 
+hashNode (Nitch.)
+...values:Turn /  /  /  /  /  /  /  /  /  / 
+hashNode (Lerkim)
+...values:on /  /  /  /  /  /  /  /  /  / 
+hashNode (kite)
+...values:or / we / bump /  /  /  /  /  /  /  / 
+hashNode (bite)
+...values:you. /  /  /  /  /  /  /  /  /  / 
+hashNode (down!)
+...values:on /  /  /  /  /  /  /  /  /  / 
+hashNode (gown!)
+...values:her /  /  /  /  /  /  /  /  /  / 
+hashNode (sprain)
+...values:both /  /  /  /  /  /  /  /  /  / 
+hashNode (so,')
+...values:said /  /  /  /  /  /  /  /  /  / 
+hashNode (Whisper-ma-Phone,)
+...values:for /  /  /  /  /  /  /  /  /  / 
+hashNode (word...)
+...values:"UNLESS." /  /  /  /  /  /  /  /  /  / 
+hashNode (Blue)
+...values:fish. / fish /  /  /  /  /  /  /  /  / 
+hashNode (gave)
+...values:me / me / them / a /  /  /  /  /  /  / 
+hashNode (have)
+...values:fallen / lots / no / no / lots / fun / to / fun.' / come / to / any / rights. / nothing / what / them / them / two / four. / six / more. / come / been /  /  /  /  /  /  /  /  /  /  /  /  /  /  /  /  /  /  / 
+hashNode (cave)
+...values:with /  /  /  /  /  /  /  /  /  / 
+hashNode (live)
+...values:here. /  /  /  /  /  /  /  /  /  / 
+hashNode (Give)
+...values:it /  /  /  /  /  /  /  /  /  / 
+hashNode (give)
+...values:you / the /  /  /  /  /  /  /  /  / 
+hashNode (children)
+...values:went / had /  /  /  /  /  /  /  /  / 
+hashNode (five)
+...values:thousand, /  /  /  /  /  /  /  /  /  / 
+hashNode (do.')
+...values:then /  /  /  /  /  /  /  /  /  / 
+hashNode (Christmas!)
+...values:The / It's /  /  /  /  /  /  /  /  / 
+hashNode (comfortable)
+...values:sound /  /  /  /  /  /  /  /  /  / 
+hashNode (snorted)
+...values:Yertle. /  /  /  /  /  /  /  /  /  / 
+hashNode (secrets)
+...values:I /  /  /  /  /  /  /  /  /  / 
+hashNode (coming!")
+...values:For / "They're /  /  /  /  /  /  /  /  / 
+hashNode (cleaned)
+...values:out /  /  /  /  /  /  /  /  /  / 
+hashNode (secret)
+...values:strange /  /  /  /  /  /  /  /  /  / 
+hashNode (Tricycles!)
+...values:Popcorn! /  /  /  /  /  /  /  /  /  / 
+hashNode (grinchishly)
+...values:humming. /  /  /  /  /  /  /  /  /  / 
+hashNode (knitting)
+...values:Thneeds /  /  /  /  /  /  /  /  /  / 
+hashNode (dozens.)
+...values:Whole /  /  /  /  /  /  /  /  /  / 
+hashNode (very,)
+...values:very /  /  /  /  /  /  /  /  /  / 
+hashNode (yourself)
+...values:any / is /  /  /  /  /  /  /  /  / 
+hashNode (that?')
+...values:'i /  /  /  /  /  /  /  /  /  / 
+hashNode (head,)
+...values:And /  /  /  /  /  /  /  /  /  / 
+hashNode (buildings)
+...values:have /  /  /  /  /  /  /  /  /  / 
+hashNode (heart)
+...values:was / or / Grew / didn't /  /  /  /  /  /  / 
+hashNode (smart)
+...values:on / and /  /  /  /  /  /  /  /  / 
+hashNode (start)
+...values:to / happening / in / singing! /  /  /  /  /  /  / 
+hashNode (screwed)
+...values:on /  /  /  /  /  /  /  /  /  / 
+hashNode (Crumpit,)
+...values:He /  /  /  /  /  /  /  /  /  / 
+hashNode (fallen)
+...values:apart, /  /  /  /  /  /  /  /  /  / 
+hashNode (played)
+...values:in / in /  /  /  /  /  /  /  /  / 
+hashNode (CAME!)
+...values:Somehow /  /  /  /  /  /  /  /  /  / 
+hashNode (scare)
+...values:you / you /  /  /  /  /  /  /  /  / 
+hashNode (skates!)
+...values:Drums! /  /  /  /  /  /  /  /  /  / 
+hashNode (sound)
+...values:of / of / like / rising / wasn't / sounded /  /  /  /  / 
+hashNode (round)
+...values:and /  /  /  /  /  /  /  /  /  / 
+hashNode (office)
+...values:door. /  /  /  /  /  /  /  /  /  / 
+hashNode (lied,)
+...values:"There's /  /  /  /  /  /  /  /  /  / 
+hashNode (sled,)
+...values:Packed /  /  /  /  /  /  /  /  /  / 
+hashNode (practically)
+...values:here!" /  /  /  /  /  /  /  /  /  / 
+hashNode (heart.)
+...values:I / "But /  /  /  /  /  /  /  /  / 
+hashNode (mouses!)
+...values:It /  /  /  /  /  /  /  /  /  / 
+hashNode (whispers)
+...values:are /  /  /  /  /  /  /  /  /  / 
+hashNode (apart.)
+...values:We're /  /  /  /  /  /  /  /  /  / 
+hashNode (Whoville,)
+...values:Did / the / the /  /  /  /  /  /  /  / 
+hashNode (could,)
+...values:i /  /  /  /  /  /  /  /  /  / 
+hashNode (game...)
+...values:oh /  /  /  /  /  /  /  /  /  / 
+hashNode (mule...)
+...values:Well, /  /  /  /  /  /  /  /  /  / 
+hashNode (BooHoo!")
+...values:"That's /  /  /  /  /  /  /  /  /  / 
+hashNode (happening)
+...values:too. /  /  /  /  /  /  /  /  /  / 
+hashNode (burped!)
+...values:And /  /  /  /  /  /  /  /  /  / 
+hashNode (where)
+...values:the / the /  /  /  /  /  /  /  /  / 
+hashNode (there)
+...values:with / like / on / is / that / high / wishing / isn't / are. / to / on / was /  /  /  /  /  /  /  /  / 
+hashNode (said,)
+...values:"Sir! / "Listen / 'how / 'no! / 'do / 'how / 'no! / 'i / 'look! / 'with / 'that / "Beg / You / Things / "If / "Giddap!" / "Santy /  /  /  / 
+hashNode (Two?')
+...values:and /  /  /  /  /  /  /  /  /  / 
+hashNode (higher!)
+...values:I /  /  /  /  /  /  /  /  /  / 
+hashNode (There)
+...values:was /  /  /  /  /  /  /  /  /  / 
+hashNode (Where)
+...values:do / the /  /  /  /  /  /  /  /  / 
+hashNode (found.)
+...values:Did /  /  /  /  /  /  /  /  /  / 
+hashNode (slupps)
+...values:the /  /  /  /  /  /  /  /  /  / 
+hashNode (groaned)
+...values:Mack. / the /  /  /  /  /  /  /  /  / 
+hashNode (beach,)
+...values:They /  /  /  /  /  /  /  /  /  / 
+hashNode (Once-ler,)
+...values:felt / "Now /  /  /  /  /  /  /  /  / 
+hashNode (heisted)
+...values:himself /  /  /  /  /  /  /  /  /  / 
+hashNode (proper)
+...values:amount. /  /  /  /  /  /  /  /  /  / 
+hashNode (Thank)
+...values:you! / you, /  /  /  /  /  /  /  /  / 
+hashNode (Grinch's)
+...values:small /  /  /  /  /  /  /  /  /  / 
+hashNode (cold,)
+...values:cold, / wet / in /  /  /  /  /  /  /  / 
+hashNode (plums!)
+...values:And /  /  /  /  /  /  /  /  /  / 
+hashNode (were...)
+...values:untill /  /  /  /  /  /  /  /  /  / 
+hashNode (do?')
+...values:and /  /  /  /  /  /  /  /  /  / 
+hashNode (snarled)
+...values:with /  /  /  /  /  /  /  /  /  / 
+hashNode (there.)
+...values:I / I / I / I / I / I / I / Say! / Then /  / 
+hashNode (Drums!)
+...values:Checkerboards! /  /  /  /  /  /  /  /  /  / 
+hashNode (Protect)
+...values:it /  /  /  /  /  /  /  /  /  / 
+hashNode (Sneetch?)
+...values:My /  /  /  /  /  /  /  /  /  / 
+hashNode (You're)
+...values:off / making / in /  /  /  /  /  /  /  / 
+hashNode (you're)
+...values:here, / only / unhappy. /  /  /  /  /  /  /  / 
+hashNode (You'll)
+...values:find / be / get / get /  /  /  /  /  /  / 
+hashNode ("Beg)
+...values:your /  /  /  /  /  /  /  /  /  / 
+hashNode (find,)
+...values:for /  /  /  /  /  /  /  /  /  / 
+hashNode (pillows!)
+...values:For /  /  /  /  /  /  /  /  /  / 
+hashNode (pond,)
+...values:they /  /  /  /  /  /  /  /  /  / 
+hashNode (frowned,)
+...values:If /  /  /  /  /  /  /  /  /  / 
+hashNode (peculiar)
+...values:machine. /  /  /  /  /  /  /  /  /  / 
+hashNode (food,)
+...values:in /  /  /  /  /  /  /  /  /  / 
+hashNode (good,)
+...values:so / you /  /  /  /  /  /  /  /  / 
+hashNode (snort)
+...values:We'll /  /  /  /  /  /  /  /  /  / 
+hashNode (untill)
+...values:Yertle, /  /  /  /  /  /  /  /  /  / 
+hashNode (snarggled.)
+...values:He /  /  /  /  /  /  /  /  /  / 
+hashNode (happen,)
+...values:don't /  /  /  /  /  /  /  /  /  / 
+hashNode (ship!)
+...values:and /  /  /  /  /  /  /  /  /  / 
+hashNode (throne.)
+...values:He / And /  /  /  /  /  /  /  /  / 
+hashNode (clean)
+...values:water. /  /  /  /  /  /  /  /  /  / 
+hashNode (fish,')
+...values:said /  /  /  /  /  /  /  /  /  / 
+hashNode ("Once-ler!")
+...values:he /  /  /  /  /  /  /  /  /  / 
+hashNode (stood)
+...values:just / there /  /  /  /  /  /  /  /  / 
+hashNode (Stood)
+...values:puzzling /  /  /  /  /  /  /  /  /  / 
+hashNode (think)
+...values:of / such / that /  /  /  /  /  /  /  / 
+hashNode (drink)
+...values:and /  /  /  /  /  /  /  /  /  / 
+hashNode (SHOULD)
+...values:NOT / we /  /  /  /  /  /  /  /  / 
+hashNode (feast)
+...values:on /  /  /  /  /  /  /  /  /  / 
+hashNode (least)
+...values:of /  /  /  /  /  /  /  /  /  / 
+hashNode (loaded)
+...values:some /  /  /  /  /  /  /  /  /  / 
+hashNode (fifty-three)
+...values:years /  /  /  /  /  /  /  /  /  / 
+hashNode (roast)
+...values:beast! / beast! /  /  /  /  /  /  /  /  / 
+hashNode ("You're)
+...values:glumping /  /  /  /  /  /  /  /  /  / 
+hashNode (clean.)
+...values:It /  /  /  /  /  /  /  /  /  / 
+hashNode (jump!)
+...values:we /  /  /  /  /  /  /  /  /  / 
+hashNode (bump!)
+...values:oh, / thump! / down /  /  /  /  /  /  /  / 
+hashNode (mother!)
+...values:your /  /  /  /  /  /  /  /  /  / 
+hashNode (leak.)
+...values:On /  /  /  /  /  /  /  /  /  / 
+hashNode (once,)
+...values:for /  /  /  /  /  /  /  /  /  / 
+hashNode ("What's)
+...values:that / more," / that?" / THAT?" /  /  /  /  /  /  / 
+hashNode ("That's)
+...values:a /  /  /  /  /  /  /  /  /  / 
+hashNode (chimney!)
+...values:Then /  /  /  /  /  /  /  /  /  / 
+hashNode (beaches)
+...values:And / That /  /  /  /  /  /  /  /  / 
+hashNode (think.)
+...values:So /  /  /  /  /  /  /  /  /  / 
+hashNode (hack.)
+...values:Then /  /  /  /  /  /  /  /  /  / 
+hashNode (Mack.)
+...values:Just / One / "Your / "You /  /  /  /  /  /  / 
+hashNode (back.)
+...values:"I'm /  /  /  /  /  /  /  /  /  / 
+hashNode (feast.)
+...values:And /  /  /  /  /  /  /  /  /  / 
+hashNode (beast.)
+...values:Which /  /  /  /  /  /  /  /  /  / 
+hashNode (tree,)
+...values:and /  /  /  /  /  /  /  /  /  / 
+hashNode (rang)
+...values:out /  /  /  /  /  /  /  /  /  / 
+hashNode (hang)
+...values:open /  /  /  /  /  /  /  /  /  / 
+hashNode (sock.)
+...values:It's /  /  /  /  /  /  /  /  /  / 
+hashNode (fast!')
+...values:said /  /  /  /  /  /  /  /  /  / 
+hashNode (sing)
+...values:excepting / a / who /  /  /  /  /  /  /  / 
+hashNode (king)
+...values:of / of / of / of / of / of / am / And / of / of / of / of / of / of / of / of / of / of /  /  / 
+hashNode (King)
+...values:Yertle. / of / of / Yertle. / of / of /  /  /  /  / 
+hashNode (tree!")
+...values:And /  /  /  /  /  /  /  /  /  / 
+hashNode (song)
+...values:of /  /  /  /  /  /  /  /  /  / 
+hashNode (long)
+...values:ago. / must / way. /  /  /  /  /  /  /  / 
+hashNode (dreaming)
+...values:sweet /  /  /  /  /  /  /  /  /  / 
+hashNode (hung)
+...values:up / in /  /  /  /  /  /  /  /  / 
+hashNode (hopefully)
+...values:know. /  /  /  /  /  /  /  /  /  / 
+hashNode (smog)
+...values:in / you've /  /  /  /  /  /  /  /  / 
+hashNode (Snuvv,)
+...values:his /  /  /  /  /  /  /  /  /  / 
+hashNode (beaches,)
+...values:Just / The /  /  /  /  /  /  /  /  / 
+hashNode (these)
+...values:books! / two / Things / turtles, /  /  /  /  /  /  / 
+hashNode (groan)
+...values:from /  /  /  /  /  /  /  /  /  / 
+hashNode (really)
+...values:so / worked! / got / quite /  /  /  /  /  /  / 
+hashNode (talking.)
+...values:When /  /  /  /  /  /  /  /  /  / 
+hashNode (moment,)
+...values:we /  /  /  /  /  /  /  /  /  / 
+hashNode (Brown)
+...values:Bar-ba-loots / Bar-ba-loots /  /  /  /  /  /  /  /  / 
+hashNode (Truffula)
+...values:Trees! / Trees! / fruits. / Trees! / Tree / tuft?" / Trees. / Trees / Fruits. / Fruit / Trees / Tree / Seed. / Seeds. / Trees /  /  /  /  /  / 
+hashNode (knitted)
+...values:a / was /  /  /  /  /  /  /  /  / 
+hashNode (tricks)
+...values:are /  /  /  /  /  /  /  /  /  / 
+hashNode (cake,)
+...values:and /  /  /  /  /  /  /  /  /  / 
+hashNode (Once-ler's)
+...values:whispers /  /  /  /  /  /  /  /  /  / 
+hashNode (rake,)
+...values:and /  /  /  /  /  /  /  /  /  / 
+hashNode (hike,)
+...values:And /  /  /  /  /  /  /  /  /  / 
+hashNode (...))
+...values:Say! /  /  /  /  /  /  /  /  /  / 
+hashNode (slunk)
+...values:to /  /  /  /  /  /  /  /  /  / 
+hashNode (horrible)
+...values:mess. /  /  /  /  /  /  /  /  /  / 
+hashNode (same,)
+...values:now, /  /  /  /  /  /  /  /  /  / 
+hashNode (jumps)
+...values:and /  /  /  /  /  /  /  /  /  / 
+hashNode (these.)
+...values:The /  /  /  /  /  /  /  /  /  / 
+hashNode (time,)
+...values:my /  /  /  /  /  /  /  /  /  / 
+hashNode (some,)
+...values:down / when /  /  /  /  /  /  /  /  / 
+hashNode (thousand,)
+...values:six /  /  /  /  /  /  /  /  /  / 
+hashNode (each)
+...values:day / turtle /  /  /  /  /  /  /  /  / 
+hashNode (ruler",)
+...values:said /  /  /  /  /  /  /  /  /  / 
+hashNode (nine,)
+...values:ten. /  /  /  /  /  /  /  /  /  / 
+hashNode (frown.)
+...values:"If /  /  /  /  /  /  /  /  /  / 
+hashNode (milk.)
+...values:I /  /  /  /  /  /  /  /  /  / 
+hashNode (such)
+...values:a / as / smogulous / a /  /  /  /  /  /  / 
+hashNode (much)
+...values:greater /  /  /  /  /  /  /  /  /  / 
+hashNode (up.))
+...values:"Let /  /  /  /  /  /  /  /  /  / 
+hashNode (mine!")
+...values:Yertle /  /  /  /  /  /  /  /  /  / 
+hashNode (mother's)
+...values:new /  /  /  /  /  /  /  /  /  / 
+hashNode (Much)
+...values:too /  /  /  /  /  /  /  /  /  / 
+hashNode ('most)
+...values:a /  /  /  /  /  /  /  /  /  / 
+hashNode (bright-colored)
+...values:tufts /  /  /  /  /  /  /  /  /  / 
+hashNode ("Santy)
+...values:Claus, /  /  /  /  /  /  /  /  /  / 
+hashNode (wink.)
+...values:And /  /  /  /  /  /  /  /  /  / 
+hashNode (sally)
+...values:and / and / and / and / and /  /  /  /  /  / 
+hashNode (Belly)
+...values:get / stars /  /  /  /  /  /  /  /  / 
+INFORMATION !!!
+collisionsFromHashing=4465
+collisionsFromHandling=10488
+:)

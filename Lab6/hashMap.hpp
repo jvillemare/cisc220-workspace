@@ -121,6 +121,9 @@ public:
 	void printMap();
 		/* I wrote this solely to check if everything was working. */
 
+	void printCoolStuff();
+		/* print number of collisions and handling errors. */
+
 };
 
 

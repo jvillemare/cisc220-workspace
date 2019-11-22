@@ -21,7 +21,7 @@ hashNode::hashNode() {
  * 0, and the values to be a dynamically allocated array of valuesSize */
 hashNode::hashNode(string s) {
 	keyword = s;
-	valuesSize = 100;
+	valuesSize = 10;
 	values = new string[valuesSize];
 	currSize = 0;
 }
@@ -30,7 +30,7 @@ hashNode::hashNode(string s) {
  * array and initializes currSize to 1 */
 hashNode::hashNode(string s, string v) {
 	keyword = s;
-	valuesSize = 100;
+	valuesSize = 10;
 	values = new string[valuesSize];
 	values[0] = v;
 	currSize = 1;
@@ -40,7 +40,7 @@ hashNode::hashNode(string s, string v) {
  * increases currSize, checks to make sure there’s more space, and, if not,
  * calls dblArray() */
 void hashNode::addValue(string v) {
-	if(currSize >= valuesSize)
+	if(currSize == valuesSize)
 		dblArray();
 
 	values[currSize] = v;

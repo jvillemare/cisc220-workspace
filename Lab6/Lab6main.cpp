@@ -29,28 +29,36 @@ int main() {
 	srand(time(NULL));
 
 	// first hash, first collision
-	stars();
+
+	/*stars();
 	cout << "FIRST hash, FIRST collision:" << endl;
 	makeSeuss m1 = makeSeuss(
 			"DrSeuss.txt",
 			"output1_firstHash_firstColl.txt",
-			true, true);
+			true, true);*/
 
 	// second hash, first collision
+
+	/*
 	stars();
 	cout << "SECOND hash, FIRST collision:" << endl;
 	makeSeuss m2 = makeSeuss(
 			"DrSeuss.txt",
 			"output2_secondHash_firstColl.txt",
 			false, true);
+			*/
+
 
 	// first hash, second collision
+	/*
 	stars();
 	cout << "FIRST hash, SECOND collision:" << endl;
 	makeSeuss m3 = makeSeuss(
 			"DrSeuss.txt",
 			"output3_firstHash_secondColl.txt",
-			false, true);
+			true, false);
+			*/
+
 
 	// second hash, second collision
 	stars();

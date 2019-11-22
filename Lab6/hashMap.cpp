@@ -53,34 +53,25 @@ hashMap::hashMap(bool hash1, bool coll1) {
  * 		second is used
  */
 void hashMap::addKeyValue(string k, string v) {
-
 	if(numKeys == 0)
 		first = k;
 
-	cout << "problem1" << endl;
 	double nK = numKeys, mS = mapSize;
-	cout << "numKeys=" << nK << " and mapSize=" << mS << " divides to=" << nK/mS << endl;
 
 	if(nK / mS >= 0.7) {
 		cout << "REHASHING!!!!!!!!!!!!!!!!!" << endl;
 		reHash();
 	}
 
-	cout << "problem2" << endl;
-
 	int index = getIndex(k);
 
-	cout << "problem3, index=" << index << endl;
-
 	if(map[index] == NULL) {
-		cout << "problem3a" << endl;
 		map[index] = new hashNode(k, v);
 		numKeys++;
 	} else if(map[index]->keyword == k) {
-		cout << "problem3b" << endl;
-		map[index]->addValue(v);
+		if(map[index]->keyword != v)
+			map[index]->addValue(v);
 	} else {
-		cout << "problem3c" << endl;
 		collisionsFromHashing++;
 		if(c1) { // use FIRST collision handling function
 			int cH1 = collHash1(index, k, v);
@@ -97,11 +88,7 @@ void hashMap::addKeyValue(string k, string v) {
 				numKeys++;
 			}
 		}
-
-		cout << "problem3a" << endl;
 	}
-
-	cout << "problem4" << endl;
 }
 
 /* Yarrington: uses calcHash and reHash to calculate and return the index of
@@ -201,11 +188,11 @@ void hashMap::reHash() {
  * @return	new index where k was inserted.
  */
 int hashMap::collHash1(int from, string k, string v) {
-	cout << "colHash1" << endl;
 	while(map[from] != NULL) {
 		if(map[from]->keyword == k) {
 			if(v != "")
-				map[from]->addValue(v);
+				if(map[from]->keyword != v)
+					map[from]->addValue(v);
 			break;
 		}
 		from++;
@@ -236,7 +223,8 @@ int hashMap::collHash2(int from, string k, string v) {
 	while(map[from] != NULL) {
 		if(map[from]->keyword == k) {
 			if(v != "")
-				map[from]->addValue(v);
+				if(map[from]->keyword != v)
+					map[from]->addValue(v);
 			break;
 		}
 		from += quadraticFactor++;
@@ -244,7 +232,6 @@ int hashMap::collHash2(int from, string k, string v) {
 		if(from > mapSize)
 			from = from % mapSize;
 	}
-	cout << "works" << endl;
 	return from;
 }
 
@@ -278,9 +265,15 @@ void hashMap::printMap() {
 			cout << "...values:";
 
 			for(int j = 0; j < map[i]->valuesSize; j++)
-				cout << map[i]->values[j] << " ";
+				cout << map[i]->values[j] << " / ";
 
 			cout << endl;
 		}
 	}
+}
+
+void hashMap::printCoolStuff() {
+	cout << "INFORMATION !!!" << endl
+			<< "collisionsFromHashing=" << collisionsFromHashing << endl
+			<< "collisionsFromHandling=" << collisionsFromHandling << endl;
 }

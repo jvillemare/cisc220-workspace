@@ -1,0 +1,39 @@
+output1
+=======
+FIRST hashing, FIRST collision
+collisionsFromHashing=5092
+collisionsFromHandling=2610773
+
+output2
+=======
+SECOND hashing, FIRST collision
+collisionsFromHashing=4461
+collisionsFromHandling=16822
+
+output3
+=======
+FIRST hashing, SECOND collision
+collisionsFromHashing=5090
+collisionsFromHandling=134629
+
+output3
+=======
+SECOND hashing, SECOND collision
+collisionsFromHashing=4465
+collisionsFromHandling=10488
+
+Six Favorite Phrases
+====================
+1) My poor Swomee-Swans... why, they kept fixing up those trees!
+
+2) Today No could she NOISE! Then i train!
+
+3) Truffula Trees into his star-off With came the box to this was 
+put me down!'
+
+4) They trembled. if axe on this was put up quick! "Once-ler! You're 
+To the pot. but come fast!
+
+5) I've put in the Noise! idea!
+
+6) You'll get out me saw something fall. 
