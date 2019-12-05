@@ -28,7 +28,7 @@ Graph::Graph(int n, int first, string vertexnames[]) {
 	}
 	genGraph();
 	for (int i = 0; i < n; i++) {
-		distances[i] = 1000000;
+		distances[i] = 100;
 		visited[i] = false;
 	}
 	printAdjMat();
@@ -40,25 +40,44 @@ void Graph::dijkstra() { // 5 pts
 	//Step 1:
 	//set the distance to the starting vertex to 0 and set
 	//the visited array to true for the start index;
+	distances[start] = 0;
+	visited[start] = true;
 	//Step 2:
-	// Initialize the distances to the cost of going to each node from the
+	//Initialize the distances to the cost of going to each node from the
 	//start index (this is done using the adjacency matrix)
+	for(int i = 0; i < numOfVerts; i++) {
+		distances[i] = adjMatrix[start][i];
+		prev[i] = start;
+	}
 	//Step 3:
 	//loop until every vertex has been visited, calling the methods
 	//minDistance to find the next unvisited vertex with the minimum
 	//distance, and then calling setDistances method for every vertex
 	//to update distances for the unvisited vertices. (I called printInfoSoFar()
 	//in this loop to see the progress of the algorithm)
+	printInfoSoFar();
+
+	for(int i = 0; i < numOfVerts - 1; i++) {
+		setDistances(minDistance());
+		printInfoSoFar();
+	}
+
 }
 
 void Graph::setDistances(int latestVert) { // 8 pts
-	// This method updates the distances array with the costs being
+	//This method updates the distances array with the costs being
 	//updated to either their cost so far, or the cost of
 	//traveling through the recently visited vertex + the cost of
 	//traveling from that vertex to the new vertex (whichever is the
 	//minimum). If the minimum is through the recently visited vertex,
 	//then update the previous array so that it holds the latest visited
 	//vertex's index number
+	for(int i = 0; i < numOfVerts; i++) {
+		if(adjMatrix[latestVert][i] + distances[latestVert] < distances[i]) {
+			distances[i] = distances[latestVert] + adjMatrix[latestVert][i];
+			prev[i] = latestVert;
+		}
+	}
 }
 
 int Graph::minDistance() { // 8 pts
@@ -67,6 +86,23 @@ int Graph::minDistance() { // 8 pts
 	//Once the minimum is found (along with its index in the distance
 	//array), the visited array at that index is set to True and that index is
 	//returned from this method.
+	int index = 0;
+
+	for(int i = 0; i < numOfVerts; i++) {
+		if(visited[i] == false) {
+			index = i;
+			break;
+		}
+	}
+
+	for(int i = 0; i < numOfVerts; i++) {
+		if(distances[i] <= distances[index] && visited[i] == false)
+			index = i;
+	}
+
+	visited[index] = true;
+
+	return index;
 }
 
 void Graph::printPath(int end) {
