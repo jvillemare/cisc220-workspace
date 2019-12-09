@@ -92,12 +92,12 @@ void BinHeap::bubbleUp(int child) {
 }
 
 void BinHeap::bubbleDown(int i) {
-	int followMe = findMax( (i*2) + 1, (i*2) + 2 );
+	int child = findMax( (i*2) + 1, (i*2) + 2 );
 
 	if((i*2) + 2 < heaplen) {
-		if(heap[i] < heap[followMe]) {
-			swap(i, followMe);
-			bubbleDown(followMe);
+		if(heap[i] < heap[child]) {
+			swap(i, child);
+			bubbleDown(child);
 		}
 	}
 }
